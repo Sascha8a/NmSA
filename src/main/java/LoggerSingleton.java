@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 class LoggerSingleton {
     private static LoggerSingleton ourInstance = new LoggerSingleton();
     private View view;
@@ -56,5 +58,13 @@ class LoggerSingleton {
         if (this.isShown(3)) {
             this.view.log(replaceFormat(caller, "DEBUG", message));
         }
+    }
+
+    ArrayList<String> getLog() {
+        ArrayList<String> test = new ArrayList<>();
+        test.add("Test1");
+        test.add("Test2");
+
+        return test;
     }
 }

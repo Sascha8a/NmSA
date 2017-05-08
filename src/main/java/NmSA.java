@@ -1,7 +1,8 @@
 
 public class NmSA {
     public static void main(String[] args) {
-        new Controller();
+        Controller c = new Controller();
+        API a = new API(c);
 
         Database db = new DatabaseFactory().getInstance();
         db.insertTeacher( "Markus", "Reis");

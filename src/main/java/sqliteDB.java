@@ -1,5 +1,3 @@
-import java.io.IOException;
-import java.nio.file.*;
 import java.sql.*;
 
 /**
@@ -216,7 +214,6 @@ public class sqliteDB implements Database {
     /**
      * Insert a new row into the Absence table
      *
-     * @param ANR       Autoincrement
      * @param fname     First name
      * @param lname     Last name
      * @param cause     Cause of Absence
@@ -224,17 +221,16 @@ public class sqliteDB implements Database {
      * @param dayOfWeek Day in a week where a person is absent
      * @param minutes   Absence in minutes
      */
-    public void insertAbsence(int ANR, String fname, String lname, String cause, String date, String dayOfWeek, int minutes) {
-        String sql = "INSERT INTO Absence VALUES(?,?,?,?,?,?,?)";
+    public void insertAbsence( String fname, String lname, String cause, String date, String dayOfWeek, int minutes) {
+        String sql = "INSERT INTO Absence VALUES(?,?,?,?,?,?)";
 
         try (PreparedStatement pstmt = conn.prepareStatement(sql)) {
-            pstmt.setInt(1, ANR);
-            pstmt.setString(2, fname);
-            pstmt.setString(3, lname);
-            pstmt.setString(4, cause);
-            pstmt.setString(5, date);
-            pstmt.setObject(6, dayOfWeek);
-            pstmt.setObject(7, minutes);
+            pstmt.setString(1, fname);
+            pstmt.setString(2, lname);
+            pstmt.setString(3, cause);
+            pstmt.setString(4, date);
+            pstmt.setObject(5, dayOfWeek);
+            pstmt.setObject(6, minutes);
             pstmt.executeUpdate();
         } catch (SQLException e) {
             this.printErrorIfRelevant(e);

@@ -17,7 +17,7 @@ public interface Database {
     void createStudent();
     void insertStudent(String matnr, String fname, String lname);
     void createAbsence();
-    void insertAbsence(int ANR, String fname, String lname, String cause, String date,  String dayOfWeek, int minutes);
+    void insertAbsence(String fname, String lname, String cause, String date,  String dayOfWeek, int minutes);
     void createTimetable();
     void insertLesson(String dayOfWeek, String timeBegin, String timeEnd, String subject);
     void createTest();
