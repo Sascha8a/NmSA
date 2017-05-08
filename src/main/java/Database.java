@@ -23,7 +23,6 @@ public interface Database {
     void createTest();
     void insertTest(int TNR, String date, String desc, String timeBegin, String timeEnd, String subject);
     void select(String[] rows, String table);
-    void deleteFromAll();
 
 }
 

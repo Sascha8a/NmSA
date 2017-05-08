@@ -1,3 +1,5 @@
+import java.io.IOException;
+import java.nio.file.*;
 import java.sql.*;
 
 /**
@@ -12,6 +14,7 @@ import java.sql.*;
 public class sqliteDB implements Database {
 
     private static Connection conn;
+    private LoggerSingleton logger = LoggerSingleton.getInstance();
 
     sqliteDB() {
 
@@ -25,6 +28,12 @@ public class sqliteDB implements Database {
             e.printStackTrace();
         }
 
+    }
+
+    private void printErrorIfRelevant(SQLException e) {
+        if (e.getErrorCode() != 19) {
+            logger.debug("sqliteDB", e.getMessage());
+        }
     }
 
     /**
@@ -53,7 +62,7 @@ public class sqliteDB implements Database {
             }
 
         } catch (SQLException e) {
-            System.out.println(e.getMessage());
+            this.printErrorIfRelevant(e);
         }
     }
 
@@ -92,7 +101,7 @@ public class sqliteDB implements Database {
             pstmt.setString(2, lname);
             pstmt.executeUpdate();
         } catch (SQLException e) {
-            e.printStackTrace();
+            this.printErrorIfRelevant(e);
         }
     }
 
@@ -136,7 +145,7 @@ public class sqliteDB implements Database {
             pstmt.setString(4, lname);
             pstmt.executeUpdate();
         } catch (SQLException e) {
-            e.printStackTrace();
+            this.printErrorIfRelevant(e);
         }
     }
 
@@ -176,7 +185,7 @@ public class sqliteDB implements Database {
             pstmt.setString(3, lname);
             pstmt.executeUpdate();
         } catch (SQLException e) {
-            e.printStackTrace();
+            this.printErrorIfRelevant(e);
         }
     }
 
@@ -186,16 +195,15 @@ public class sqliteDB implements Database {
     public void createAbsence() {
 
         // SQL statement for creating a new table
-        String sql = "CREATE TABLE IF NOT EXISTS Absence (\n"
-                + "	ANR INTEGER PRIMARY KEY,\n"
-                + "	fname VARCHAR(30) NOT NULL,\n"
-                + "	lname VARCHAR(30) NOT NULL,\n"
-                + "	cause String NOT NULL,\n"
-                + " dateAbsence DATE NOT NULL,\n"
-                + "	dayOfWeek VARCHAR(2) NOT NULL,\n"
-                + "	minutes INTEGER NOT NULL,\n"
-                + " FOREIGN KEY(fname, lname) REFERENCES Student"
-                + ");";
+        String sql = "CREATE TABLE IF NOT EXISTS Absence (\n" +
+                " ANR  INTEGER PRIMARY KEY AUTOINCREMENT,\n" +
+                " fname VARCHAR(30) NOT NULL,\n" +
+                " lname VARCHAR(30) NOT NULL,\n" +
+                " cause String NOT NULL,\n" +
+                " dateAbsence DATE NOT NULL,\n" +
+                "dayOfWeek VARCHAR(2) NOT NULL,\n" +
+                "minutes INTEGER NOT NULL,\n" +
+                " FOREIGN KEY(fname, lname) REFERENCES Student);";
 
         try (Statement stmt = conn.createStatement()) {
             // create a new table
@@ -229,7 +237,7 @@ public class sqliteDB implements Database {
             pstmt.setObject(7, minutes);
             pstmt.executeUpdate();
         } catch (SQLException e) {
-            e.printStackTrace();
+            this.printErrorIfRelevant(e);
         }
     }
 
@@ -273,8 +281,8 @@ public class sqliteDB implements Database {
             pstmt.setString(4, subject);
             pstmt.executeUpdate();
         } catch (SQLException e) {
-            e.printStackTrace();
-        }
+            this.printErrorIfRelevant(e);
+    }
     }
 
     /**
@@ -284,7 +292,7 @@ public class sqliteDB implements Database {
 
         // SQL statement for creating a new table
         String sql = "CREATE TABLE IF NOT EXISTS Test (\n"
-                + "	TNR sequence PRIMARY KEY,\n"
+                + "	TNR INTEGER PRIMARY KEY AUTOINCREMENT,\n"
                 + " DateOfTest DATE NOT NULL, \n"
                 + " Description VARCHAR(15) NOT NULL, \n"
                 + "	TimeBegin VARCHAR(15),\n"
@@ -321,7 +329,7 @@ public class sqliteDB implements Database {
             pstmt.setString(6, subject);
             pstmt.executeUpdate();
         } catch (SQLException e) {
-            e.printStackTrace();
+            this.printErrorIfRelevant(e);
         }
     }
 
@@ -360,22 +368,6 @@ public class sqliteDB implements Database {
         }
     }
 
-    public void deleteFromAll() {
-        String sql = "DROP TABLE *";
-        String[] tables = {"Absence", "Test", "Lesson", "Student", "Subject", "Teacher"};
-        for (String table : tables) {
 
-            try {
-                sql = sql.replace("*", table);
-                PreparedStatement pstmt = conn.prepareStatement(sql);
-
-                // execute the delete statement
-                pstmt.executeUpdate();
-
-            } catch (SQLException e1) {
-                System.out.println(e1.getMessage());
-            }
-        }
-    }
 }
 
