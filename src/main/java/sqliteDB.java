@@ -175,7 +175,8 @@ public class sqliteDB implements Database {
         String sql = "CREATE TABLE IF NOT EXISTS Test (\n"
                 + "	TNR INTEGER PRIMARY KEY AUTOINCREMENT,\n"
                 + " DateOfTest DATE NOT NULL, \n"
-                + " Description VARCHAR(15) NOT NULL, \n"
+                + " Kind VARCHAR(15) NOT NULL, \n"
+                + " Name VARCHAR(15) NOT NULL, \n"
                 + "	TimeBegin VARCHAR(15),\n"
                 + "	TimeEnd VARCHAR(15),\n"
                 + "	Subject VARCHAR(5) REFERENCES Subject"
@@ -192,18 +193,18 @@ public class sqliteDB implements Database {
     /**
      * Insert a new row into the Test table
      *
-     * @param TNR       Autoincrement
      * @param date      Date of Test
+     * @param kind      Kind of Test
      * @param desc      Testdescription
      * @param timeBegin Begin of lesson
      * @param timeEnd   End of lesson
      * @param subject   Subject
      */
-    public void insertTest(int TNR, String date, String desc, String timeBegin, String timeEnd, String subject) {
-        String sql = "INSERT INTO Test VALUES(?,?,?,?,?,?)";
+    public void insertTest(String date, String kind, String desc, String timeBegin, String timeEnd, String subject) {
+        String sql = "INSERT INTO Test(DateOfTest,Kind,Name,TimeBegin,TimeEnd,Subject) VALUES(?,?,?,?,?,?)";
         try (PreparedStatement pstmt = conn.prepareStatement(sql)) {
-            pstmt.setInt(1, TNR);
-            pstmt.setObject(2, date);
+            pstmt.setObject(1, date);
+            pstmt.setObject(2, kind);
             pstmt.setString(3, desc);
             pstmt.setString(4, timeBegin);
             pstmt.setString(5, timeEnd);
