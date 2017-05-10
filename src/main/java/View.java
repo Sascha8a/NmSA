@@ -14,7 +14,6 @@ public class View {
         staticFileLocation("/public/dist");
         init();
     }
-    public void killWS() {}
     public void showView() {}
     public void startWebbrowser() {
         String url = "localhost";

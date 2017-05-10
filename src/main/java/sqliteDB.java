@@ -1,4 +1,6 @@
 import java.sql.*;
+import java.util.*;
+import java.util.Date;
 
 /**
  * name: Glavanits Marcel
@@ -17,7 +19,11 @@ public class sqliteDB implements Database {
     sqliteDB() {
 
         String DBurl = "jdbc:sqlite:src/main/resources/db/NmSA.db";
-
+        try {
+            Class.forName("org.sqlite.JDBC");
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }
         try {
             conn = DriverManager.getConnection(DBurl);
             createNewDatabase();
@@ -38,9 +44,6 @@ public class sqliteDB implements Database {
      * Create all tables
      */
     public void createTables() {
-        createTeachers();
-        createSubject();
-        createStudent();
         createAbsence();
         createTimetable();
         createTest();
@@ -64,128 +67,6 @@ public class sqliteDB implements Database {
         }
     }
 
-    /**
-     * Create table Teacher in the database
-     */
-    public void createTeachers() {
-
-        // SQL statement for creating a new table
-        String sql = "CREATE TABLE IF NOT EXISTS Teacher (\n"
-                + "	fname VARCHAR(30),\n"
-                + "	lname VARCHAR(30),\n"
-                + " PRIMARY KEY(fname, lname)"
-                + ");";
-
-        try (Statement stmt = conn.createStatement()) {
-            // create a new table
-            stmt.execute(sql);
-        } catch (SQLException e) {
-            System.out.println("Failed to create table Teacher");
-        }
-    }
-
-
-    /**
-     * Insert a new row into the Teacher table
-     *
-     * @param fname First name
-     * @param lname Last name
-     */
-    public void insertTeacher(String fname, String lname) {
-        String sql = "INSERT INTO Teacher VALUES(?,?)";
-
-        try (PreparedStatement pstmt = conn.prepareStatement(sql)) {
-            pstmt.setString(1, fname);
-            pstmt.setString(2, lname);
-            pstmt.executeUpdate();
-        } catch (SQLException e) {
-            this.printErrorIfRelevant(e);
-        }
-    }
-
-    /**
-     * Create table Subject in the database
-     */
-    public void createSubject() {
-
-        // SQL statement for creating a new table
-        String sql = "CREATE TABLE IF NOT EXISTS Subject (\n"
-                + "	Token VARCHAR(5) PRIMARY KEY,\n"
-                + "	Description VARCHAR(15),\n"
-                + " fname  VARCHAR(30),\n"
-                + " lname VARCHAR(30),\n"
-                + " FOREIGN KEY(fname, lname) REFERENCES Teacher"
-                + ");";
-
-        try (Statement stmt = conn.createStatement()) {
-            // create a new table
-            stmt.execute(sql);
-        } catch (SQLException e) {
-            System.out.println("Failed to create table Subject");
-        }
-    }
-
-    /**
-     * Insert a new row into the Subject table
-     *
-     * @param token Shortcut of the subject
-     * @param desc  Name of the subject
-     * @param fname First name
-     * @param lname Last name
-     */
-    public void insertSubject(String token, String desc, String fname, String lname) {
-        String sql = "INSERT INTO Subject VALUES(?,?,?,?)";
-
-        try (PreparedStatement pstmt = conn.prepareStatement(sql)) {
-            pstmt.setString(1, token);
-            pstmt.setString(2, desc);
-            pstmt.setString(3, fname);
-            pstmt.setString(4, lname);
-            pstmt.executeUpdate();
-        } catch (SQLException e) {
-            this.printErrorIfRelevant(e);
-        }
-    }
-
-    /**
-     * Create table Student in the database
-     */
-    public void createStudent() {
-
-        // SQL statement for creating a new table
-        String sql = "CREATE TABLE IF NOT EXISTS Student (\n"
-                + "	Matnr VARCHAR(6) PRIMARY KEY,\n"
-                + "	fname VARCHAR(30),\n"
-                + "	lname VARCHAR(30)"
-                + ");";
-
-        try (Statement stmt = conn.createStatement()) {
-            // create a new table
-            stmt.execute(sql);
-        } catch (SQLException e) {
-            System.out.println("Failed to create table Student");
-        }
-    }
-
-    /**
-     * Insert a new row into the Student table
-     *
-     * @param Matnr Matrikelnumber
-     * @param fname First name
-     * @param lname Last name
-     */
-    public void insertStudent(String Matnr, String fname, String lname) {
-        String sql = "INSERT INTO Student VALUES(?,?,?)";
-
-        try (PreparedStatement pstmt = conn.prepareStatement(sql)) {
-            pstmt.setString(1, Matnr);
-            pstmt.setString(2, fname);
-            pstmt.setString(3, lname);
-            pstmt.executeUpdate();
-        } catch (SQLException e) {
-            this.printErrorIfRelevant(e);
-        }
-    }
 
     /**
      * Create table Absence in the database
@@ -197,11 +78,11 @@ public class sqliteDB implements Database {
                 " ANR  INTEGER PRIMARY KEY AUTOINCREMENT,\n" +
                 " fname VARCHAR(30) NOT NULL,\n" +
                 " lname VARCHAR(30) NOT NULL,\n" +
-                " cause String NOT NULL,\n" +
+                " cause VARCHAR(30) NOT NULL,\n" +
                 " dateAbsence DATE NOT NULL,\n" +
                 "dayOfWeek VARCHAR(2) NOT NULL,\n" +
-                "minutes INTEGER NOT NULL,\n" +
-                " FOREIGN KEY(fname, lname) REFERENCES Student);";
+                "minutes INTEGER NOT NULL\n" +
+                ");";
 
         try (Statement stmt = conn.createStatement()) {
             // create a new table
@@ -222,7 +103,7 @@ public class sqliteDB implements Database {
      * @param minutes   Absence in minutes
      */
     public void insertAbsence( String fname, String lname, String cause, String date, String dayOfWeek, int minutes) {
-        String sql = "INSERT INTO Absence VALUES(?,?,?,?,?,?)";
+        String sql = "INSERT INTO Absence(fname,lname,cause,dateAbsence,dayOfWeek,minutes) VALUES(?,?,?,?,?,?)";
 
         try (PreparedStatement pstmt = conn.prepareStatement(sql)) {
             pstmt.setString(1, fname);
@@ -243,13 +124,15 @@ public class sqliteDB implements Database {
     public void createTimetable() {
 
         // SQL statement for creating a new table
-        String sql = "CREATE TABLE IF NOT EXISTS Lesson (\n"
-                + "	dayOfWeek VARCHAR(10),\n"
-                + "	TimeBegin VARCHAR(15),\n"
-                + "	TimeEnd VARCHAR(15),\n"
-                + "	subject VARCHAR(5) REFERENCES Subject,\n"
-                + " PRIMARY KEY(dayOfWeek, TimeBegin, TimeEnd)"
-                + ");";
+        String sql = "CREATE TABLE IF NOT EXISTS Lesson (\n" +
+                " ID integer primary key autoincrement,\n" +
+                " validFrom date not null,\n" +
+                " validTo date not null,\n" +
+                " dayOfWeek VARCHAR(10),\n" +
+                " TimeBegin VARCHAR(15),\n" +
+                " TimeEnd VARCHAR(15),\n" +
+                " subject VARCHAR(5)\n" +
+                " );";
 
         try (Statement stmt = conn.createStatement()) {
             // create a new table
@@ -262,12 +145,14 @@ public class sqliteDB implements Database {
     /**
      * Insert a new row into the Lesson table
      *
+     * @param validFrom Date, the Entry is valid from
+     * @param validTo  Date, the Entry is valid until
      * @param dayOfWeek Day of the week
      * @param timeBegin Begin of lesson
      * @param timeEnd   End of lesson
      * @param subject   Subject
      */
-    public void insertLesson(String dayOfWeek, String timeBegin, String timeEnd, String subject) {
+    public void insertLesson(Date validFrom, Date validTo, String dayOfWeek, String timeBegin, String timeEnd, String subject) {
         String sql = "INSERT INTO Lesson VALUES(?,?,?,?)";
 
         try (PreparedStatement pstmt = conn.prepareStatement(sql)) {

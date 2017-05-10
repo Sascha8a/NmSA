@@ -1,9 +1,5 @@
 import com.google.gson.Gson;
-import jdk.nashorn.internal.runtime.options.LoggingOption;
-
 import static spark.Spark.get;
-import static spark.Spark.init;
-import static spark.Spark.port;
 
 /**
  * Created by UltraKnecht on 08.05.2017.

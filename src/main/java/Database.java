@@ -1,3 +1,5 @@
+import java.util.Date;
+
 /**
  * name: Glavanits Marcel
  * matnr.: i14075
@@ -10,16 +12,10 @@
 public interface Database {
     void createTables();
     void createNewDatabase();
-    void createTeachers();
-    void insertTeacher(String fname, String lname);
-    void createSubject();
-    void insertSubject(String token, String desc, String fname, String lname);
-    void createStudent();
-    void insertStudent(String matnr, String fname, String lname);
     void createAbsence();
     void insertAbsence(String fname, String lname, String cause, String date,  String dayOfWeek, int minutes);
     void createTimetable();
-    void insertLesson(String dayOfWeek, String timeBegin, String timeEnd, String subject);
+    void insertLesson(Date validFrom, Date validTo, String dayOfWeek, String timeBegin, String timeEnd, String subject);
     void createTest();
     void insertTest(int TNR, String date, String desc, String timeBegin, String timeEnd, String subject);
     void select(String[] rows, String table);
