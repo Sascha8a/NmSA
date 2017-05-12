@@ -18,7 +18,7 @@ public interface Database {
     void insertLesson(Date validFrom, Date validTo, String dayOfWeek, String timeBegin, String timeEnd, String subject);
     void createTest();
     void insertTest(String date, String kind, String desc, String timeBegin, String timeEnd, String subject);
-    void select(String[] rows, String table);
+    void selectRows(String[] rows, String table);
 
 }
 

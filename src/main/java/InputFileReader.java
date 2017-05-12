@@ -7,14 +7,16 @@ import java.util.Scanner;
 class InputFileReader {
 
     private Database db;
+    private LoggerSingleton logger;
 
-    InputFileReader(Database db) {
+    InputFileReader(Database db, LoggerSingleton logger) {
         this.db = db;
+        this.logger = logger;
     }
 
     /**
      *
-     * @param filename Filename where the Absence data is
+     * @param filename Filename where the data for the Absence table is
      */
     void readInsertAbsence(String filename) {
         //read lines and insert into Absence
@@ -29,23 +31,34 @@ class InputFileReader {
             }
             sc.close();
         } catch (FileNotFoundException e) {
-            e.printStackTrace();
+            logger.error("InputFileReader", "Absence File " + filename + " was not found");
+        }catch ( Exception e1) {
+            logger.error("InputFileReader", e1.getMessage());
         }
     }
 
+
+    /**
+     *
+     * @param filename Filename where the data for the Tests table is
+     */
     void readInsertTests(String filename) {
         //read lines and insert into Absence
         try {
+
             Scanner sc = new Scanner(new FileReader(System.getProperty("user.dir") + "/src/main/resources/inputFiles/" + filename));
             sc.nextLine();
             while (sc.hasNextLine()) {
+
                 String line = sc.nextLine();
                 List<String> data = Arrays.asList(line.split("\\t"));
                 db.insertTest(data.get(4), data.get(0), data.get(1), data.get(5), data.get(6), data.get(8));
             }
             sc.close();
         } catch (FileNotFoundException e) {
-            e.printStackTrace();
+            logger.error("InputFileReader", "Tests File " + filename + " was not found");
+        }catch ( Exception e1) {
+            logger.error("InputFileReader", e1.getMessage());
         }
     }
 

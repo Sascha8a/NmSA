@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="229.0" y="825.0">NmSA</node>
+    <node x="0.0" y="639.0">InputFileReader</node>
+    <node x="36.0" y="0.0">Database</node>
+    <node x="0.0" y="277.0">sqliteDB</node>
+    <node x="770.0" y="639.0">Controller</node>
+    <node x="259.0" y="639.0">View</node>
+    <node x="446.0" y="0.0">LoggerSingleton</node>
+    <node x="0.0" y="825.0">DatabaseFactory</node>
+    <node x="443.0" y="825.0">Model</node>
+    <node x="489.0" y="639.0">API</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="sqliteDB" target="Database">
+      <point x="0.0" y="-158.5" />
+      <point x="0.0" y="113.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7000000000000001" x="379.4999999999999" y="344.3333333333332" />
+  <SelectedNodes>
+    <node>Controller</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Inner Classes</Category>
+    <Category>Properties</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

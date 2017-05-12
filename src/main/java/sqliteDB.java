@@ -1,3 +1,5 @@
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.sql.*;
 import java.util.*;
 import java.util.Date;
@@ -179,7 +181,7 @@ public class sqliteDB implements Database {
                 + " Name VARCHAR(15) NOT NULL, \n"
                 + "	TimeBegin VARCHAR(15),\n"
                 + "	TimeEnd VARCHAR(15),\n"
-                + "	Subject VARCHAR(5) REFERENCES Subject"
+                + "	Subject VARCHAR(5)"
                 + ");";
 
         try (Statement stmt = conn.createStatement()) {
@@ -218,7 +220,7 @@ public class sqliteDB implements Database {
     /**
      * select rows in a table
      */
-    public void select(String[] rows, String table) {
+    public void selectRows(String[] rows, String table) {
         String sql = "SELECT * FROM ?";
         StringBuilder select = new StringBuilder();
         for (String row : rows) {
@@ -249,6 +251,7 @@ public class sqliteDB implements Database {
             System.out.println(e.getMessage());
         }
     }
+
 
 
 }
