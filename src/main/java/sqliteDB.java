@@ -187,7 +187,7 @@ public class sqliteDB implements Database {
 
         // SQL statement for creating a new table
         String sql = "CREATE TABLE IF NOT EXISTS Absence (\n"
-                + "	ANR sequence PRIMARY KEY,\n"
+                + "	ANR INTEGER PRIMARY KEY,\n"
                 + "	fname VARCHAR(30) NOT NULL,\n"
                 + "	lname VARCHAR(30) NOT NULL,\n"
                 + "	cause String NOT NULL,\n"
