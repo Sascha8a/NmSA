@@ -1,38 +1,65 @@
-import java.io.BufferedReader;
+import java.io.FileNotFoundException;
 import java.io.FileReader;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Scanner;
 
-/**
- * Created by UltraKnecht on 04.05.2017.
- */
-public class InputFileReader {
+class InputFileReader {
 
+    private Database db;
+    private LoggerSingleton logger;
 
-    public void readInsertAbwesenheit(String filename, Database db) {
-        //read lines
-        List<String> lines = null;
+    InputFileReader(Database db, LoggerSingleton logger) {
+        this.db = db;
+        this.logger = logger;
+    }
+
+    /**
+     *
+     * @param filename Filename where the data for the Absence table is
+     */
+    void readInsertAbsence(String filename) {
+        //read lines and insert into Absence
         try {
-            BufferedReader reader = new BufferedReader(new FileReader(filename));
-            String numLinesStr = reader.readLine();
-            if (numLinesStr == null) throw new Exception("invalid file format");
-            lines = new ArrayList<>();
-            int numLines = Integer.parseInt(numLinesStr);
-            for (int i = 0; i < numLines; i++) {
-
-                lines.add(reader.readLine());
+            Scanner sc = new Scanner(new FileReader(System.getProperty("user.dir") + "/src/main/resources/inputFiles/" + filename));
+            sc.nextLine();
+            while (sc.hasNextLine()) {
+                String line = sc.nextLine();
+                List<String> data = Arrays.asList(line.split("\\t"));
+                List<String> name = Arrays.asList(data.get(0).split(" "));
+                db.insertAbsence(name.get(1), name.get(0), data.get(8), data.get(4), data.get(5), Integer.parseInt(data.get(7)));
             }
-        } catch (Exception e1) {
-            e1.printStackTrace();
-        }
-
-        //select and insert relevant data
-
-        for (String line : lines) {
-            List<String> data = Arrays.asList(line.split("[ \\t ] "));
-            List<String> name = Arrays.asList(data.get(0).split(" "));
-            //db.insertAbsence(name.get(0), name.get(1),);
+            sc.close();
+        } catch (FileNotFoundException e) {
+            logger.error("InputFileReader", "Absence File " + filename + " was not found");
+        }catch ( Exception e1) {
+            logger.error("InputFileReader", e1.getMessage());
         }
     }
+
+
+    /**
+     *
+     * @param filename Filename where the data for the Tests table is
+     */
+    void readInsertTests(String filename) {
+        //read lines and insert into Absence
+        try {
+
+            Scanner sc = new Scanner(new FileReader(System.getProperty("user.dir") + "/src/main/resources/inputFiles/" + filename));
+            sc.nextLine();
+            while (sc.hasNextLine()) {
+
+                String line = sc.nextLine();
+                List<String> data = Arrays.asList(line.split("\\t"));
+                db.insertTest(data.get(4), data.get(0), data.get(1), data.get(5), data.get(6), data.get(8));
+            }
+            sc.close();
+        } catch (FileNotFoundException e) {
+            logger.error("InputFileReader", "Tests File " + filename + " was not found");
+        }catch ( Exception e1) {
+            logger.error("InputFileReader", e1.getMessage());
+        }
+    }
+
 }

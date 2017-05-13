@@ -1,18 +1,17 @@
 
 public class NmSA {
     public static void main(String[] args) {
-        new Controller();
+        Controller c = new Controller();
+        LoggerSingleton logger = LoggerSingleton.getInstance();
+        API a = new API(c);
         Database db = new DatabaseFactory().getInstance();
-        /*db.insertTeacher( "Markus", "Reis");
-        db.insertTeacher("Harald", "Haberstroh");
-        db.insertTeacher("Sabine", "Steiger-Lechner");
-        db.insertStudent("i14085", "Alexander", "Lampalzer");
-        db.insertStudent("i14076", "Matthias", "Grill");
-        db.insertStudent("i14084", "Simon", "Königsreiter");
-        */
-        String[] rows = { "fname", "lname"};
-        db.select(rows, "Teacher ");
-        String[] rows2 = {"Matnr", "fname", "lname"};
-        db.select(rows2, "Student");
+        InputFileReader filereader = new InputFileReader(db, logger);
+        //filereader.readInsertAbsence("AbsencePerKlasse.txt");
+        //filereader.readInsertTests("Examinations.txt");
+        String[] rows = {"ANR", "fname", "lname", "cause", "dateAbsence", "dayOfWeek", "minutes"};
+        db.selectRows(rows, "Absence");
+        String[] rows1 = {"TNR", "DateOfTest","Kind","Name","TimeBegin","TimeEnd","Subject"};
+        db.selectRows(rows1, "Test");
+
     }
 }
