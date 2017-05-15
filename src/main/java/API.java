@@ -1,4 +1,6 @@
 import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+
 import static spark.Spark.get;
 
 /**
@@ -17,11 +19,8 @@ public class API {
 
     public void defineEndpoints() {
         get("/api/log", (req, res) -> {
-            res.type("application/json");
-            return "{\"message\":\"Custom 404\"}";
-        });
-
-        get("/api/shutdown", (req, res) -> {
+            Gson gson = new GsonBuilder().create();
+            return gson.toJson(LoggerSingleton.getInstance().getLogEntries());
         });
     }
 }
