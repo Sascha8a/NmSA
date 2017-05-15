@@ -76,7 +76,6 @@ public class sqliteDB implements Database {
     public void createAbsence() {
 
         // SQL statement for creating a new table
-<<<<<<< HEAD
         String sql = "CREATE TABLE IF NOT EXISTS Absence (\n"
                 + "	ANR INTEGER PRIMARY KEY,\n"
                 + "	fname VARCHAR(30) NOT NULL,\n"
@@ -87,17 +86,6 @@ public class sqliteDB implements Database {
                 + "	minutes INTEGER NOT NULL,\n"
                 + " FOREIGN KEY(fname, lname) REFERENCES Student"
                 + ");";
-=======
-        String sql = "CREATE TABLE IF NOT EXISTS Absence (\n" +
-                " ANR  INTEGER PRIMARY KEY AUTOINCREMENT,\n" +
-                " fname VARCHAR(30) NOT NULL,\n" +
-                " lname VARCHAR(30) NOT NULL,\n" +
-                " cause VARCHAR(30) NOT NULL,\n" +
-                " dateAbsence DATE NOT NULL,\n" +
-                "dayOfWeek VARCHAR(2) NOT NULL,\n" +
-                "minutes INTEGER NOT NULL\n" +
-                ");";
->>>>>>> d485756195e526715fc71c6e7308f015d5a84b57
 
         try (Statement stmt = conn.createStatement()) {
             // create a new table

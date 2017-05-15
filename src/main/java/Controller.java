@@ -1,11 +1,10 @@
-import com.sun.org.apache.xpath.internal.operations.Mod;
 
 /**
  * Created by UltraKnecht on 02.05.2017.
  */
 public class Controller {
 
-    private View view;
+    View view;
     private Model model;
 
     public Controller() {

@@ -20,5 +20,8 @@ public class API {
             res.type("application/json");
             return "{\"message\":\"Custom 404\"}";
         });
+
+        get("/api/shutdown", (req, res) -> {
+        });
     }
 }
