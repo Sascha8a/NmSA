@@ -1,4 +1,6 @@
 import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
 
 class LoggerSingleton {
     private static LoggerSingleton ourInstance = new LoggerSingleton();
@@ -8,7 +10,8 @@ class LoggerSingleton {
         return ourInstance;
     }
     private LoggerSingleton() {}
-    private int level = 2;
+    private int level = 0; // 0 = Error, 1 = Warn, 2 = Info, 3 = Debug
+    private ArrayList<LogEntry> logEntries = new ArrayList<LogEntry>();
 
 
     void setView(View view) {
@@ -37,34 +40,33 @@ class LoggerSingleton {
     }
 
     void error(String caller, String message) {
-        if (this.isShown(0)) {
-            this.view.log(replaceFormat(caller, "ERROR", message));
-        }
+        this.logEntries.add(new LogEntry(message, caller, 0));
     }
 
     void warn(String caller, String message) {
-        if (this.isShown(1)) {
-            this.view.log(replaceFormat(caller, "WARN", message));
-        }
+        this.logEntries.add(new LogEntry(message, caller, 1));
     }
 
     void info(String caller, String message) {
-        if (this.isShown(2)) {
-            this.view.log(replaceFormat(caller, "INFO", message));
-        }
+        this.logEntries.add(new LogEntry(message, caller, 2));
     }
 
     void debug(String caller, String message) {
-        if (this.isShown(3)) {
-            this.view.log(replaceFormat(caller, "DEBUG", message));
-        }
+        this.logEntries.add(new LogEntry(message, caller, 3));
     }
 
-    ArrayList<String> getLog() {
-        ArrayList<String> test = new ArrayList<>();
-        test.add("Test1");
-        test.add("Test2");
+    List<LogEntry> getLogEntries() {
+        Iterator<LogEntry> iterator = this.logEntries.iterator();
+        ArrayList<LogEntry> filteredLogEntries = new ArrayList<LogEntry>();
 
-        return test;
+        while( iterator.hasNext() ) {
+            LogEntry entry = iterator.next();
+
+            if(isShown(entry.level)) {
+                filteredLogEntries.add(entry);
+            }
+        }
+
+        return filteredLogEntries;
     }
 }
