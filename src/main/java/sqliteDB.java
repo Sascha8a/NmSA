@@ -1,5 +1,3 @@
-import java.io.File;
-import java.io.FileNotFoundException;
 import java.sql.*;
 import java.util.*;
 import java.util.Date;
@@ -253,7 +251,57 @@ public class sqliteDB implements Database {
         }
     }
 
+    public ArrayList<AbsenceSummary> getAbsenceSummaries() {
+        String query = "select * from Absence";
+        ArrayList<AbsenceSummary> list = new ArrayList<AbsenceSummary>();
 
+        try {
+            Statement stmt = conn.createStatement();
+            ResultSet res = stmt.executeQuery(query);
 
+            while(res.next()) {
+                String name = res.getString("fname") + res.getString("lname");
+                int time =  res.getInt("minutes") * 60;
+
+                AbsenceSummary absenceSummary = new AbsenceSummary(name, time);
+
+                list.add(absenceSummary);
+            }
+
+            return list;
+        } catch (SQLException e) {
+            LoggerSingleton.getInstance().error("sqliteDB", e.getMessage());
+        }
+
+        return null;
+    }
+
+    public ArrayList<AbsenceDetail> getAbsenceDetails() {
+        String query = "select * from Absence";
+        ArrayList<AbsenceDetail> list = new ArrayList<AbsenceDetail>();
+
+        try {
+            Statement stmt = conn.createStatement();
+            ResultSet res = stmt.executeQuery(query);
+
+            LoggerSingleton.getInstance().debug("sascha", res.toString());
+
+            while(res.next()) {
+                String name = res.getString("fname") + " " + res.getString("lname");
+                int time =  res.getInt("minutes") * 60;
+                Date date = res.getDate("dateAbsence");
+
+                AbsenceDetail absenceDetail = new AbsenceDetail(name, time, date);
+
+                list.add(absenceDetail);
+            }
+
+            return list;
+        } catch (SQLException e) {
+            LoggerSingleton.getInstance().error("sqliteDB", e.getMessage());
+        }
+
+        return null;
+    }
 }
 

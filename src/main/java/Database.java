@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Date;
 
 /**
@@ -19,6 +20,7 @@ public interface Database {
     void createTest();
     void insertTest(String date, String kind, String desc, String timeBegin, String timeEnd, String subject);
     void selectRows(String[] rows, String table);
-
+    ArrayList<AbsenceSummary> getAbsenceSummaries();
+    ArrayList<AbsenceDetail> getAbsenceDetails();
 }
 

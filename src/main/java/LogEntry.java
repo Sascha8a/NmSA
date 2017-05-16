@@ -11,10 +11,9 @@ public class LogEntry {
     public int level;
 
     public LogEntry(String msg, String caller, int level) {
-
         this.msg = msg;
         this.caller = caller;
         this.level = level;
-        timestamp = new Date().getTime();
+        this.timestamp = new Date().getTime();
     }
 }

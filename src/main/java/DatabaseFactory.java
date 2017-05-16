@@ -9,13 +9,9 @@
 
 public class DatabaseFactory {
 
-    Database instance = null;
+    static sqliteDB instance = new sqliteDB();
 
-    public Database getInstance() {
-
-        if(instance == null) {
-            instance = new sqliteDB();
-        }
+    public Database getDatabase() {
         return instance;
     }
 }

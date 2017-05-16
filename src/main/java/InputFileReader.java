@@ -9,17 +9,17 @@ class InputFileReader {
     private Database db;
     private LoggerSingleton logger;
 
-    InputFileReader(Database db, LoggerSingleton logger) {
+    InputFileReader(Database db) {
         this.db = db;
-        this.logger = logger;
+        this.logger = LoggerSingleton.getInstance();
     }
 
     /**
      *
-     * @param filename Filename where the data for the Absence table is
+     * @param filename Filename where the data for the AbsenceSummary table is
      */
     void readInsertAbsence(String filename) {
-        //read lines and insert into Absence
+        //read lines and insert into AbsenceSummary
         try {
             Scanner sc = new Scanner(new FileReader(System.getProperty("user.dir") + "/src/main/resources/inputFiles/" + filename));
             sc.nextLine();
@@ -31,7 +31,7 @@ class InputFileReader {
             }
             sc.close();
         } catch (FileNotFoundException e) {
-            logger.error("InputFileReader", "Absence File " + filename + " was not found");
+            logger.error("InputFileReader", "AbsenceSummary File " + filename + " was not found");
         }catch ( Exception e1) {
             logger.error("InputFileReader", e1.getMessage());
         }
@@ -43,7 +43,7 @@ class InputFileReader {
      * @param filename Filename where the data for the Tests table is
      */
     void readInsertTests(String filename) {
-        //read lines and insert into Absence
+        //read lines and insert into AbsenceSummary
         try {
 
             Scanner sc = new Scanner(new FileReader(System.getProperty("user.dir") + "/src/main/resources/inputFiles/" + filename));

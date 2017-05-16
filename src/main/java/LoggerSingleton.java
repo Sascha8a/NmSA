@@ -4,19 +4,12 @@ import java.util.List;
 
 class LoggerSingleton {
     private static LoggerSingleton ourInstance = new LoggerSingleton();
-    private View view;
-
     static LoggerSingleton getInstance() {
         return ourInstance;
     }
     private LoggerSingleton() {}
-    private int level = 0; // 0 = Error, 1 = Warn, 2 = Info, 3 = Debug
-    private ArrayList<LogEntry> logEntries = new ArrayList<LogEntry>();
-
-
-    void setView(View view) {
-        this.view = view;
-    }
+    private int level = 3; // 0 = Error, 1 = Warn, 2 = Info, 3 = Debug
+    public ArrayList<LogEntry> logEntries = new ArrayList<LogEntry>();
 
     void setLogLevel(int level) {
         this.level = level;
@@ -39,19 +32,23 @@ class LoggerSingleton {
         return level <= this.level;
     }
 
-    void error(String caller, String message) {
+    public void error(String caller, String message) {
+        System.out.print(message);
         this.logEntries.add(new LogEntry(message, caller, 0));
     }
 
-    void warn(String caller, String message) {
+    public void warn(String caller, String message) {
+        System.out.print(message);
         this.logEntries.add(new LogEntry(message, caller, 1));
     }
 
-    void info(String caller, String message) {
+    public void info(String caller, String message) {
+        System.out.print(message);
         this.logEntries.add(new LogEntry(message, caller, 2));
     }
 
-    void debug(String caller, String message) {
+    public void debug(String caller, String message) {
+        System.out.print(message);
         this.logEntries.add(new LogEntry(message, caller, 3));
     }
 
