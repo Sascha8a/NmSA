@@ -16,6 +16,6 @@ public class AbsenceDetail {
     }
 
     public String getDate() {
-        return new SimpleDateFormat("yyyy-mm-dd").format(this.date);
+        return new SimpleDateFormat("YYYY-MM-DD").format(this.date);
     }
 }

@@ -1,4 +1,6 @@
 import java.sql.*;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.*;
 import java.util.Date;
 
@@ -79,7 +81,7 @@ public class sqliteDB implements Database {
                 + "	fname VARCHAR(30) NOT NULL,\n"
                 + "	lname VARCHAR(30) NOT NULL,\n"
                 + "	cause String NOT NULL,\n"
-                + " dateAbsence DATE NOT NULL,\n"
+                + " dateAbsence VARCHAR(30) NOT NULL,\n"
                 + "	dayOfWeek VARCHAR(2) NOT NULL,\n"
                 + "	minutes INTEGER NOT NULL,\n"
                 + " FOREIGN KEY(fname, lname) REFERENCES Student"
@@ -289,7 +291,7 @@ public class sqliteDB implements Database {
             while(res.next()) {
                 String name = res.getString("fname") + " " + res.getString("lname");
                 int time =  res.getInt("minutes") * 60;
-                Date date = res.getDate("dateAbsence");
+                Date date = new SimpleDateFormat("dd.mm.yy hh:mm").parse(res.getString("dateAbsence"));
 
                 AbsenceDetail absenceDetail = new AbsenceDetail(name, time, date);
 
@@ -299,6 +301,8 @@ public class sqliteDB implements Database {
             return list;
         } catch (SQLException e) {
             LoggerSingleton.getInstance().error("sqliteDB", e.getMessage());
+        } catch (ParseException e) {
+            e.printStackTrace();
         }
 
         return null;

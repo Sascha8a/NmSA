@@ -33,16 +33,17 @@ public class API {
             HashMap<String, AbsenceData> days = new HashMap<String, AbsenceData>();
 
             details.forEach(detail -> {
-                if (days.containsKey(detail.getDate())) {
-                    AbsenceData day = days.get(detail.getDate());
+                String key = detail.getDate();
+                if (days.containsKey(key)) {
+                    AbsenceData day = days.get(key);
                     day.addDetail(detail);
                     day.addSummary(new AbsenceSummary(detail.name, detail.value));
                     days.replace(detail.getDate(), day);
                 } else {
-                    AbsenceData day = new AbsenceData(detail.getDate());
+                    AbsenceData day = new AbsenceData(key);
                     day.addDetail(detail);
                     day.addSummary(new AbsenceSummary(detail.name, detail.value));
-                    days.put(detail.getDate(), day);
+                    days.put(key, day);
                 }
             });
 
