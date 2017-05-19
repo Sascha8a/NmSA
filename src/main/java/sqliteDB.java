@@ -19,8 +19,8 @@ public class sqliteDB implements Database {
     private LoggerSingleton logger = LoggerSingleton.getInstance();
 
     sqliteDB() {
-
-        String DBurl = "jdbc:sqlite::resource:db/NmSA.db";
+        // jdbc:sqlite::resource:db/NmSA.db
+        String DBurl = "jdbc:sqlite:src/main/resources/db/NmSA.db";
         try {
             Class.forName("org.sqlite.JDBC");
         } catch (ClassNotFoundException e) {
