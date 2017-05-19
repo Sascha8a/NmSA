@@ -20,7 +20,7 @@ public class sqliteDB implements Database {
 
     sqliteDB() {
 
-        String DBurl = "jdbc:sqlite:src/main/resources/db/NmSA.db";
+        String DBurl = "jdbc:sqlite::resource:db/NmSA.db";
         try {
             Class.forName("org.sqlite.JDBC");
         } catch (ClassNotFoundException e) {
