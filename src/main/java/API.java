@@ -2,8 +2,10 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonObject;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 
 import static spark.Spark.get;
 
@@ -23,7 +25,9 @@ public class API {
     public void defineEndpoints() {
         get("/api/log", (req, res) -> {
             Gson gson = new GsonBuilder().create();
-            return gson.toJson(LoggerSingleton.getInstance().getLogEntries());
+            HashMap<String, List<LogEntry>> ret = new HashMap();
+            ret.put("data", LoggerSingleton.getInstance().getLogEntries());
+            return gson.toJson(ret);
         });
 
         get("/api/absences", (req, res) -> {

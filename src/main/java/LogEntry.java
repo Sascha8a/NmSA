@@ -1,3 +1,4 @@
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
@@ -5,15 +6,15 @@ import java.util.Date;
  */
 public class LogEntry {
 
-    public String msg;
+    public String message;
     public String caller;
-    public long timestamp;
+    public String timestamp;
     public int level;
 
     public LogEntry(String msg, String caller, int level) {
-        this.msg = msg;
+        this.message = msg;
         this.caller = caller;
         this.level = level;
-        this.timestamp = new Date().getTime();
+        this.timestamp = new SimpleDateFormat("YYYY.MM.dd HH:mm:ss:SS z").format(new Date());
     }
 }
