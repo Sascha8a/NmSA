@@ -1,7 +1,6 @@
 build/resources/main/public/
 
 src/main/resources/db/*
-src/main/resources/inputFiles/*
 
 .gradle/
 .idea/
