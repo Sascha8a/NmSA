@@ -1,9 +1,7 @@
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.text.ParseException;
-import java.text.SimpleDateFormat;
 import java.util.Arrays;
-import java.util.Date;
 import java.util.List;
 import java.util.Scanner;
 
@@ -57,7 +55,7 @@ class InputFileReader {
 
     /**
      *
-     * @param filename Filename where the data for the AbsenceSummary table is
+     * @param filename Filename where the data for the Absence table is
      */
     void readInsertAbsence(String filename) {
         //read lines and insert into AbsenceSummary
@@ -68,11 +66,11 @@ class InputFileReader {
                 String line = sc.nextLine();
                 List<String> data = Arrays.asList(line.split("\\t"));
                 List<String> name = Arrays.asList(data.get(0).split(" "));
-                db.insertAbsence(name.get(1), name.get(0), data.get(8),  this.convertPairToDate(Integer.parseInt(data.get(16)), data.get(4)), data.get(5), Integer.parseInt(data.get(7)));
+                db.insertAbsence(name.get(1), name.get(0), data.get(10),  this.convertPairToDate(Integer.parseInt(data.get(16)), data.get(4)), data.get(5), Integer.parseInt(data.get(7)));
             }
             sc.close();
         } catch (FileNotFoundException e) {
-            logger.error("InputFileReader", "AbsenceSummary File " + filename + " was not found");
+            logger.error("InputFileReader", "Absence File " + filename + " was not found");
         }catch ( Exception e1) {
             logger.error("InputFileReader", e1.getMessage());
         }

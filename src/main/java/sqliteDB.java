@@ -81,10 +81,10 @@ public class sqliteDB implements Database {
                 + "	fname VARCHAR(30) NOT NULL,\n"
                 + "	lname VARCHAR(30) NOT NULL,\n"
                 + "	cause String NOT NULL,\n"
-                + " dateAbsence VARCHAR(30) NOT NULL,\n"
+                + " dateTime VARCHAR(30) NOT NULL,\n"
                 + "	dayOfWeek VARCHAR(2) NOT NULL,\n"
-                + "	minutes INTEGER NOT NULL,\n"
-                + " FOREIGN KEY(fname, lname) REFERENCES Student"
+                + " lesson VARCHAR(10) NOT NULL,\n"
+                + "	minutes INTEGER NOT NULL\n"
                 + ");";
 
         try (Statement stmt = conn.createStatement()) {
@@ -98,23 +98,23 @@ public class sqliteDB implements Database {
     /**
      * Insert a new row into the Absence table
      *
-     * @param fname     First name
-     * @param lname     Last name
+     * @param fname     First name of the student
+     * @param lname     Last name of the student
      * @param cause     Cause of Absence
-     * @param date      Date of Absence
+     * @param dateTime      Date of Absence
      * @param dayOfWeek Day in a week where a person is absent
      * @param minutes   Absence in minutes
      */
-    public void insertAbsence( String fname, String lname, String cause, String date, String dayOfWeek, int minutes) {
-        String sql = "INSERT INTO Absence(fname,lname,cause,dateAbsence,dayOfWeek,minutes) VALUES(?,?,?,?,?,?)";
+    public void insertAbsence( String fname, String lname, String cause, String dateTime, String dayOfWeek, int minutes) {
+        String sql = "INSERT INTO Absence(fname,lname,cause,dateTime,dayOfWeek,minutes) VALUES(?,?,?,?,?,?)";
 
         try (PreparedStatement pstmt = conn.prepareStatement(sql)) {
             pstmt.setString(1, fname);
             pstmt.setString(2, lname);
             pstmt.setString(3, cause);
-            pstmt.setString(4, date);
-            pstmt.setObject(5, dayOfWeek);
-            pstmt.setObject(6, minutes);
+            pstmt.setString(4, dateTime);
+            pstmt.setString(5, dayOfWeek);
+            pstmt.setInt(6, minutes);
             pstmt.executeUpdate();
         } catch (SQLException e) {
             this.printErrorIfRelevant(e);
@@ -291,7 +291,7 @@ public class sqliteDB implements Database {
             while(res.next()) {
                 String name = res.getString("fname") + " " + res.getString("lname");
                 int time =  res.getInt("minutes") * 60;
-                Date date = new SimpleDateFormat("dd.mm.yy hh:mm").parse(res.getString("dateAbsence"));
+                Date date = new SimpleDateFormat("dd.mm.yy hh:mm").parse(res.getString("dateTime"));
 
                 AbsenceDetail absenceDetail = new AbsenceDetail(name, time, date);
 
