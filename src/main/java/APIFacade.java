@@ -12,11 +12,11 @@ import static spark.Spark.get;
 /**
  * Created by UltraKnecht on 08.05.2017.
  */
-public class API {
+public class APIFacade {
 
     private Controller controller;
 
-    public API(Controller controller) {
+    public APIFacade(Controller controller) {
 
         this.controller = controller;
         this.defineEndpoints();

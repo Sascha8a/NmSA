@@ -12,7 +12,7 @@
     <node x="446.0" y="0.0">LoggerSingleton</node>
     <node x="0.0" y="825.0">DatabaseFactory</node>
     <node x="443.0" y="825.0">Model</node>
-    <node x="489.0" y="639.0">API</node>
+    <node x="489.0" y="639.0">APIFacade</node>
   </nodes>
   <notes />
   <edges>
