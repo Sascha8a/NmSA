@@ -3,17 +3,18 @@ import java.io.PrintStream;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Observable;
 
 class LoggerSingleton {
-    private static LoggerSingleton ourInstance = new LoggerSingleton();
+    public static LoggerSingleton ourInstance = new LoggerSingleton();
     public ArrayList<LogEntry> logEntries = new ArrayList<LogEntry>();
-    private int level = 3; // 0 = Error, 1 = Warn, 2 = Info, 3 = Debug
+    private int level = 4; // 0 = Error, 1 = Warn, 2 = Info, 3 = Debug
 
     static LoggerSingleton getInstance() {
         PrintStream origOut = System.out;
         PrintStream interceptor = new Interceptor(origOut);
         System.setOut(interceptor);
-        return ourInstance;
+        return LoggerSingleton.ourInstance;
     }
 
     private LoggerSingleton() {}
@@ -40,17 +41,14 @@ class LoggerSingleton {
     }
 
     public void error(String caller, String message) {
-        System.out.print(message);
         this.logEntries.add(new LogEntry(message, caller, 0));
     }
 
     public void warn(String caller, String message) {
-        System.out.print(message);
         this.logEntries.add(new LogEntry(message, caller, 1));
     }
 
     public void info(String caller, String message) {
-        System.out.print(message);
         this.logEntries.add(new LogEntry(message, caller, 2));
     }
 
@@ -59,7 +57,6 @@ class LoggerSingleton {
     }
 
     public void debug(String caller, String message) {
-        System.out.print(message);
         this.logEntries.add(new LogEntry(message, caller, 3));
     }
 

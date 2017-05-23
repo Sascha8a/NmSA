@@ -8,8 +8,8 @@ public class Model {
         Database db = new DatabaseFactory().getDatabase();
         InputFileReader fileReader = new InputFileReader(db);
 
-        //fileReader.readInsertAbsence("AbsencePerStudent.txt");
-        //fileReader.readInsertTests("Examinations.txt");
+        fileReader.readInsertAbsence("AbsencePerStudent.txt");
+        fileReader.readInsertTests("Examinations.txt");
     }
 
     ArrayList<AbsenceDetail> getAbsenceDetails() {

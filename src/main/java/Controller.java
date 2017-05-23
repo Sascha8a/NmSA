@@ -5,10 +5,13 @@ import java.util.ArrayList;
  */
 public class Controller {
 
-    private View view = new View();
-    private Model model = new Model();
+    private View view;
+    private Model model;
 
     public Controller() {
+        this.view = new View();
+        this.model = new Model();
+
         this.view.startWS();
         this.view.showView();
 

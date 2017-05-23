@@ -6,13 +6,14 @@ import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Observable;
 
 import static spark.Spark.get;
 
 /**
  * Created by UltraKnecht on 08.05.2017.
  */
-public class APIFacade {
+public class APIFacade extends Observable {
 
     private Controller controller;
 
@@ -24,6 +25,9 @@ public class APIFacade {
 
     public void defineEndpoints() {
         get("/api/log", (req, res) -> {
+            this.setChanged();
+            this.notifyObservers(req.protocol() + " " + req.ip() + " " + req.pathInfo());
+
             Gson gson = new GsonBuilder().create();
             HashMap<String, List<LogEntry>> ret = new HashMap();
             ret.put("data", LoggerSingleton.getInstance().getLogEntries());
@@ -31,6 +35,9 @@ public class APIFacade {
         });
 
         get("/api/absences", (req, res) -> {
+            this.setChanged();
+            this.notifyObservers(req.protocol() + " " + req.ip() + " " + req.pathInfo());
+
             Gson gson = new GsonBuilder().create();
 
             ArrayList<AbsenceDetail> details = this.controller.getAbsenceDetails();

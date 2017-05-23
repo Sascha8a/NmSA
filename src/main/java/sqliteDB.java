@@ -286,8 +286,6 @@ public class sqliteDB implements Database {
             Statement stmt = conn.createStatement();
             ResultSet res = stmt.executeQuery(query);
 
-            LoggerSingleton.getInstance().debug("sascha", res.toString());
-
             while(res.next()) {
                 String name = res.getString("fname") + " " + res.getString("lname");
                 int time =  res.getInt("minutes") * 60;
@@ -302,7 +300,7 @@ public class sqliteDB implements Database {
         } catch (SQLException e) {
             LoggerSingleton.getInstance().error("sqliteDB", e.getMessage());
         } catch (ParseException e) {
-            e.printStackTrace();
+            LoggerSingleton.getInstance().error("sqliteDB", e.getMessage());
         }
 
         return null;
