@@ -18,7 +18,7 @@ public class sqliteDB implements Database {
     private static Connection conn;
     private LoggerSingleton logger = LoggerSingleton.getInstance();
 
-    sqliteDB() {
+    public sqliteDB() {
         // jdbc:sqlite::resource:db/NmSA.db
         String DBurl = "jdbc:sqlite::resource:db/NmSA.db";
         try {
@@ -51,6 +51,19 @@ public class sqliteDB implements Database {
         createTest();
     }
 
+
+    public void dropTables() {
+        String sql = "DROP TABLE IF EXISTS Absence;\n" +
+                "DROP TABLE IF EXISTS Lesson;\n" +
+                "DROP TABLE IF EXISTS Test;";
+
+        try (Statement stmt = conn.createStatement()) {
+            // create a new table
+            stmt.execute(sql);
+        } catch (SQLException e) {
+            System.out.println("Failed to drop tables");
+        }
+    }
 
     /**
      * Connect to a sample database

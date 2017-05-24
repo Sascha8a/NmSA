@@ -4,12 +4,22 @@ import java.util.ArrayList;
  * Created by UltraKnecht on 02.05.2017.
  */
 public class Model {
+    private Database db;
+
     public Model() {
-        Database db = new DatabaseFactory().getDatabase();
+        this.db = new DatabaseFactory().getDatabase();
+    }
+
+    public void updateAbsence(String path) {
         InputFileReader fileReader = new InputFileReader(db);
 
-        fileReader.readInsertAbsence("AbsencePerStudent.txt");
-        fileReader.readInsertTests("Examinations.txt");
+        fileReader.readInsertAbsence(path);
+    }
+
+    public void updateTests(String path) {
+        InputFileReader fileReader = new InputFileReader(db);
+
+        fileReader.readInsertTests(path);
     }
 
     ArrayList<AbsenceDetail> getAbsenceDetails() {

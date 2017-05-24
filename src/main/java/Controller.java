@@ -20,6 +20,14 @@ public class Controller {
         logger.info("Controller", "Init finished.");
     }
 
+    public void updateAbsence(String path) {
+        this.model.updateAbsence(path);
+    }
+
+    public void updateTests(String path) {
+        this.model.updateTests(path);
+    }
+
     public ArrayList<AbsenceSummary> getAbsenceSummaries() {
         return this.model.getAbsenceSummaries();
     }

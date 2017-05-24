@@ -55,12 +55,12 @@ class InputFileReader {
 
     /**
      *
-     * @param filename Filename where the data for the Absence table is
+     * @param path Filename where the data for the Absence table is
      */
-    void readInsertAbsence(String filename) {
+    void readInsertAbsence(String path) {
         //read lines and insert into AbsenceSummary
         try {
-            Scanner sc = new Scanner(new FileReader(System.getProperty("user.dir") + "/src/main/resources/inputFiles/" + filename));
+            Scanner sc = new Scanner(new FileReader(path));
             sc.nextLine();
             while (sc.hasNextLine()) {
                 String line = sc.nextLine();
@@ -70,7 +70,7 @@ class InputFileReader {
             }
             sc.close();
         } catch (FileNotFoundException e) {
-            logger.error("InputFileReader", "Absence File " + filename + " was not found");
+            logger.error("InputFileReader", "Absence File " + path + " was not found");
         }catch ( Exception e1) {
             logger.error("InputFileReader", e1.getMessage());
         }
@@ -79,13 +79,13 @@ class InputFileReader {
 
     /**
      *
-     * @param filename Filename where the data for the Tests table is
+     * @param path Filename where the data for the Tests table is
      */
-    void readInsertTests(String filename) {
+    void readInsertTests(String path) {
         //read lines and insert into AbsenceSummary
         try {
 
-            Scanner sc = new Scanner(new FileReader(System.getProperty("user.dir") + "/src/main/resources/inputFiles/" + filename));
+            Scanner sc = new Scanner(new FileReader(path));
             sc.nextLine();
             while (sc.hasNextLine()) {
 
@@ -95,7 +95,7 @@ class InputFileReader {
             }
             sc.close();
         } catch (FileNotFoundException e) {
-            logger.error("InputFileReader", "Tests File " + filename + " was not found");
+            logger.error("InputFileReader", "Tests File " + path + " was not found");
         }catch ( Exception e1) {
             logger.error("InputFileReader", e1.getMessage());
         }

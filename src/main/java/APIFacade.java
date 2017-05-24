@@ -2,13 +2,22 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonObject;
 
+import javax.servlet.MultipartConfigElement;
+import java.io.File;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.InputStream;
 import java.lang.reflect.Array;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.StandardCopyOption;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Observable;
 
 import static spark.Spark.get;
+import static spark.Spark.post;
 
 /**
  * Created by UltraKnecht on 08.05.2017.
@@ -24,6 +33,9 @@ public class APIFacade extends Observable {
     }
 
     public void defineEndpoints() {
+        File uploadDir = new File("upload");
+        uploadDir.mkdir();
+
         get("/api/log", (req, res) -> {
             this.setChanged();
             this.notifyObservers(req.protocol() + " " + req.ip() + " " + req.pathInfo());
@@ -32,6 +44,74 @@ public class APIFacade extends Observable {
             HashMap<String, List<LogEntry>> ret = new HashMap();
             ret.put("data", LoggerSingleton.getInstance().getLogEntries());
             return gson.toJson(ret);
+        });
+
+        post("/api/test", (req, res) -> {
+            return "YEY!";
+        });
+
+        post("/api/upload/absences", (req, res) -> {
+
+            req.attribute("org.eclipse.jetty.multipartConfig", new MultipartConfigElement("/temp"));
+
+            try (InputStream input = req.raw().getPart("uploaded_file").getInputStream()) { // getPart needs to use same "name" as input field in form
+                FileWriter out = null;
+
+                try {
+                    out = new FileWriter(uploadDir.getAbsolutePath() + "\\absences.txt");
+
+                    int c;
+                    while ((c = input.read()) != -1) {
+                        out.write(c);
+                    }
+                }finally {
+                    if (input != null) {
+                        input.close();
+                    }
+                    if (out != null) {
+                        out.close();
+                    }
+                }
+            }
+
+            this.setChanged();
+            this.notifyObservers(req.protocol() + " " + req.ip() + " " + req.pathInfo());
+
+            this.controller.updateAbsence(uploadDir.getAbsolutePath() + "\\absences.txt");
+
+            return "Upload successful.";
+        });
+
+        post("/api/upload/timetable", (req, res) -> {
+
+            req.attribute("org.eclipse.jetty.multipartConfig", new MultipartConfigElement("/temp"));
+
+            try (InputStream input = req.raw().getPart("uploaded_file").getInputStream()) { // getPart needs to use same "name" as input field in form
+                FileWriter out = null;
+
+                try {
+                    out = new FileWriter(uploadDir.getAbsolutePath() + "\\timetable.txt");
+
+                    int c;
+                    while ((c = input.read()) != -1) {
+                        out.write(c);
+                    }
+                }finally {
+                    if (input != null) {
+                        input.close();
+                    }
+                    if (out != null) {
+                        out.close();
+                    }
+                }
+            }
+
+            this.setChanged();
+            this.notifyObservers(req.protocol() + " " + req.ip() + " " + req.pathInfo());
+
+            this.controller.updateTests(uploadDir.getAbsolutePath() + "\\absences.txt");
+
+            return "Upload successful.";
         });
 
         get("/api/absences", (req, res) -> {
