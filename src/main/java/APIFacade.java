@@ -170,5 +170,9 @@ public class APIFacade extends Observable {
 
             return gson.toJson(this.controller.getAbsencePerDay(req.params("name")));
         });
+
+        get("/api/shutdown", (req, res) -> {
+            this.controller.shutdown();
+        });
     }
 }

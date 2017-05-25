@@ -1,6 +1,8 @@
 import java.util.ArrayList;
 import java.util.HashMap;
 
+import static spark.Spark.stop;
+
 /**
  * Created by UltraKnecht on 02.05.2017.
  */
@@ -19,6 +21,10 @@ public class Controller {
         LoggerSingleton logger = LoggerSingleton.getInstance();
 
         logger.info("Controller", "Init finished.");
+    }
+
+    public void shutdown() {
+        stop();
     }
 
     public void updateAbsence(String path) {
