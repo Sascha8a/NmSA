@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.HashMap;
 
 /**
  * Created by UltraKnecht on 02.05.2017.
@@ -35,5 +36,10 @@ public class Model {
     ArrayList<AbsenceDetail> getRanking() {
         Database db = new DatabaseFactory().getDatabase();
         return db.getRanking();
+    }
+
+    public int[] getAbsencePerDay(String name) {
+        Database db = new DatabaseFactory().getDatabase();
+        return db.getAbsencePerDay(name);
     }
 }

@@ -162,5 +162,16 @@ public class APIFacade extends Observable {
             ret.put("data", ranking);
             return gson.toJson(ret);
         });
+
+        get("/api/user/allocation/:name", (req, res) -> {
+            this.setChanged();
+            this.notifyObservers(req.protocol() + " " + req.ip() + " " + req.pathInfo());
+
+            Gson gson = new GsonBuilder().create();
+
+            this.controller.getAbsencePerDay(req.params("name"));
+
+            return gson.toJson(this.controller.getAbsencePerDay(req.params("name")));
+        });
     }
 }

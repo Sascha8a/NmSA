@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.HashMap;
 
 /**
  * name: Glavanits Marcel
@@ -23,5 +24,6 @@ public interface Database {
     ArrayList<AbsenceDetail> getRanking();
     ArrayList<AbsenceSummary> getAbsenceSummaries();
     ArrayList<AbsenceDetail> getAbsenceDetails();
+    int[] getAbsencePerDay(String name);
 }
 
