@@ -32,6 +32,7 @@ sourceSets {
         resources {
             srcDirs = ['src/main/resources', '/']
             include 'db/'
+            include 'icons/'
             include 'public/dist/'
         }
     }

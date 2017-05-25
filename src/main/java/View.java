@@ -1,21 +1,45 @@
 
+import javax.swing.*;
 import java.awt.*;
 import java.io.File;
 import java.io.IOException;
 import java.net.URI;
 import java.net.URISyntaxException;
+import java.net.URL;
 
 import static spark.Spark.*;
 
 public class View {
+    JFrame frame;
 
+    public View() {
+        URL url = NmSA.class.getResource("/icons/loading-gif.gif");
+        ImageIcon imageIcon = new ImageIcon(url);
 
-    public View() {}
+        JFrame frame = new JFrame("TitleLessJFrame");
+        frame.getContentPane().add(new JLabel(imageIcon));
+        frame.setUndecorated(true);
+        frame.setSize(300, 225);
+        frame.setType(Window.Type.UTILITY);
+        frame.setAlwaysOnTop( true );
+        frame.setLocationRelativeTo( null );
+        frame.setVisible(true);
+
+        this.frame = frame;
+    }
 
     public void startWS() {
         port(80);
         staticFileLocation("/public/dist");
         init();
+        showView();
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        this.frame.setVisible(false);
+        this.frame.dispose();
     }
     public void showView() {}
     public void startWebbrowser() {
