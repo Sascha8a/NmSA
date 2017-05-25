@@ -11,10 +11,7 @@ import java.lang.reflect.Array;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.StandardCopyOption;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Observable;
+import java.util.*;
 
 import static spark.Spark.get;
 import static spark.Spark.post;
@@ -121,7 +118,7 @@ public class APIFacade extends Observable {
             Gson gson = new GsonBuilder().create();
 
             ArrayList<AbsenceDetail> details = this.controller.getAbsenceDetails();
-            HashMap<String, AbsenceData> days = new HashMap<String, AbsenceData>();
+            TreeMap<String, AbsenceData> days = new TreeMap<String, AbsenceData>();
 
             details.forEach(detail -> {
                 String key = detail.getDate();

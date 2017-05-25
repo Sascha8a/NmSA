@@ -334,7 +334,7 @@ public class sqliteDB implements Database {
 
             while(res.next()) {
                 String name = res.getString("fname") + " " + res.getString("lname");
-                int time =  res.getInt("sum(minutes)") * 60;
+                int time =  res.getInt("sum(minutes)") / 60;
 
                 AbsenceDetail absenceDetail = new AbsenceDetail(name, time, null);
 

@@ -32,7 +32,7 @@ public class View {
         port(80);
         staticFileLocation("/public/dist");
         init();
-        showView();
+        startWebbrowser();
         try {
             Thread.sleep(2000);
         } catch (InterruptedException e) {
@@ -41,7 +41,9 @@ public class View {
         this.frame.setVisible(false);
         this.frame.dispose();
     }
+
     public void showView() {}
+
     public void startWebbrowser() {
         String url = "localhost";
 
