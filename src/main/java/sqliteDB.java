@@ -29,6 +29,7 @@ public class sqliteDB implements Database {
         try {
             conn = DriverManager.getConnection(DBurl);
             createNewDatabase();
+            dropTables();
             createTables();
         } catch (SQLException e) {
             e.printStackTrace();
@@ -66,6 +67,7 @@ public class sqliteDB implements Database {
     }
 
     /**
+     *
      * Connect to a sample database
      */
     public void createNewDatabase() {
@@ -96,7 +98,6 @@ public class sqliteDB implements Database {
                 + "	cause String NOT NULL,\n"
                 + " dateTime VARCHAR(30) NOT NULL,\n"
                 + "	dayOfWeek VARCHAR(2) NOT NULL,\n"
-                + " lesson VARCHAR(10) NOT NULL,\n"
                 + "	minutes INTEGER NOT NULL\n"
                 + ");";
 
@@ -318,5 +319,33 @@ public class sqliteDB implements Database {
 
         return null;
     }
-}
 
+    public ArrayList<AbsenceDetail> getRanking() {
+        String query = "SELECT sum(minutes), fname, lname\n" +
+                "FROM Absence\n" +
+                "GROUP BY lname, fname\n" +
+                "ORDER BY sum(minutes) desc";
+
+        ArrayList<AbsenceDetail> list = new ArrayList<AbsenceDetail>();
+
+        try {
+            Statement stmt = conn.createStatement();
+            ResultSet res = stmt.executeQuery(query);
+
+            while(res.next()) {
+                String name = res.getString("fname") + " " + res.getString("lname");
+                int time =  res.getInt("sum(minutes)") * 60;
+
+                AbsenceDetail absenceDetail = new AbsenceDetail(name, time, null);
+
+                list.add(absenceDetail);
+            }
+
+            return list;
+        } catch (SQLException e) {
+            LoggerSingleton.getInstance().error("sqliteDB", e.getMessage());
+        }
+
+        return null;
+    }
+}

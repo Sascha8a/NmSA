@@ -31,4 +31,9 @@ public class Model {
         Database db = new DatabaseFactory().getDatabase();
         return db.getAbsenceSummaries();
     }
+
+    ArrayList<AbsenceDetail> getRanking() {
+        Database db = new DatabaseFactory().getDatabase();
+        return db.getRanking();
+    }
 }
