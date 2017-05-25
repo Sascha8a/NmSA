@@ -5,9 +5,9 @@ import java.util.*;
 import java.util.Date;
 
 /**
- * name: Glavanits Marcel
- * matnr.: i14075
- * catnr.: 03
+ * name: Glavanits Marcel & Alexander Lampalzer
+ * matnr.: i14075 & i14085
+ * catnr.: 03 &
  * Created on 04.04.2017
  * file: sqliteDB
  * Class: 3CHIF

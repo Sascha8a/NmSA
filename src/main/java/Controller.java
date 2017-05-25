@@ -16,7 +16,6 @@ public class Controller {
         this.model = new Model();
 
         this.view.startWS();
-        this.view.showView();
 
         LoggerSingleton logger = LoggerSingleton.getInstance();
 

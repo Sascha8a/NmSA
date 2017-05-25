@@ -42,10 +42,8 @@ public class View {
         this.frame.dispose();
     }
 
-    public void showView() {}
-
     public void startWebbrowser() {
-        String url = "localhost";
+        String url = "http://localhost";
 
         if(Desktop.isDesktopSupported()){
             Desktop desktop = Desktop.getDesktop();

@@ -34,6 +34,7 @@ sourceSets {
             include 'db/'
             include 'icons/'
             include 'public/dist/'
+            include 'audio/'
         }
     }
 }
