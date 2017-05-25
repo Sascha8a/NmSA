@@ -8,6 +8,7 @@ public class AbsenceDetail {
     public String name; // Name of the Student. Has be called name because of easier converting to json.
     public int value; // Amount of seconds absent. Value because of converting.
     public Date date;
+    public Integer id;
 
     public AbsenceDetail(String name, int value, Date date) {
         this.name = name;
@@ -17,5 +18,9 @@ public class AbsenceDetail {
 
     public String getDate() {
         return new SimpleDateFormat("YYYY-MM-DD").format(this.date);
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
     }
 }

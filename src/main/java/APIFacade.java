@@ -47,7 +47,7 @@ public class APIFacade extends Observable {
         });
 
         post("/api/test", (req, res) -> {
-            return "YEY!";
+            return "Works properly.!";
         });
 
         post("/api/upload/absences", (req, res) -> {
@@ -145,6 +145,22 @@ public class APIFacade extends Observable {
             });
 
             return gson.toJson(data);
+        });
+
+        get("/api/ranking", (req, res) -> {
+            this.setChanged();
+            this.notifyObservers(req.protocol() + " " + req.ip() + " " + req.pathInfo());
+
+            Gson gson = new GsonBuilder().create();
+            ArrayList<AbsenceDetail> ranking = this.controller.getRanking();
+
+            for (Integer i = 0; i < ranking.size(); i++) {
+                ranking.get(i).setId(i + 1);
+            };
+
+            HashMap<String, ArrayList<AbsenceDetail>> ret = new HashMap();
+            ret.put("data", ranking);
+            return gson.toJson(ret);
         });
     }
 }

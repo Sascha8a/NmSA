@@ -35,4 +35,8 @@ public class Controller {
     public ArrayList<AbsenceDetail> getAbsenceDetails() {
         return this.model.getAbsenceDetails();
     }
+
+    public ArrayList<AbsenceDetail> getRanking() {
+        return this.model.getRanking();
+    }
 }
