@@ -173,6 +173,7 @@ public class APIFacade extends Observable {
 
         get("/api/shutdown", (req, res) -> {
             this.controller.shutdown();
+            return "";
         });
     }
 }
