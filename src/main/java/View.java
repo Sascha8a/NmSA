@@ -19,7 +19,7 @@ public class View {
         JFrame frame = new JFrame("TitleLessJFrame");
         frame.getContentPane().add(new JLabel(imageIcon));
         frame.setUndecorated(true);
-        frame.setSize(300, 225);
+        frame.setSize(400, 300);
         frame.setType(Window.Type.UTILITY);
         frame.setAlwaysOnTop( true );
         frame.setLocationRelativeTo( null );
@@ -32,13 +32,13 @@ public class View {
         port(80);
         staticFileLocation("/public/dist");
         init();
-        startWebbrowser();
         try {
-            Thread.sleep(2000);
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
         this.frame.setVisible(false);
+        startWebbrowser();
         this.frame.dispose();
     }
 

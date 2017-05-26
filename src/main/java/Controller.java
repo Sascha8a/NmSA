@@ -36,10 +36,6 @@ public class Controller {
         this.model.updateTests(path);
     }
 
-    public ArrayList<AbsenceSummary> getAbsenceSummaries() {
-        return this.model.getAbsenceSummaries();
-    }
-
     public ArrayList<AbsenceDetail> getAbsenceDetails() {
         return this.model.getAbsenceDetails();
     }
