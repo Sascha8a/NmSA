@@ -1,7 +1,7 @@
 /**
  * Created by UltraKnecht on 25.05.2017.
  */
-public class SoundThread extends Thread {
+public class SoundThread implements Runnable {
 
     private Thread t;
     private String threadName;

@@ -1,9 +1,9 @@
 import java.util.ArrayList;
-import java.util.HashMap;
 
 /**
  * Created by UltraKnecht on 02.05.2017.
  */
+
 public class Model {
     private Database db;
 

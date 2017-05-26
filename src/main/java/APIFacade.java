@@ -4,16 +4,11 @@ import javax.servlet.MultipartConfigElement;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.InputStream;
-import java.lang.reflect.Array;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.StandardCopyOption;
 import java.util.*;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Observable;
-
 import static spark.Spark.get;
 import static spark.Spark.post;
 
@@ -119,7 +114,7 @@ public class APIFacade extends Observable {
             Gson gson = new GsonBuilder().create();
 
             ArrayList<AbsenceDetail> details = this.controller.getAbsenceDetails();
-            TreeMap<String, AbsenceData> days = new TreeMap<String, AbsenceData>();
+            TreeMap<String, AbsenceData> days = new TreeMap<>();
 
             details.forEach(detail -> {
                 String key = detail.getDate();
@@ -136,11 +131,9 @@ public class APIFacade extends Observable {
                 }
             });
 
-            ArrayList<AbsenceData> data = new ArrayList<AbsenceData>();
+            ArrayList<AbsenceData> data = new ArrayList<>();
 
-            days.forEach((s, absenceData) -> {
-                data.add(absenceData);
-            });
+            days.forEach((s, absenceData) -> data.add(absenceData));
 
             return gson.toJson(data);
         });
@@ -154,7 +147,7 @@ public class APIFacade extends Observable {
 
             for (Integer i = 0; i < ranking.size(); i++) {
                 ranking.get(i).setId(i + 1);
-            };
+            }
 
             HashMap<String, ArrayList<AbsenceDetail>> ret = new HashMap();
             ret.put("data", ranking);

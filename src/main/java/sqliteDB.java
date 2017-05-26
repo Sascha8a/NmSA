@@ -190,7 +190,7 @@ public class sqliteDB implements Database {
         String sql = "SELECT * FROM ?";
         StringBuilder select = new StringBuilder();
         for (String row : rows) {
-            select.append(row + ",");
+            select.append(row).append(",");
         }
 
         String temp = select.substring(0, select.length() - 1);
@@ -220,7 +220,7 @@ public class sqliteDB implements Database {
 
     public ArrayList<AbsenceSummary> getAbsenceSummaries() {
         String query = "select * from Absence";
-        ArrayList<AbsenceSummary> list = new ArrayList<AbsenceSummary>();
+        ArrayList<AbsenceSummary> list = new ArrayList<>();
 
         try {
             Statement stmt = conn.createStatement();
@@ -245,7 +245,7 @@ public class sqliteDB implements Database {
 
     public ArrayList<AbsenceDetail> getAbsenceDetails() {
         String query = "select * from Absence";
-        ArrayList<AbsenceDetail> list = new ArrayList<AbsenceDetail>();
+        ArrayList<AbsenceDetail> list = new ArrayList<>();
 
         try {
             Statement stmt = conn.createStatement();
@@ -262,9 +262,7 @@ public class sqliteDB implements Database {
             }
 
             return list;
-        } catch (SQLException e) {
-            LoggerSingleton.getInstance().error("sqliteDB", e.getMessage());
-        } catch (ParseException e) {
+        } catch (SQLException | ParseException e) {
             LoggerSingleton.getInstance().error("sqliteDB", e.getMessage());
         }
 
@@ -277,7 +275,7 @@ public class sqliteDB implements Database {
                 "GROUP BY lname, fname\n" +
                 "ORDER BY sum(minutes) desc";
 
-        ArrayList<AbsenceDetail> list = new ArrayList<AbsenceDetail>();
+        ArrayList<AbsenceDetail> list = new ArrayList<>();
 
         try {
             Statement stmt = conn.createStatement();
@@ -308,55 +306,21 @@ public class sqliteDB implements Database {
                 "from ABSENCE\n" +
                 "WHERE fname = \"" + fname + "\" AND lname = \"" + lname + "\"\n" +
                 "GROUP BY dayOfWeek";
-
-        int[] arr = new int[6];
-
-        try {
-            Statement stmt = conn.createStatement();
-            ResultSet res = stmt.executeQuery(query);
-
-            while(res.next()) {
-               switch (res.getString("dayOfWeek")) {
-                   case "Mo":
-                       arr[0] = res.getInt("sum(minutes)");
-                       break;
-                   case "Di":
-                       arr[1] = res.getInt("sum(minutes)");
-                       break;
-                   case "Mi":
-                       arr[2] = res.getInt("sum(minutes)");
-                       break;
-                   case "Do":
-                       arr[3] = res.getInt("sum(minutes)");
-                       break;
-                   case "Fr":
-                       arr[4] = res.getInt("sum(minutes)");
-                       break;
-                   case "Sa":
-                       arr[5] = res.getInt("sum(minutes)");
-                       break;
-               }
-            }
-
-            return arr;
-        } catch (SQLException e) {
-            LoggerSingleton.getInstance().error("sqliteDB", e.getMessage());
-        }
-
-        return null;
+        return sumMinutesInWeek(query);
     }
 
     public int[] getAbsenceAverage() {
         String query = "SELECT SUM(minutes), dayOfWeek\n" +
                 "from ABSENCE\n" +
                 "GROUP BY dayOfWeek";
+        return sumMinutesInWeek(query);
+    }
 
-        int[] arr = new int[6];
-
+    public int[] sumMinutesInWeek(String query) {
         try {
             Statement stmt = conn.createStatement();
             ResultSet res = stmt.executeQuery(query);
-
+            int[] arr = new int[6];
             while(res.next()) {
                 switch (res.getString("dayOfWeek")) {
                     case "Mo":

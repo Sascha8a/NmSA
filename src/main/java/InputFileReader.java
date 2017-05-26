@@ -13,8 +13,6 @@ class InputFileReader{
     private Database db;
     private LoggerSingleton logger;
     private ExecutorService pool;
-    private int poolSize = 10;
-    private String absenceFileName;
 
     InputFileReader(Database db) {
         this.pool = Executors.newCachedThreadPool();

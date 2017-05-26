@@ -2,8 +2,6 @@ import java.io.OutputStream;
 import java.io.PrintStream;
 import java.util.ArrayList;
 import java.util.Iterator;
-import java.util.List;
-import java.util.Observable;
 
 class LoggerSingleton {
     public static LoggerSingleton ourInstance = new LoggerSingleton();
