@@ -22,8 +22,7 @@ public class Controller {
     }
 
     public void shutdown() {
-        SoundThread thread = new SoundThread("SoundThread", new Sound(), "end.wav");
-        thread.start();
+        new Thread(new SoundThread("SoundThread", new Sound(), "end.wav")).start();
         stop();
     }
 
