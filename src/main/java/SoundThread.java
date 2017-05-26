@@ -5,28 +5,20 @@ public class SoundThread extends Thread {
 
     private Thread t;
     private String threadName;
+    private String audioName;
     Sound sound;
 
-    SoundThread( String name,  Sound sound) {
+    SoundThread( String name,  Sound sound, String audioName) {
         this.threadName = name;
         this.sound = sound;
+        this.audioName = audioName;
     }
 
 
     @Override
     public void run() {
-        synchronized(this.sound) {
-            this.sound.playSound();
-        }
+        this.sound.playSound(audioName);
         System.out.println("Thread " +  threadName + " exiting.");
     }
 
-
-    public void start () {
-        System.out.println("Starting " +  threadName );
-        if (t == null) {
-            t = new Thread (this, threadName);
-            t.start ();
-        }
-    }
 }

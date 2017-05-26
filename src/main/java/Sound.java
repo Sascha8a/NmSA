@@ -7,10 +7,10 @@ import java.io.IOException;
 public class Sound {
 
 
-    public void playSound() {
+    synchronized void playSound(String audio) {
         AudioInputStream audioInputStream = null;
         try {
-            audioInputStream = AudioSystem.getAudioInputStream(this.getClass().getResource("audio/" + "start.wav"));
+            audioInputStream = AudioSystem.getAudioInputStream(this.getClass().getResource("audio/" + audio));
         } catch (UnsupportedAudioFileException e) {
             e.printStackTrace();
         } catch (IOException e) {
@@ -33,6 +33,14 @@ public class Sound {
         //Starts the clip
         clip.start();
 
+        try{
+            if(audio == "start.wav") {
+                Thread.sleep(6000);
+            }else{
+                Thread.sleep(3000);
+            }
+        }catch(Exception e){System.out.println(e);}
     }
 
 }
+
