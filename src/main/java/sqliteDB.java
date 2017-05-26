@@ -345,4 +345,46 @@ public class sqliteDB implements Database {
 
         return null;
     }
+
+    public int[] getAbsenceAverage() {
+        String query = "SELECT SUM(minutes), dayOfWeek\n" +
+                "from ABSENCE\n" +
+                "GROUP BY dayOfWeek";
+
+        int[] arr = new int[6];
+
+        try {
+            Statement stmt = conn.createStatement();
+            ResultSet res = stmt.executeQuery(query);
+
+            while(res.next()) {
+                switch (res.getString("dayOfWeek")) {
+                    case "Mo":
+                        arr[0] = res.getInt("sum(minutes)");
+                        break;
+                    case "Di":
+                        arr[1] = res.getInt("sum(minutes)");
+                        break;
+                    case "Mi":
+                        arr[2] = res.getInt("sum(minutes)");
+                        break;
+                    case "Do":
+                        arr[3] = res.getInt("sum(minutes)");
+                        break;
+                    case "Fr":
+                        arr[4] = res.getInt("sum(minutes)");
+                        break;
+                    case "Sa":
+                        arr[5] = res.getInt("sum(minutes)");
+                        break;
+                }
+            }
+
+            return arr;
+        } catch (SQLException e) {
+            LoggerSingleton.getInstance().error("sqliteDB", e.getMessage());
+        }
+
+        return null;
+    }
 }

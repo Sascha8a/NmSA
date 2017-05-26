@@ -60,7 +60,7 @@ class LoggerSingleton {
         this.logEntries.add(new LogEntry(message, caller, 3));
     }
 
-    List<LogEntry> getLogEntries() {
+    ArrayList<LogEntry> getLogEntries() {
         Iterator<LogEntry> iterator = this.logEntries.iterator();
         ArrayList<LogEntry> filteredLogEntries = new ArrayList<LogEntry>();
 
