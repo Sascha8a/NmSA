@@ -11,8 +11,14 @@ import static spark.Spark.get;
 import static spark.Spark.post;
 
 /**
- * Created by UltraKnecht on 08.05.2017.
+ * name: Glavanits Marcel & Alexander Lampalzer
+ * matnr.: i14075 & i14085
+ * catnr.: 03 & 10
+ * Created on 08.05.2017
+ * file: APIFacade
+ * Class: 3CHIF
  */
+
 public class APIFacade extends Observable {
 
     private Controller controller;
@@ -23,7 +29,7 @@ public class APIFacade extends Observable {
         this.defineEndpoints();
     }
 
-    public void defineEndpoints() {
+    private void defineEndpoints() {
         File uploadDir = new File("upload");
         uploadDir.mkdir();
 
@@ -32,14 +38,12 @@ public class APIFacade extends Observable {
             this.notifyObservers(req.protocol() + " " + req.ip() + " " + req.pathInfo());
 
             Gson gson = new GsonBuilder().create();
-            HashMap<String, List<LogEntry>> ret = new HashMap();
+            HashMap ret = new HashMap();
             ret.put("data", LoggerSingleton.getInstance().getLogEntries());
             return gson.toJson(ret);
         });
 
-        post("/api/test", (req, res) -> {
-            return "Works properly.!";
-        });
+        post("/api/test", (req, res) -> "Works properly.!");
 
         post("/api/upload/absences", (req, res) -> {
 
@@ -147,7 +151,7 @@ public class APIFacade extends Observable {
                 ranking.get(i).setId(i + 1);
             }
 
-            HashMap<String, ArrayList<AbsenceDetail>> ret = new HashMap();
+            HashMap ret = new HashMap();
             ret.put("data", ranking);
             return gson.toJson(ret);
         });

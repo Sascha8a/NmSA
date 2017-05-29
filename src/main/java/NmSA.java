@@ -1,3 +1,11 @@
+/**
+ * name: Glavanits Marcel & Alexander Lampalzer
+ * matnr.: i14075 & i14085
+ * catnr.: 03 & 10
+ * Created on 04.04.2017
+ * file: NmSA
+ * Class: 3CHIF
+ */
 
 public class NmSA {
     public static void main(String[] args) {

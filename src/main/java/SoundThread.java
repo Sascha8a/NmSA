@@ -1,12 +1,17 @@
 /**
- * Created by UltraKnecht on 25.05.2017.
+ * name: Glavanits Marcel & Alexander Lampalzer
+ * matnr.: i14075 & i14085
+ * catnr.: 03 & 10
+ * Created on 16.05.2017
+ * file: SoundThread
+ * Class: 3CHIF
  */
+
 public class SoundThread implements Runnable {
 
-    private Thread t;
     private String threadName;
     private String audioName;
-    Sound sound;
+    private Sound sound;
 
     SoundThread( String name,  Sound sound, String audioName) {
         this.threadName = name;

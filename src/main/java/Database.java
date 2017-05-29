@@ -1,13 +1,14 @@
 import java.util.ArrayList;
 
 /**
- * name: Glavanits Marcel
- * matnr.: i14075
- * catnr.: 03
+ * name: Glavanits Marcel & Alexander Lampalzer
+ * matnr.: i14075 & i14085
+ * catnr.: 03 & 10
  * Created on 04.04.2017
  * file: Database
  * Class: 3CHIF
  */
+
 
 public interface Database {
     void createTables();
@@ -17,7 +18,6 @@ public interface Database {
     void createTest();
     void insertTest(String date, String kind, String desc, String timeBegin, String timeEnd, String subject);
     ArrayList<AbsenceDetail> getRanking();
-    ArrayList<AbsenceSummary> getAbsenceSummaries();
     ArrayList<AbsenceDetail> getAbsenceDetails();
     int[] getAbsencePerDay(String name);
 }

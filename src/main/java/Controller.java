@@ -1,10 +1,15 @@
 import java.util.ArrayList;
-
 import static spark.Spark.stop;
 
 /**
- * Created by UltraKnecht on 02.05.2017.
+ * name: Glavanits Marcel & Alexander Lampalzer
+ * matnr.: i14075 & i14085
+ * catnr.: 03 & 10
+ * Created on 02.05.2017
+ * file: Controller
+ * Class: 3CHIF
  */
+
 public class Controller {
 
     private View view;
@@ -26,23 +31,23 @@ public class Controller {
         stop();
     }
 
-    public void updateAbsence(String path) {
+    void updateAbsence(String path) {
         this.model.updateAbsence(path);
     }
 
-    public void updateTests(String path) {
+    void updateTests(String path) {
         this.model.updateTests(path);
     }
 
-    public ArrayList<AbsenceDetail> getAbsenceDetails() {
+    ArrayList<AbsenceDetail> getAbsenceDetails() {
         return this.model.getAbsenceDetails();
     }
 
-    public ArrayList<AbsenceDetail> getRanking() {
+    ArrayList<AbsenceDetail> getRanking() {
         return this.model.getRanking();
     }
 
-    public int[] getAbsencePerDay(String name) {
+    int[] getAbsencePerDay(String name) {
         return  this.model.getAbsencePerDay(name);
     }
 }
