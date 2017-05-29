@@ -1,16 +1,22 @@
-
 import javax.swing.*;
 import java.awt.*;
-import java.io.File;
 import java.io.IOException;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.net.URL;
-
 import static spark.Spark.*;
 
+/**
+ * name: Glavanits Marcel & Alexander Lampalzer
+ * matnr.: i14075 & i14085
+ * catnr.: 03 & 10
+ * Created on 20.04.2017
+ * file: View
+ * Class: 3CHIF
+ */
+
 public class View {
-    JFrame frame;
+    private JFrame frame;
 
     public View() {
         URL url = NmSA.class.getResource("/icons/loading-gif.gif");
@@ -28,7 +34,7 @@ public class View {
         this.frame = frame;
     }
 
-    public void startWS() {
+    void startWS() {
         port(80);
         staticFileLocation("/public/dist");
         init();
@@ -42,7 +48,7 @@ public class View {
         this.frame.dispose();
     }
 
-    public void startWebbrowser() {
+    private void startWebbrowser() {
         String url = "http://localhost";
 
         if(Desktop.isDesktopSupported()){

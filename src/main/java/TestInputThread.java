@@ -1,6 +1,12 @@
 /**
- * Created by UltraKnecht on 26.05.2017.
+ * name: Glavanits Marcel & Alexander Lampalzer
+ * matnr.: i14075 & i14085
+ * catnr.: 03 & 10
+ * Created on 26.05.2017
+ * file: TestInputThread
+ * Class: 3CHIF
  */
+
 public class TestInputThread implements Runnable{
 
     private Database db;

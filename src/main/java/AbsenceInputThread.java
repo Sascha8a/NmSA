@@ -1,7 +1,12 @@
-
 /**
- * Created by UltraKnecht on 26.05.2017.
+ * name: Glavanits Marcel & Alexander Lampalzer
+ * matnr.: i14075 & i14085
+ * catnr.: 03 & 10
+ * Created on 26.05.2017
+ * file: AbsenceInputThread
+ * Class: 3CHIF
  */
+
 public class AbsenceInputThread implements Runnable {
     private Database db;
     private String fname;

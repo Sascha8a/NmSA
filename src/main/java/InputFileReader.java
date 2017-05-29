@@ -8,6 +8,15 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
+/**
+ * name: Glavanits Marcel & Alexander Lampalzer
+ * matnr.: i14075 & i14085
+ * catnr.: 03 & 10
+ * Created on 04.04.2017
+ * file: InputFileReader
+ * Class: 3CHIF
+ */
+
 class InputFileReader{
 
     private Database db;

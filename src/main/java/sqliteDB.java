@@ -7,7 +7,7 @@ import java.util.Date;
 /**
  * name: Glavanits Marcel & Alexander Lampalzer
  * matnr.: i14075 & i14085
- * catnr.: 03 &
+ * catnr.: 03 & 10
  * Created on 04.04.2017
  * file: sqliteDB
  * Class: 3CHIF
@@ -160,8 +160,8 @@ public class sqliteDB implements Database {
                 + " DateOfTest DATE NOT NULL, \n"
                 + " Kind VARCHAR(15) NOT NULL, \n"
                 + " Name VARCHAR(15) NOT NULL, \n"
-                + "	TimeBegin VARCHAR(15),\n"
-                + "	TimeEnd VARCHAR(15),\n"
+                + "	TimeBegin DATE NOT NULL,\n"
+                + "	TimeEnd DATE NOT NULL,\n"
                 + "	Subject VARCHAR(5)"
                 + ");";
 
@@ -205,40 +205,6 @@ public class sqliteDB implements Database {
         }
     }
 
-    /**
-     * select rows in a table
-     */
-    public void selectRows(String[] rows, String table) {
-        String sql = "SELECT * FROM ?";
-        StringBuilder select = new StringBuilder();
-        for (String row : rows) {
-            select.append(row).append(",");
-        }
-
-        String temp = select.substring(0, select.length() - 1);
-        sql = sql.replace("*", temp);
-        sql = sql.replace("?", table);
-        try {
-            Statement stmt = conn.createStatement();
-            ResultSet rs = stmt.executeQuery(sql);
-            // loop through the result set
-            System.out.println("------------------------------------------------------------");
-            System.out.println("Result: Table " + table);
-            for (String row : rows) {
-                System.out.printf(row + "|");
-            }
-            System.out.println();
-            while (rs.next()) {
-                for (String row : rows) {
-                    System.out.printf(rs.getObject(row) + "|");
-                }
-                System.out.println();
-            }
-            System.out.println("------------------------------------------------------------");
-        } catch (SQLException e) {
-            System.out.println(e.getMessage());
-        }
-    }
 
     public ArrayList<AbsenceSummary> getAbsenceSummaries() {
         String query = "select * from Absence";
@@ -331,12 +297,6 @@ public class sqliteDB implements Database {
         return sumMinutesInWeek(query);
     }
 
-    public int[] getAbsenceAverage() {
-        String query = "SELECT SUM(minutes), dayOfWeek\n" +
-                "from ABSENCE\n" +
-                "GROUP BY dayOfWeek";
-        return sumMinutesInWeek(query);
-    }
 
     public int getAmountTestPresent(String name) {
         String fname = name.split(" ")[0];
