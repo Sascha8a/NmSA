@@ -1,5 +1,4 @@
-import java.io.FileNotFoundException;
-import java.io.FileReader;
+import java.io.*;
 import java.text.ParseException;
 import java.util.Arrays;
 import java.util.List;
@@ -60,28 +59,22 @@ class InputFileReader{
 
     private boolean checkAbsenceHeader(String header){
         List<String> data = Arrays.asList(header.split("\\t"));
-        if( Objects.equals(data.get(0), "Schüler") &&
-          (Objects.equals(data.get(10), "Abwesenheitsgrund")) &&
-          (Objects.equals(data.get(16), "Stundennr.")) &&
-          (Objects.equals(data.get(4), "Datum")) &&
-          (Objects.equals(data.get(5), "Wochentag")) &&
-          (Objects.equals(data.get(7), "Fehlmin."))){
-            return true;
-        }
-        return false;
+        return Objects.equals(data.get(0), "Schüler") &&
+                (Objects.equals(data.get(10), "Abwesenheitsgrund")) &&
+                (Objects.equals(data.get(16), "Stundennr.")) &&
+                (Objects.equals(data.get(4), "Datum")) &&
+                (Objects.equals(data.get(5), "Wochentag")) &&
+                (Objects.equals(data.get(7), "Fehlmin."));
     }
 
     private boolean checkTestsHeader(String header){
         List<String> data = Arrays.asList(header.split("\\t"));
-        if( Objects.equals(data.get(4), "Datum") &&
+        return Objects.equals(data.get(4), "Datum") &&
                 (Objects.equals(data.get(0), "Art")) &&
                 (Objects.equals(data.get(1), "Name")) &&
                 (Objects.equals(data.get(5), "Von")) &&
                 (Objects.equals(data.get(6), "Bis")) &&
-                (Objects.equals(data.get(8), "Fach"))){
-            return true;
-        }
-        return false;
+                (Objects.equals(data.get(8), "Fach"));
     }
 
     /**
@@ -91,7 +84,7 @@ class InputFileReader{
     void readInsertAbsence(String path) {
         //read lines and insert into AbsenceSummary
         try {
-            Scanner sc = new Scanner(new FileReader(path));
+            Scanner sc = new Scanner(new InputStreamReader(new FileInputStream(path), "UTF8"));
             String header = sc.nextLine();
             if(checkAbsenceHeader(header)) {
                 while (sc.hasNextLine()) {
