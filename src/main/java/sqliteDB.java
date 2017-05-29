@@ -75,7 +75,7 @@ public class sqliteDB implements Database {
 
     /**
      *
-     * Connect to a sample database
+     * Connect to the NmSA database
      */
     public void createNewDatabase() {
 
@@ -203,32 +203,6 @@ public class sqliteDB implements Database {
         } catch (SQLException e) {
             this.printErrorIfRelevant(e);
         }
-    }
-
-
-    public ArrayList<AbsenceSummary> getAbsenceSummaries() {
-        String query = "select * from Absence";
-        ArrayList<AbsenceSummary> list = new ArrayList<>();
-
-        try {
-            Statement stmt = conn.createStatement();
-            ResultSet res = stmt.executeQuery(query);
-
-            while(res.next()) {
-                String name = res.getString("fname") + res.getString("lname");
-                int time =  res.getInt("minutes") * 60;
-
-                AbsenceSummary absenceSummary = new AbsenceSummary(name, time);
-
-                list.add(absenceSummary);
-            }
-
-            return list;
-        } catch (SQLException e) {
-            LoggerSingleton.getInstance().error("sqliteDB", e.getMessage());
-        }
-
-        return null;
     }
 
     public ArrayList<AbsenceDetail> getAbsenceDetails() {
