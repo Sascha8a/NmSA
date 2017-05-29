@@ -42,4 +42,19 @@ public class Model {
         Database db = new DatabaseFactory().getDatabase();
         return db.getAbsencePerDay(name);
     }
+
+    public int getAmountTestPresent(String name) {
+        Database db = new DatabaseFactory().getDatabase();
+        return db.getAmountTestPresent(name);
+    }
+
+    public int getTestAmount() {
+        Database db = new DatabaseFactory().getDatabase();
+        return db.getTestAmount();
+    }
+
+    public int[] getMonthAverage() {
+        Database db = new DatabaseFactory().getDatabase();
+        return db.getMonthAverage();
+    }
 }

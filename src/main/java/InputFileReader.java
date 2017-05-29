@@ -118,13 +118,20 @@ class InputFileReader{
     void readInsertTests(String path) {
         //read lines and insert into AbsenceSummary
         try {
-            Scanner sc = new Scanner(new FileReader(path));
+            Scanner sc = new Scanner(new InputStreamReader(new FileInputStream(path), "UTF8"));
             String header = sc.nextLine();
             if(checkTestsHeader(header)) {
                 while (sc.hasNextLine()) {
                     String line = sc.nextLine();
                     List<String> data = Arrays.asList(line.split("\\t"));
                     pool.execute(new TestInputThread(db, data.get(4), data.get(0), data.get(1), data.get(5), data.get(6), data.get(8)));
+                }
+
+                pool.shutdown();
+                try {
+                    pool.awaitTermination(60000, TimeUnit.SECONDS);
+                } catch (InterruptedException e) {
+
                 }
             }
             sc.close();

@@ -53,8 +53,7 @@ public class sqliteDB implements Database {
 
 
     public void dropTables() {
-        String sql = "DROP TABLE IF EXISTS Absence;\n" +
-                "DROP TABLE IF EXISTS Test;";
+        String sql = "DROP TABLE IF EXISTS Absence;";
 
         try (Statement stmt = conn.createStatement()) {
             // create a new table
@@ -62,6 +61,16 @@ public class sqliteDB implements Database {
         } catch (SQLException e) {
             System.out.println("Failed to drop tables");
         }
+
+        String sql2 = "DROP TABLE IF EXISTS Test;";
+
+        try (Statement stmt = conn.createStatement()) {
+            // create a new table
+            stmt.execute(sql2);
+        } catch (SQLException e) {
+            System.out.println("Failed to drop tables");
+        }
+
     }
 
     /**
@@ -120,6 +129,12 @@ public class sqliteDB implements Database {
     public void insertAbsence( String fname, String lname, String cause, String dateTime, String dayOfWeek, int minutes) {
         String sql = "INSERT INTO Absence(fname,lname,cause,dateTime,dayOfWeek,minutes) VALUES(?,?,?,?,?,?)";
 
+        try {
+            dateTime = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new SimpleDateFormat("dd.MM.yy HH:mm").parse(dateTime));
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+
         try (PreparedStatement pstmt = conn.prepareStatement(sql)) {
             pstmt.setString(1, fname);
             pstmt.setString(2, lname);
@@ -170,6 +185,13 @@ public class sqliteDB implements Database {
      */
     public void insertTest(String date, String kind, String desc, String timeBegin, String timeEnd, String subject) {
         String sql = "INSERT INTO Test(DateOfTest,Kind,Name,TimeBegin,TimeEnd,Subject) VALUES(?,?,?,?,?,?)";
+
+        try {
+            date = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new SimpleDateFormat("dd.MM.yyyy").parse(date));
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+
         try (PreparedStatement pstmt = conn.prepareStatement(sql)) {
             pstmt.setObject(1, date);
             pstmt.setObject(2, kind);
@@ -314,6 +336,81 @@ public class sqliteDB implements Database {
                 "from ABSENCE\n" +
                 "GROUP BY dayOfWeek";
         return sumMinutesInWeek(query);
+    }
+
+    public int getAmountTestPresent(String name) {
+        String fname = name.split(" ")[0];
+        String lname = name.split(" ")[1];
+
+        String query = "select count(*)\n" +
+                "from Test\n" +
+                "where date(Test.DateOfTest) in (select distinct date(Absence.dateTime)\n" +
+                "from Absence\n" +
+                "WHERE fname = \"" + fname + "\" AND lname = \"" + lname + "\"\n" +
+                ")\n" +
+                ";";
+
+        try {
+            Statement stmt = conn.createStatement();
+            ResultSet res = stmt.executeQuery(query);
+
+            while(res.next()) {
+                int amount =  res.getInt("count(*)");
+                return amount;
+            }
+        } catch (SQLException e) {
+            LoggerSingleton.getInstance().error("sqliteDB", e.getMessage());
+        }
+
+        return 0;
+    }
+
+    public int getTestAmount() {
+
+        String query = "select count(*)\n" +
+                "from Test\n" +
+                ";";
+
+        try {
+            Statement stmt = conn.createStatement();
+            ResultSet res = stmt.executeQuery(query);
+
+            while(res.next()) {
+                int amount =  res.getInt("count(*)");
+                return amount;
+            }
+        } catch (SQLException e) {
+            LoggerSingleton.getInstance().error("sqliteDB", e.getMessage());
+        }
+
+        return 0;
+    }
+
+    public int[] getMonthAverage() {
+
+        String query = "select strftime('%Y-%m', dateTime) yr_mon, count(*)\n" +
+                "from Absence \n" +
+                "group by yr_mon;";
+
+        int[] list = new int[9];
+
+        try {
+            Statement stmt = conn.createStatement();
+            ResultSet res = stmt.executeQuery(query);
+
+            int i = 0;
+            while(res.next()) {
+                int amount =  res.getInt("count(*)");
+                list[i] = amount;
+                i++;
+            }
+
+            return list;
+        } catch (SQLException e) {
+            LoggerSingleton.getInstance().error("sqliteDB", e.getMessage());
+        }
+
+        return new int[9];
     }
 
     public int[] sumMinutesInWeek(String query) {

@@ -20,5 +20,8 @@ public interface Database {
     ArrayList<AbsenceSummary> getAbsenceSummaries();
     ArrayList<AbsenceDetail> getAbsenceDetails();
     int[] getAbsencePerDay(String name);
+    int getAmountTestPresent(String name);
+    int getTestAmount();
+    int[] getMonthAverage();
 }
 

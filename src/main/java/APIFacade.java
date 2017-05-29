@@ -100,7 +100,7 @@ public class APIFacade extends Observable {
             this.setChanged();
             this.notifyObservers(req.protocol() + " " + req.ip() + " " + req.pathInfo());
 
-            this.controller.updateTests(uploadDir.getAbsolutePath() + "\\absences.txt");
+            this.controller.updateTests(uploadDir.getAbsolutePath() + "\\timetable.txt");
 
             return "Upload successful.";
         });
@@ -152,6 +152,15 @@ public class APIFacade extends Observable {
             return gson.toJson(ret);
         });
 
+        get("/api/month/absence", (req, res) -> {
+            this.setChanged();
+            this.notifyObservers(req.protocol() + " " + req.ip() + " " + req.pathInfo());
+
+            Gson gson = new GsonBuilder().create();
+
+            return gson.toJson(this.controller.getMonthAverage()); <
+        });
+
         get("/api/user/allocation/:name", (req, res) -> {
             this.setChanged();
             this.notifyObservers(req.protocol() + " " + req.ip() + " " + req.pathInfo());
@@ -161,6 +170,18 @@ public class APIFacade extends Observable {
             this.controller.getAbsencePerDay(req.params("name"));
 
             return gson.toJson(this.controller.getAbsencePerDay(req.params("name")));
+        });
+
+        get("/api/user/testPresent/:name", (req, res) -> {
+            this.setChanged();
+            this.notifyObservers(req.protocol() + " " + req.ip() + " " + req.pathInfo());
+
+            Gson gson = new GsonBuilder().create();
+
+            int notPresent = this.controller.getAmountTestPresent(req.params("name"));
+            int present = this.controller.getTestAmount() - notPresent;
+
+            return "[" + present + "," + notPresent + "]";
         });
 
         get("/api/shutdown", (req, res) -> {

@@ -24,6 +24,7 @@ public class Controller {
     public void shutdown() {
         new Thread(new SoundThread("SoundThread", new Sound(), "end.wav")).start();
         stop();
+        System.exit(0);
     }
 
     public void updateAbsence(String path) {
@@ -44,5 +45,17 @@ public class Controller {
 
     public int[] getAbsencePerDay(String name) {
         return  this.model.getAbsencePerDay(name);
+    }
+
+    public int getAmountTestPresent(String name) {
+        return  this.model.getAmountTestPresent(name);
+    }
+
+    public int getTestAmount() {
+        return  this.model.getTestAmount();
+    }
+
+    public int[] getMonthAverage() {
+        return this.model.getMonthAverage();
     }
 }

@@ -1,7 +1,7 @@
-SchÃ¼ler	Externe Id	Text	Klasse	Datum	Wochentag	Fehlstd.	Fehlmin.	Lehrer	Fach	Abwesenheitsgrund	Text	ENr	Erledigt	Abwesenheit zÃ¤hlt	Entschuldigungstext	Stundennr.	Status
+Schüler	Externe Id	Text	Klasse	Datum	Wochentag	Fehlstd.	Fehlmin.	Lehrer	Fach	Abwesenheitsgrund	Text	ENr	Erledigt	Abwesenheit zählt	Entschuldigungstext	Stundennr.	Status
 BULUT Yunus	30441720140908		3CHIF	15.09.16	Do	1	50	SG	D	 Krankheit		124050	16.09.16	true		5	entsch.
 BULUT Yunus	30441720140908		3CHIF	15.09.16	Do	1	50	SG	GGP	 Krankheit		124050	16.09.16	true		6	entsch.
-BULUT Yunus	30441720140908		3CHIF	27.09.16	Di	1	50	HZ	BESP	 VerspÃ¤tung wegen Bus, Zug, ...		125432	06.10.16	true		1	entsch.
+BULUT Yunus	30441720140908		3CHIF	27.09.16	Di	1	50	HZ	BESP	 Verspätung wegen Bus, Zug, ...		125432	06.10.16	true		1	entsch.
 BULUT Yunus	30441720140908		3CHIF	28.09.16	Mi	1	50	BUG	DBI_1	 Krankheit		125433	06.10.16	true		8	entsch.
 BULUT Yunus	30441720140908		3CHIF	04.10.16	Di	1	50	HZ	BESP	 Krankheit		125434	06.10.16	true		1	entsch.
 BULUT Yunus	30441720140908		3CHIF	04.10.16	Di	1	50	TN	BWM_2	 Krankheit		125434	06.10.16	true		8	entsch.
@@ -10,21 +10,21 @@ BULUT Yunus	30441720140908		3CHIF	04.10.16	Di	1	50	CY	NVS1	 Krankheit		125434	06
 BULUT Yunus	30441720140908		3CHIF	04.10.16	Di	1	50	CY	NVS1	 Krankheit		125434	06.10.16	true		5	entsch.
 BULUT Yunus	30441720140908		3CHIF	04.10.16	Di	1	50	HUT	NW2	 Krankheit		125434	06.10.16	true		7	entsch.
 BULUT Yunus	30441720140908		3CHIF	04.10.16	Di	1	50	BER	TINF_1	 Krankheit		125434	06.10.16	true		3	entsch.
-BULUT Yunus	30441720140908		3CHIF	11.10.16	Di	1	50	HZ	BESP	 FamiliÃ¤re GrÃ¼nde (Hochzeit, BegrÃ¤bnis,...)		126539	14.10.16	true		1	entsch.
-BULUT Yunus	30441720140908		3CHIF	11.10.16	Di	1	50	TN	BWM_2	 FamiliÃ¤re GrÃ¼nde (Hochzeit, BegrÃ¤bnis,...)		126539	14.10.16	true		8	entsch.
-BULUT Yunus	30441720140908		3CHIF	11.10.16	Di	1	50	RU	E1	 FamiliÃ¤re GrÃ¼nde (Hochzeit, BegrÃ¤bnis,...)		126539	14.10.16	true		2	entsch.
-BULUT Yunus	30441720140908		3CHIF	11.10.16	Di	1	50	CY	NVS1	 FamiliÃ¤re GrÃ¼nde (Hochzeit, BegrÃ¤bnis,...)		126539	14.10.16	true		4	entsch.
-BULUT Yunus	30441720140908		3CHIF	11.10.16	Di	1	50	CY	NVS1	 FamiliÃ¤re GrÃ¼nde (Hochzeit, BegrÃ¤bnis,...)		126539	14.10.16	true		5	entsch.
-BULUT Yunus	30441720140908		3CHIF	11.10.16	Di	1	50	HUT	NW2	 FamiliÃ¤re GrÃ¼nde (Hochzeit, BegrÃ¤bnis,...)		126539	14.10.16	true		7	entsch.
-BULUT Yunus	30441720140908		3CHIF	11.10.16	Di	1	50	HP	POS1	 FamiliÃ¤re GrÃ¼nde (Hochzeit, BegrÃ¤bnis,...)		126539	14.10.16	true		9	entsch.
-BULUT Yunus	30441720140908		3CHIF	11.10.16	Di	1	50	HP	POS1	 FamiliÃ¤re GrÃ¼nde (Hochzeit, BegrÃ¤bnis,...)		126539	14.10.16	true		10	entsch.
-BULUT Yunus	30441720140908		3CHIF	11.10.16	Di	1	50	BER	TINF_1	 FamiliÃ¤re GrÃ¼nde (Hochzeit, BegrÃ¤bnis,...)		126539	14.10.16	true		3	entsch.
+BULUT Yunus	30441720140908		3CHIF	11.10.16	Di	1	50	HZ	BESP	 Familiäre Gründe (Hochzeit, Begräbnis,...)		126539	14.10.16	true		1	entsch.
+BULUT Yunus	30441720140908		3CHIF	11.10.16	Di	1	50	TN	BWM_2	 Familiäre Gründe (Hochzeit, Begräbnis,...)		126539	14.10.16	true		8	entsch.
+BULUT Yunus	30441720140908		3CHIF	11.10.16	Di	1	50	RU	E1	 Familiäre Gründe (Hochzeit, Begräbnis,...)		126539	14.10.16	true		2	entsch.
+BULUT Yunus	30441720140908		3CHIF	11.10.16	Di	1	50	CY	NVS1	 Familiäre Gründe (Hochzeit, Begräbnis,...)		126539	14.10.16	true		4	entsch.
+BULUT Yunus	30441720140908		3CHIF	11.10.16	Di	1	50	CY	NVS1	 Familiäre Gründe (Hochzeit, Begräbnis,...)		126539	14.10.16	true		5	entsch.
+BULUT Yunus	30441720140908		3CHIF	11.10.16	Di	1	50	HUT	NW2	 Familiäre Gründe (Hochzeit, Begräbnis,...)		126539	14.10.16	true		7	entsch.
+BULUT Yunus	30441720140908		3CHIF	11.10.16	Di	1	50	HP	POS1	 Familiäre Gründe (Hochzeit, Begräbnis,...)		126539	14.10.16	true		9	entsch.
+BULUT Yunus	30441720140908		3CHIF	11.10.16	Di	1	50	HP	POS1	 Familiäre Gründe (Hochzeit, Begräbnis,...)		126539	14.10.16	true		10	entsch.
+BULUT Yunus	30441720140908		3CHIF	11.10.16	Di	1	50	BER	TINF_1	 Familiäre Gründe (Hochzeit, Begräbnis,...)		126539	14.10.16	true		3	entsch.
 BULUT Yunus	30441720140908		3CHIF	07.11.16	Mo	1	50	HL	AM	 Krankheit		129423	21.11.16	true		9	entsch.
 BULUT Yunus	30441720140908		3CHIF	07.11.16	Mo	1	50	BUG	DBI_1	 Krankheit		129423	21.11.16	true		8	entsch.
-BULUT Yunus	30441720140908		3CHIF	10.11.16	Do	0	15	HL	AM	 VerspÃ¤tung wegen Bus, Zug, ...		130560	30.11.16	true		1	entsch.
-BULUT Yunus	30441720140908		3CHIF	21.11.16	Mo	1	39	BUG	DBI_1	 VerspÃ¤tung wegen Bus, Zug, ...		129424	21.11.16	true		3	entsch.
-BULUT Yunus	30441720140908		3CHIF	21.11.16	Mo	1	50	RU	E1	 VerspÃ¤tung wegen Bus, Zug, ...		129424	21.11.16	true		2	entsch.
-BULUT Yunus	30441720140908		3CHIF	21.11.16	Mo	1	50	TB	NVS1	 VerspÃ¤tung wegen Bus, Zug, ...		129424	21.11.16	true		1	entsch.
+BULUT Yunus	30441720140908		3CHIF	10.11.16	Do	0	15	HL	AM	 Verspätung wegen Bus, Zug, ...		130560	30.11.16	true		1	entsch.
+BULUT Yunus	30441720140908		3CHIF	21.11.16	Mo	1	39	BUG	DBI_1	 Verspätung wegen Bus, Zug, ...		129424	21.11.16	true		3	entsch.
+BULUT Yunus	30441720140908		3CHIF	21.11.16	Mo	1	50	RU	E1	 Verspätung wegen Bus, Zug, ...		129424	21.11.16	true		2	entsch.
+BULUT Yunus	30441720140908		3CHIF	21.11.16	Mo	1	50	TB	NVS1	 Verspätung wegen Bus, Zug, ...		129424	21.11.16	true		1	entsch.
 BULUT Yunus	30441720140908		3CHIF	25.11.16	Fr	1	50	SG	D	 Krankheit		130561	30.11.16	true		2	entsch.
 BULUT Yunus	30441720140908		3CHIF	25.11.16	Fr	1	50	PZ	GGP	 Krankheit		130561	30.11.16	true		6	entsch.
 BULUT Yunus	30441720140908		3CHIF	25.11.16	Fr	1	50	SM (HP)	POS1	 Krankheit		130561	30.11.16	true		3	entsch.
@@ -36,24 +36,24 @@ BULUT Yunus	30441720140908		3CHIF	28.11.16	Mo	1	50	BUG	DBI_1	 Krankheit		130562	
 BULUT Yunus	30441720140908		3CHIF	28.11.16	Mo	1	50	RU	E1	 Krankheit		130562	30.11.16	true		2	entsch.
 BULUT Yunus	30441720140908		3CHIF	28.11.16	Mo	1	50	BUG (HP)	POS1	 Krankheit		130562	30.11.16	true		6	entsch.
 BULUT Yunus	30441720140908		3CHIF	28.11.16	Mo	1	50	BER	TINF_1	 Krankheit		130562	30.11.16	true		4	entsch.
-BULUT Yunus	30441720140908		3CHIF	30.11.16	Mi	1	50	HUT	NW2	 Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		131182	05.12.16	true		6	entsch.
-BULUT Yunus	30441720140908		3CHIF	20.12.16	Di	1	50	BUG	DBI_1	 VerspÃ¤tung wegen Bus, Zug, ...		134225	23.12.16	true		1	entsch.
-BULUT Yunus	30441720140908		3CHIF	20.12.16	Di	0	13	RU	E1	 VerspÃ¤tung wegen Bus, Zug, ...		134225	23.12.16	true		2	entsch.
+BULUT Yunus	30441720140908		3CHIF	30.11.16	Mi	1	50	HUT	NW2	 Amtswege (Führerscheinprüfung, Musterung,...)		131182	05.12.16	true		6	entsch.
+BULUT Yunus	30441720140908		3CHIF	20.12.16	Di	1	50	BUG	DBI_1	 Verspätung wegen Bus, Zug, ...		134225	23.12.16	true		1	entsch.
+BULUT Yunus	30441720140908		3CHIF	20.12.16	Di	0	13	RU	E1	 Verspätung wegen Bus, Zug, ...		134225	23.12.16	true		2	entsch.
 BULUT Yunus	30441720140908		3CHIF	22.12.16	Do	1	50	SG	D	 Krankheit		134227	23.12.16	true		5	entsch.
 BULUT Yunus	30441720140908		3CHIF	22.12.16	Do	1	50	BUG	DBI_1	 Krankheit		134227	23.12.16	true		3	entsch.
 BULUT Yunus	30441720140908		3CHIF	22.12.16	Do	1	50	SG	GGP	 Krankheit		134227	23.12.16	true		6	entsch.
-BULUT Yunus	30441720140908		3CHIF	09.01.17	Mo	1	50	HL	AM	 FamiliÃ¤re GrÃ¼nde (Hochzeit, BegrÃ¤bnis,...)		134479	09.01.17	true		9	entsch.
-BULUT Yunus	30441720140908		3CHIF	09.01.17	Mo	1	50	BUG	DBI_1	 FamiliÃ¤re GrÃ¼nde (Hochzeit, BegrÃ¤bnis,...)		134479	09.01.17	true		3	entsch.
-BULUT Yunus	30441720140908		3CHIF	09.01.17	Mo	1	50	BUG	DBI_1	 FamiliÃ¤re GrÃ¼nde (Hochzeit, BegrÃ¤bnis,...)		134479	09.01.17	true		8	entsch.
-BULUT Yunus	30441720140908		3CHIF	09.01.17	Mo	1	50	RU	E1	 FamiliÃ¤re GrÃ¼nde (Hochzeit, BegrÃ¤bnis,...)		134479	09.01.17	true		2	entsch.
-BULUT Yunus	30441720140908		3CHIF	09.01.17	Mo	1	50	TB	NVS1	 FamiliÃ¤re GrÃ¼nde (Hochzeit, BegrÃ¤bnis,...)		134479	09.01.17	true		1	entsch.
-BULUT Yunus	30441720140908		3CHIF	09.01.17	Mo	1	50	HP	POS1	 FamiliÃ¤re GrÃ¼nde (Hochzeit, BegrÃ¤bnis,...)		134479	09.01.17	true		5	entsch.
-BULUT Yunus	30441720140908		3CHIF	09.01.17	Mo	1	50	HP	POS1	 FamiliÃ¤re GrÃ¼nde (Hochzeit, BegrÃ¤bnis,...)		134479	09.01.17	true		6	entsch.
-BULUT Yunus	30441720140908		3CHIF	09.01.17	Mo	1	50	BER	TINF_1	 FamiliÃ¤re GrÃ¼nde (Hochzeit, BegrÃ¤bnis,...)		134479	09.01.17	true		7	entsch.
-BULUT Yunus	30441720140908		3CHIF	10.01.17	Di	1	50	CY	NVS1	 FamiliÃ¤re GrÃ¼nde (Hochzeit, BegrÃ¤bnis,...)		135065	13.01.17	true		4	entsch.
-BULUT Yunus	30441720140908		3CHIF	10.01.17	Di	1	50	CY	NVS1	 FamiliÃ¤re GrÃ¼nde (Hochzeit, BegrÃ¤bnis,...)		135065	13.01.17	true		5	entsch.
-BULUT Yunus	30441720140908		3CHIF	10.01.17	Di	1	50	HUT	NW2	 FamiliÃ¤re GrÃ¼nde (Hochzeit, BegrÃ¤bnis,...)		135065	13.01.17	true		7	entsch.
-BULUT Yunus	30441720140908		3CHIF	11.01.17	Mi	1	50	HUT	NW2	 FamiliÃ¤re GrÃ¼nde (Hochzeit, BegrÃ¤bnis,...)		135066	13.01.17	true		6	entsch.
+BULUT Yunus	30441720140908		3CHIF	09.01.17	Mo	1	50	HL	AM	 Familiäre Gründe (Hochzeit, Begräbnis,...)		134479	09.01.17	true		9	entsch.
+BULUT Yunus	30441720140908		3CHIF	09.01.17	Mo	1	50	BUG	DBI_1	 Familiäre Gründe (Hochzeit, Begräbnis,...)		134479	09.01.17	true		3	entsch.
+BULUT Yunus	30441720140908		3CHIF	09.01.17	Mo	1	50	BUG	DBI_1	 Familiäre Gründe (Hochzeit, Begräbnis,...)		134479	09.01.17	true		8	entsch.
+BULUT Yunus	30441720140908		3CHIF	09.01.17	Mo	1	50	RU	E1	 Familiäre Gründe (Hochzeit, Begräbnis,...)		134479	09.01.17	true		2	entsch.
+BULUT Yunus	30441720140908		3CHIF	09.01.17	Mo	1	50	TB	NVS1	 Familiäre Gründe (Hochzeit, Begräbnis,...)		134479	09.01.17	true		1	entsch.
+BULUT Yunus	30441720140908		3CHIF	09.01.17	Mo	1	50	HP	POS1	 Familiäre Gründe (Hochzeit, Begräbnis,...)		134479	09.01.17	true		5	entsch.
+BULUT Yunus	30441720140908		3CHIF	09.01.17	Mo	1	50	HP	POS1	 Familiäre Gründe (Hochzeit, Begräbnis,...)		134479	09.01.17	true		6	entsch.
+BULUT Yunus	30441720140908		3CHIF	09.01.17	Mo	1	50	BER	TINF_1	 Familiäre Gründe (Hochzeit, Begräbnis,...)		134479	09.01.17	true		7	entsch.
+BULUT Yunus	30441720140908		3CHIF	10.01.17	Di	1	50	CY	NVS1	 Familiäre Gründe (Hochzeit, Begräbnis,...)		135065	13.01.17	true		4	entsch.
+BULUT Yunus	30441720140908		3CHIF	10.01.17	Di	1	50	CY	NVS1	 Familiäre Gründe (Hochzeit, Begräbnis,...)		135065	13.01.17	true		5	entsch.
+BULUT Yunus	30441720140908		3CHIF	10.01.17	Di	1	50	HUT	NW2	 Familiäre Gründe (Hochzeit, Begräbnis,...)		135065	13.01.17	true		7	entsch.
+BULUT Yunus	30441720140908		3CHIF	11.01.17	Mi	1	50	HUT	NW2	 Familiäre Gründe (Hochzeit, Begräbnis,...)		135066	13.01.17	true		6	entsch.
 BULUT Yunus	30441720140908		3CHIF	17.01.17	Di	1	50	HP	POS1	 Krankheit		137857	27.01.17	true		9	entsch.
 BULUT Yunus	30441720140908		3CHIF	17.01.17	Di	1	50	HP	POS1	 Krankheit		137857	27.01.17	true		10	entsch.
 BULUT Yunus	30441720140908		3CHIF	23.01.17	Mo	1	50	HL	AM	 Krankheit		137858	27.01.17	true		9	entsch.
@@ -74,34 +74,34 @@ BULUT Yunus	30441720140908		3CHIF	30.01.17	Mo	1	50	BER	TINF_1	 Krankheit		140991
 BULUT Yunus	30441720140908		3CHIF	03.02.17	Fr	1	50	PZ	GGP			142218	24.02.17	true		6	nicht entsch.
 BULUT Yunus	30441720140908		3CHIF	13.02.17	Mo	1	50	RU	E1	 Krankheit		142219	24.02.17	true		2	entsch.
 BULUT Yunus	30441720140908		3CHIF	13.02.17	Mo	1	50	TB	NVS1	 Krankheit		142219	24.02.17	true		1	entsch.
-BULUT Yunus	30441720140908		3CHIF	20.02.17	Mo	1	50	HL	AM	 Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		142221	24.02.17	true		3	entsch.
-BULUT Yunus	30441720140908		3CHIF	20.02.17	Mo	1	50	RU	E1	 Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		142221	24.02.17	true		2	entsch.
-BULUT Yunus	30441720140908		3CHIF	20.02.17	Mo	1	50	TB	NVS1	 Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		142221	24.02.17	true		1	entsch.
-BULUT Yunus	30441720140908		3CHIF	20.02.17	Mo	1	50	SG (HP)	POS1	 Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		142222	24.02.17	true		6	entsch.
-BULUT Yunus	30441720140908		3CHIF	20.02.17	Mo	1	50	BER	TINF_1	 Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		142221	24.02.17	true		4	entsch.
-BULUT Yunus	30441720140908		3CHIF	22.02.17	Mi	1	50	PZ	GGP	 VerspÃ¤tung wegen Bus, Zug, ...		142224	24.02.17	true		1	entsch.
-BULUT Yunus	30441720140908		3CHIF	28.02.17	Di	1	50	HUT	NW2	 VerspÃ¤tung wegen Bus, Zug, ...		144242	06.03.17	true		1	entsch.
+BULUT Yunus	30441720140908		3CHIF	20.02.17	Mo	1	50	HL	AM	 Amtswege (Führerscheinprüfung, Musterung,...)		142221	24.02.17	true		3	entsch.
+BULUT Yunus	30441720140908		3CHIF	20.02.17	Mo	1	50	RU	E1	 Amtswege (Führerscheinprüfung, Musterung,...)		142221	24.02.17	true		2	entsch.
+BULUT Yunus	30441720140908		3CHIF	20.02.17	Mo	1	50	TB	NVS1	 Amtswege (Führerscheinprüfung, Musterung,...)		142221	24.02.17	true		1	entsch.
+BULUT Yunus	30441720140908		3CHIF	20.02.17	Mo	1	50	SG (HP)	POS1	 Amtswege (Führerscheinprüfung, Musterung,...)		142222	24.02.17	true		6	entsch.
+BULUT Yunus	30441720140908		3CHIF	20.02.17	Mo	1	50	BER	TINF_1	 Amtswege (Führerscheinprüfung, Musterung,...)		142221	24.02.17	true		4	entsch.
+BULUT Yunus	30441720140908		3CHIF	22.02.17	Mi	1	50	PZ	GGP	 Verspätung wegen Bus, Zug, ...		142224	24.02.17	true		1	entsch.
+BULUT Yunus	30441720140908		3CHIF	28.02.17	Di	1	50	HUT	NW2	 Verspätung wegen Bus, Zug, ...		144242	06.03.17	true		1	entsch.
 BULUT Yunus	30441720140908		3CHIF	01.03.17	Mi	0	10	PZ	GGP	 Verschlafen		144244	06.03.17	true		1	entsch.
-BULUT Yunus	30441720140908		3CHIF	02.03.17	Do	1	50	HL	AM	Zugausfall VerspÃ¤tung wegen Bus, Zug, ...		144243	06.03.17	true		1	entsch.
-BULUT Yunus	30441720140908		3CHIF	07.03.17	Di	1	50	RU	E1	Zugausfall VerspÃ¤tung wegen Bus, Zug, ...		145312	14.03.17	true		2	entsch.
-BULUT Yunus	30441720140908		3CHIF	07.03.17	Di	1	50	HUT	NW2	Zugausfall VerspÃ¤tung wegen Bus, Zug, ...		145312	14.03.17	true		1	entsch.
-BULUT Yunus	30441720140908		3CHIF	07.03.17	Di	0	10	BER	TINF_1	Zugausfall VerspÃ¤tung wegen Bus, Zug, ...		145312	14.03.17	true		3	entsch.
-BULUT Yunus	30441720140908		3CHIF	10.03.17	Fr	1	29	REM	SYP1	 VerspÃ¤tung wegen Bus, Zug, ...		145313	14.03.17	true		1	entsch.
-BULUT Yunus	30441720140908		3CHIF	13.03.17	Mo	1	50	BUG	DBI_1	 FamiliÃ¤re GrÃ¼nde (Hochzeit, BegrÃ¤bnis,...)		145311	14.03.17	true		3	entsch.
-BULUT Yunus	30441720140908		3CHIF	13.03.17	Mo	1	50	BUG	DBI_1	 FamiliÃ¤re GrÃ¼nde (Hochzeit, BegrÃ¤bnis,...)		145311	14.03.17	true		8	entsch.
-BULUT Yunus	30441720140908		3CHIF	13.03.17	Mo	1	50	RU	E1	 FamiliÃ¤re GrÃ¼nde (Hochzeit, BegrÃ¤bnis,...)		145311	14.03.17	true		2	entsch.
-BULUT Yunus	30441720140908		3CHIF	13.03.17	Mo	1	50	TB	NVS1	 FamiliÃ¤re GrÃ¼nde (Hochzeit, BegrÃ¤bnis,...)		145311	14.03.17	true		1	entsch.
-BULUT Yunus	30441720140908		3CHIF	13.03.17	Mo	1	50	HP	POS1	 FamiliÃ¤re GrÃ¼nde (Hochzeit, BegrÃ¤bnis,...)		145311	14.03.17	true		5	entsch.
-BULUT Yunus	30441720140908		3CHIF	13.03.17	Mo	1	50	HP	POS1	 FamiliÃ¤re GrÃ¼nde (Hochzeit, BegrÃ¤bnis,...)		145311	14.03.17	true		6	entsch.
-BULUT Yunus	30441720140908		3CHIF	13.03.17	Mo	1	50	BER	TINF_1	 FamiliÃ¤re GrÃ¼nde (Hochzeit, BegrÃ¤bnis,...)		145311	14.03.17	true		7	entsch.
+BULUT Yunus	30441720140908		3CHIF	02.03.17	Do	1	50	HL	AM	Zugausfall Verspätung wegen Bus, Zug, ...		144243	06.03.17	true		1	entsch.
+BULUT Yunus	30441720140908		3CHIF	07.03.17	Di	1	50	RU	E1	Zugausfall Verspätung wegen Bus, Zug, ...		145312	14.03.17	true		2	entsch.
+BULUT Yunus	30441720140908		3CHIF	07.03.17	Di	1	50	HUT	NW2	Zugausfall Verspätung wegen Bus, Zug, ...		145312	14.03.17	true		1	entsch.
+BULUT Yunus	30441720140908		3CHIF	07.03.17	Di	0	10	BER	TINF_1	Zugausfall Verspätung wegen Bus, Zug, ...		145312	14.03.17	true		3	entsch.
+BULUT Yunus	30441720140908		3CHIF	10.03.17	Fr	1	29	REM	SYP1	 Verspätung wegen Bus, Zug, ...		145313	14.03.17	true		1	entsch.
+BULUT Yunus	30441720140908		3CHIF	13.03.17	Mo	1	50	BUG	DBI_1	 Familiäre Gründe (Hochzeit, Begräbnis,...)		145311	14.03.17	true		3	entsch.
+BULUT Yunus	30441720140908		3CHIF	13.03.17	Mo	1	50	BUG	DBI_1	 Familiäre Gründe (Hochzeit, Begräbnis,...)		145311	14.03.17	true		8	entsch.
+BULUT Yunus	30441720140908		3CHIF	13.03.17	Mo	1	50	RU	E1	 Familiäre Gründe (Hochzeit, Begräbnis,...)		145311	14.03.17	true		2	entsch.
+BULUT Yunus	30441720140908		3CHIF	13.03.17	Mo	1	50	TB	NVS1	 Familiäre Gründe (Hochzeit, Begräbnis,...)		145311	14.03.17	true		1	entsch.
+BULUT Yunus	30441720140908		3CHIF	13.03.17	Mo	1	50	HP	POS1	 Familiäre Gründe (Hochzeit, Begräbnis,...)		145311	14.03.17	true		5	entsch.
+BULUT Yunus	30441720140908		3CHIF	13.03.17	Mo	1	50	HP	POS1	 Familiäre Gründe (Hochzeit, Begräbnis,...)		145311	14.03.17	true		6	entsch.
+BULUT Yunus	30441720140908		3CHIF	13.03.17	Mo	1	50	BER	TINF_1	 Familiäre Gründe (Hochzeit, Begräbnis,...)		145311	14.03.17	true		7	entsch.
 BULUT Yunus	30441720140908		3CHIF	23.03.17	Do	1	50	TN	BWM_1	 Krankheit		146720	24.03.17	true		2	entsch.
 BULUT Yunus	30441720140908		3CHIF	23.03.17	Do	1	50	SG	D	 Krankheit		146720	24.03.17	true		5	entsch.
 BULUT Yunus	30441720140908		3CHIF	23.03.17	Do	1	50	BUG	DBI_1	 Krankheit		146720	24.03.17	true		3	entsch.
 BULUT Yunus	30441720140908		3CHIF	24.03.17	Fr	0	21	REM	SYP1			146721	24.03.17	true		1	nicht entsch.
-BULUT Yunus	30441720140908		3CHIF	27.03.17	Mo	1	50	HL	AM	 Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		147603	31.03.17	true		9	entsch.
-BULUT Yunus	30441720140908		3CHIF	27.03.17	Mo	1	50	BUG	DBI_1	 Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		147603	31.03.17	true		7	entsch.
-BULUT Yunus	30441720140908		3CHIF	27.03.17	Mo	1	50	BUG	DBI_1	 Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		147603	31.03.17	true		8	entsch.
-BULUT Yunus	30441720140908		3CHIF	27.03.17	Mo	1	50	HP	POS1	 Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		147602	31.03.17	true		5	entsch.
+BULUT Yunus	30441720140908		3CHIF	27.03.17	Mo	1	50	HL	AM	 Amtswege (Führerscheinprüfung, Musterung,...)		147603	31.03.17	true		9	entsch.
+BULUT Yunus	30441720140908		3CHIF	27.03.17	Mo	1	50	BUG	DBI_1	 Amtswege (Führerscheinprüfung, Musterung,...)		147603	31.03.17	true		7	entsch.
+BULUT Yunus	30441720140908		3CHIF	27.03.17	Mo	1	50	BUG	DBI_1	 Amtswege (Führerscheinprüfung, Musterung,...)		147603	31.03.17	true		8	entsch.
+BULUT Yunus	30441720140908		3CHIF	27.03.17	Mo	1	50	HP	POS1	 Amtswege (Führerscheinprüfung, Musterung,...)		147602	31.03.17	true		5	entsch.
 BULUT Yunus	30441720140908		3CHIF	28.03.17	Di	1	50	HZ	BESP	 Krankheit		147604	31.03.17	true		7	entsch.
 BULUT Yunus	30441720140908		3CHIF	28.03.17	Di	1	50	TN	BWM_2	 Krankheit		147604	31.03.17	true		8	entsch.
 BULUT Yunus	30441720140908		3CHIF	28.03.17	Di	1	50	RU	E1	 Krankheit		147604	31.03.17	true		2	entsch.
@@ -117,17 +117,17 @@ BULUT Yunus	30441720140908		3CHIF	29.03.17	Mi	1	50	TN	BWM_2	 Krankheit		147605	3
 BULUT Yunus	30441720140908		3CHIF	29.03.17	Mi	1	50	PZ	GGP	 Krankheit		147605	31.03.17	true		1	entsch.
 BULUT Yunus	30441720140908		3CHIF	29.03.17	Mi	1	50	HUT	NW2	 Krankheit		147605	31.03.17	true		7	entsch.
 BULUT Yunus	30441720140908		3CHIF	29.03.17	Mi	1	50	REM	SYP1	 Krankheit		147605	31.03.17	true		3	entsch.
-BULUT Yunus	30441720140908		3CHIF	06.04.17	Do	1	50	HL	AM	 FamiliÃ¤re GrÃ¼nde (Hochzeit, BegrÃ¤bnis,...)		148868	07.04.17	true		1	entsch.
-BULUT Yunus	30441720140908		3CHIF	06.04.17	Do	1	50	TN	BWM_1	 FamiliÃ¤re GrÃ¼nde (Hochzeit, BegrÃ¤bnis,...)		148868	07.04.17	true		2	entsch.
-BULUT Yunus	30441720140908		3CHIF	06.04.17	Do	1	50	SG	D	 FamiliÃ¤re GrÃ¼nde (Hochzeit, BegrÃ¤bnis,...)		148868	07.04.17	true		5	entsch.
-BULUT Yunus	30441720140908		3CHIF	06.04.17	Do	1	50	BUG	DBI_1	 FamiliÃ¤re GrÃ¼nde (Hochzeit, BegrÃ¤bnis,...)		148868	07.04.17	true		3	entsch.
-BULUT Yunus	30441720140908		3CHIF	06.04.17	Do	1	50	SG	GGP	 FamiliÃ¤re GrÃ¼nde (Hochzeit, BegrÃ¤bnis,...)		148868	07.04.17	true		6	entsch.
-BULUT Yunus	30441720140908		3CHIF	21.04.17	Fr	0	18	REM	SYP1	 VerspÃ¤tung wegen Bus, Zug, ...		152429	02.05.17	true		1	entsch.
+BULUT Yunus	30441720140908		3CHIF	06.04.17	Do	1	50	HL	AM	 Familiäre Gründe (Hochzeit, Begräbnis,...)		148868	07.04.17	true		1	entsch.
+BULUT Yunus	30441720140908		3CHIF	06.04.17	Do	1	50	TN	BWM_1	 Familiäre Gründe (Hochzeit, Begräbnis,...)		148868	07.04.17	true		2	entsch.
+BULUT Yunus	30441720140908		3CHIF	06.04.17	Do	1	50	SG	D	 Familiäre Gründe (Hochzeit, Begräbnis,...)		148868	07.04.17	true		5	entsch.
+BULUT Yunus	30441720140908		3CHIF	06.04.17	Do	1	50	BUG	DBI_1	 Familiäre Gründe (Hochzeit, Begräbnis,...)		148868	07.04.17	true		3	entsch.
+BULUT Yunus	30441720140908		3CHIF	06.04.17	Do	1	50	SG	GGP	 Familiäre Gründe (Hochzeit, Begräbnis,...)		148868	07.04.17	true		6	entsch.
+BULUT Yunus	30441720140908		3CHIF	21.04.17	Fr	0	18	REM	SYP1	 Verspätung wegen Bus, Zug, ...		152429	02.05.17	true		1	entsch.
 BULUT Yunus	30441720140908		3CHIF	24.04.17	Mo	1	50	BUG	DBI_1	 Arztbesuch		152430	02.05.17	true		3	entsch.
 BULUT Yunus	30441720140908		3CHIF	24.04.17	Mo	1	50	RU	E1	 Arztbesuch		152430	02.05.17	true		2	entsch.
 BULUT Yunus	30441720140908		3CHIF	24.04.17	Mo	1	50	TB	NVS1	 Arztbesuch		152430	02.05.17	true		1	entsch.
-BULUT Yunus	30441720140908		3CHIF	26.04.17	Mi	1	50	HZ	BESP	Zugausfall VerspÃ¤tung wegen Bus, Zug, ...		152431	02.05.17	true		2	entsch.
-BULUT Yunus	30441720140908		3CHIF	26.04.17	Mi	1	50	PZ	GGP	Zugausfall VerspÃ¤tung wegen Bus, Zug, ...		152431	02.05.17	true		1	entsch.
+BULUT Yunus	30441720140908		3CHIF	26.04.17	Mi	1	50	HZ	BESP	Zugausfall Verspätung wegen Bus, Zug, ...		152431	02.05.17	true		2	entsch.
+BULUT Yunus	30441720140908		3CHIF	26.04.17	Mi	1	50	PZ	GGP	Zugausfall Verspätung wegen Bus, Zug, ...		152431	02.05.17	true		1	entsch.
 BULUT Yunus	30441720140908		3CHIF	02.05.17	Di	1	50	HZ	BESP	 Krankheit		152432	02.05.17	true		7	entsch.
 BULUT Yunus	30441720140908		3CHIF	02.05.17	Di	1	50	TN	BWM_2	 Krankheit		152432	02.05.17	true		8	entsch.
 BULUT Yunus	30441720140908		3CHIF	02.05.17	Di	1	50	RU	E1	 Krankheit		152432	02.05.17	true		2	entsch.
@@ -144,7 +144,7 @@ BULUT Yunus	30441720140908		3CHIF	12.05.17	Fr	1	50	REM	SYP1					true		1	nicht en
 BULUT Yunus	30441720140908		3CHIF	15.05.17	Mo	1	50	BUG	DBI_1					true		3	nicht entsch.
 BULUT Yunus	30441720140908		3CHIF	15.05.17	Mo	1	50	RU	E1					true		2	nicht entsch.
 BULUT Yunus	30441720140908		3CHIF	15.05.17	Mo	1	50	TB	NVS1					true		1	nicht entsch.
-CELEA Alexandru	30441720140909		3CHIF	08.09.16	Do	1	30	SG	D			124052	16.09.16	true	Zitat Celea: Entschuldigung, ich war MÃ¤ci.	5	nicht entsch.
+CELEA Alexandru	30441720140909		3CHIF	08.09.16	Do	1	30	SG	D			124052	16.09.16	true	Zitat Celea: Entschuldigung, ich war Mäci.	5	nicht entsch.
 CELEA Alexandru	30441720140909		3CHIF	23.09.16	Fr	1	50	SG	D	 Krankheit		124322	26.09.16	true		2	entsch.
 CELEA Alexandru	30441720140909		3CHIF	23.09.16	Fr	1	50	PZ	GGP	 Krankheit		124322	26.09.16	true		6	entsch.
 CELEA Alexandru	30441720140909		3CHIF	23.09.16	Fr	1	50	HP	POS1	 Krankheit		124322	26.09.16	true		3	entsch.
@@ -161,7 +161,7 @@ CELEA Alexandru	30441720140909		3CHIF	07.10.16	Fr	1	50	PZ	GGP			128074	28.10.16	
 CELEA Alexandru	30441720140909		3CHIF	14.10.16	Fr	0	7	SG	D			128075	28.10.16	true		2	nicht entsch.
 CELEA Alexandru	30441720140909		3CHIF	17.10.16	Mo	1	50	TB	NVS1	 Verschlafen		128073	28.10.16	true		1	entsch.
 CELEA Alexandru	30441720140909		3CHIF	17.10.16	Mo	0	16	HP	POS1			128076	28.10.16	true		6	nicht entsch.
-CELEA Alexandru	30441720140909		3CHIF	18.10.16	Di	0	16	HZ	BESP	 VerspÃ¤tung wegen Bus, Zug, ...		128072	28.10.16	true		1	entsch.
+CELEA Alexandru	30441720140909		3CHIF	18.10.16	Di	0	16	HZ	BESP	 Verspätung wegen Bus, Zug, ...		128072	28.10.16	true		1	entsch.
 CELEA Alexandru	30441720140909		3CHIF	19.10.16	Mi	1	50	REM	SYP1	 Verschlafen		128071	28.10.16	true		1	entsch.
 CELEA Alexandru	30441720140909		3CHIF	20.10.16	Do	1	50	HL	AM	 Krankheit		128070	28.10.16	true		1	entsch.
 CELEA Alexandru	30441720140909		3CHIF	20.10.16	Do	1	50	TN	BWM_1	 Krankheit		128070	28.10.16	true		2	entsch.
@@ -176,11 +176,11 @@ CELEA Alexandru	30441720140909		3CHIF	21.10.16	Fr	1	50	REM	SYP1	 Krankheit		1280
 CELEA Alexandru	30441720140909		3CHIF	21.10.16	Fr	1	50	REM	SYP1	 Krankheit		128070	28.10.16	true		5	entsch.
 CELEA Alexandru	30441720140909		3CHIF	28.10.16	Fr	0	10	HP	POS1			128039	28.10.16	true		3	nicht entsch.
 CELEA Alexandru	30441720140909		3CHIF	08.11.16	Di	1	50	HZ	BESP	 Verschlafen		131186	05.12.16	true		1	entsch.
-CELEA Alexandru	30441720140909		3CHIF	09.11.16	Mi	1	50	HZ	BESP	 Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		131187	05.12.16	true		2	entsch.
-CELEA Alexandru	30441720140909		3CHIF	09.11.16	Mi	1	50	TN	BWM_1	 Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		131187	05.12.16	true		3	entsch.
-CELEA Alexandru	30441720140909		3CHIF	09.11.16	Mi	1	50	TN	BWM_2	 Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		131187	05.12.16	true		4	entsch.
-CELEA Alexandru	30441720140909		3CHIF	09.11.16	Mi	1	50	PZ	GGP	 Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		131187	05.12.16	true		1	entsch.
-CELEA Alexandru	30441720140909		3CHIF	09.11.16	Mi	1	50	HUT	NW2	 Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		131187	05.12.16	true		6	entsch.
+CELEA Alexandru	30441720140909		3CHIF	09.11.16	Mi	1	50	HZ	BESP	 Amtswege (Führerscheinprüfung, Musterung,...)		131187	05.12.16	true		2	entsch.
+CELEA Alexandru	30441720140909		3CHIF	09.11.16	Mi	1	50	TN	BWM_1	 Amtswege (Führerscheinprüfung, Musterung,...)		131187	05.12.16	true		3	entsch.
+CELEA Alexandru	30441720140909		3CHIF	09.11.16	Mi	1	50	TN	BWM_2	 Amtswege (Führerscheinprüfung, Musterung,...)		131187	05.12.16	true		4	entsch.
+CELEA Alexandru	30441720140909		3CHIF	09.11.16	Mi	1	50	PZ	GGP	 Amtswege (Führerscheinprüfung, Musterung,...)		131187	05.12.16	true		1	entsch.
+CELEA Alexandru	30441720140909		3CHIF	09.11.16	Mi	1	50	HUT	NW2	 Amtswege (Führerscheinprüfung, Musterung,...)		131187	05.12.16	true		6	entsch.
 CELEA Alexandru	30441720140909		3CHIF	10.11.16	Do	0	20	SG	D			131188	05.12.16	true		5	nicht entsch.
 CELEA Alexandru	30441720140909		3CHIF	16.11.16	Mi	1	50	HZ	BESP	 Arztbesuch		131189	05.12.16	true		2	entsch.
 CELEA Alexandru	30441720140909		3CHIF	16.11.16	Mi	1	50	REM	SYP1	 Arztbesuch		131189	05.12.16	true		1	entsch.
@@ -220,79 +220,79 @@ CELEA Alexandru	30441720140909		3CHIF	02.12.16	Fr	1	50	HP	POS1	 Krankheit		13119
 CELEA Alexandru	30441720140909		3CHIF	02.12.16	Fr	1	50	HP	POS1	 Krankheit		131196	05.12.16	true		4	entsch.
 CELEA Alexandru	30441720140909		3CHIF	02.12.16	Fr	1	50	REM	SYP1	 Krankheit		131196	05.12.16	true		1	entsch.
 CELEA Alexandru	30441720140909		3CHIF	02.12.16	Fr	1	50	REM	SYP1	 Krankheit		131196	05.12.16	true		5	entsch.
-CELEA Alexandru	30441720140909		3CHIF	05.12.16	Mo	1	50	HL	AM			142246	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	9	nicht entsch.
+CELEA Alexandru	30441720140909		3CHIF	05.12.16	Mo	1	50	HL	AM			142246	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	9	nicht entsch.
 CELEA Alexandru	30441720140909		3CHIF	05.12.16	Mo	0	10	TB	NVS1	 Krankheit		131196	05.12.16	true		1	entsch.
-CELEA Alexandru	30441720140909		3CHIF	07.12.16	Mi	1	50	HZ	BESP			142247	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	2	nicht entsch.
-CELEA Alexandru	30441720140909		3CHIF	07.12.16	Mi	1	50	TN	BWM_1			142247	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	3	nicht entsch.
-CELEA Alexandru	30441720140909		3CHIF	07.12.16	Mi	1	50	TN	BWM_2			142247	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	4	nicht entsch.
-CELEA Alexandru	30441720140909		3CHIF	07.12.16	Mi	1	50	PZ	GGP			142247	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	1	nicht entsch.
-CELEA Alexandru	30441720140909		3CHIF	07.12.16	Mi	1	50	HUT	NW2			142247	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	6	nicht entsch.
-CELEA Alexandru	30441720140909		3CHIF	12.12.16	Mo	1	50	HL	AM			142248	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	9	nicht entsch.
-CELEA Alexandru	30441720140909		3CHIF	12.12.16	Mo	1	50	BUG	DBI_1			142248	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	8	nicht entsch.
-CELEA Alexandru	30441720140909		3CHIF	15.12.16	Do	1	50	HL	AM			142249	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	1	nicht entsch.
-CELEA Alexandru	30441720140909		3CHIF	15.12.16	Do	1	50	TN	BWM_1			142249	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	2	nicht entsch.
-CELEA Alexandru	30441720140909		3CHIF	15.12.16	Do	1	50	SG	D			142249	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	5	nicht entsch.
-CELEA Alexandru	30441720140909		3CHIF	15.12.16	Do	1	50	BUG	DBI_1			142249	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	3	nicht entsch.
-CELEA Alexandru	30441720140909		3CHIF	15.12.16	Do	1	50	SG	GGP			142249	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	6	nicht entsch.
-CELEA Alexandru	30441720140909		3CHIF	16.12.16	Fr	1	50	SG	D			142250	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	2	nicht entsch.
-CELEA Alexandru	30441720140909		3CHIF	16.12.16	Fr	1	50	PZ	GGP			142250	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	6	nicht entsch.
-CELEA Alexandru	30441720140909		3CHIF	16.12.16	Fr	1	50	HP	POS1			142250	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	3	nicht entsch.
-CELEA Alexandru	30441720140909		3CHIF	16.12.16	Fr	1	50	HP	POS1			142250	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	4	nicht entsch.
-CELEA Alexandru	30441720140909		3CHIF	16.12.16	Fr	1	50	REM	SYP1			142250	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	1	nicht entsch.
-CELEA Alexandru	30441720140909		3CHIF	16.12.16	Fr	1	50	REM	SYP1			142250	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	5	nicht entsch.
-CELEA Alexandru	30441720140909		3CHIF	19.12.16	Mo	1	50	HL	AM			142252	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	9	nicht entsch.
-CELEA Alexandru	30441720140909		3CHIF	19.12.16	Mo	1	50	BUG	DBI_1			142251	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	3	nicht entsch.
-CELEA Alexandru	30441720140909		3CHIF	19.12.16	Mo	1	50	BUG	DBI_1			142252	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	8	nicht entsch.
-CELEA Alexandru	30441720140909		3CHIF	19.12.16	Mo	1	50	RU	E1			142251	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	2	nicht entsch.
-CELEA Alexandru	30441720140909		3CHIF	19.12.16	Mo	1	50	TB	NVS1			142251	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	1	nicht entsch.
-CELEA Alexandru	30441720140909		3CHIF	19.12.16	Mo	1	50	HP	POS1			142251	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	5	nicht entsch.
-CELEA Alexandru	30441720140909		3CHIF	19.12.16	Mo	1	50	BER	TINF_1			142252	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	7	nicht entsch.
-CELEA Alexandru	30441720140909		3CHIF	20.12.16	Di	1	50	TN	BWM_2			142253	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	8	nicht entsch.
-CELEA Alexandru	30441720140909		3CHIF	20.12.16	Di	1	50	BUG	DBI_1			142253	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	1	nicht entsch.
-CELEA Alexandru	30441720140909		3CHIF	20.12.16	Di	1	50	RU	E1			142253	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	2	nicht entsch.
-CELEA Alexandru	30441720140909		3CHIF	20.12.16	Di	1	50	CY	NVS1			142253	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	4	nicht entsch.
-CELEA Alexandru	30441720140909		3CHIF	20.12.16	Di	1	50	CY	NVS1			142253	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	5	nicht entsch.
-CELEA Alexandru	30441720140909		3CHIF	20.12.16	Di	1	50	HUT	NW2			142253	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	7	nicht entsch.
-CELEA Alexandru	30441720140909		3CHIF	20.12.16	Di	1	50	BER	TINF_1			142253	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	3	nicht entsch.
+CELEA Alexandru	30441720140909		3CHIF	07.12.16	Mi	1	50	HZ	BESP			142247	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	2	nicht entsch.
+CELEA Alexandru	30441720140909		3CHIF	07.12.16	Mi	1	50	TN	BWM_1			142247	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	3	nicht entsch.
+CELEA Alexandru	30441720140909		3CHIF	07.12.16	Mi	1	50	TN	BWM_2			142247	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	4	nicht entsch.
+CELEA Alexandru	30441720140909		3CHIF	07.12.16	Mi	1	50	PZ	GGP			142247	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	1	nicht entsch.
+CELEA Alexandru	30441720140909		3CHIF	07.12.16	Mi	1	50	HUT	NW2			142247	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	6	nicht entsch.
+CELEA Alexandru	30441720140909		3CHIF	12.12.16	Mo	1	50	HL	AM			142248	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	9	nicht entsch.
+CELEA Alexandru	30441720140909		3CHIF	12.12.16	Mo	1	50	BUG	DBI_1			142248	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	8	nicht entsch.
+CELEA Alexandru	30441720140909		3CHIF	15.12.16	Do	1	50	HL	AM			142249	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	1	nicht entsch.
+CELEA Alexandru	30441720140909		3CHIF	15.12.16	Do	1	50	TN	BWM_1			142249	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	2	nicht entsch.
+CELEA Alexandru	30441720140909		3CHIF	15.12.16	Do	1	50	SG	D			142249	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	5	nicht entsch.
+CELEA Alexandru	30441720140909		3CHIF	15.12.16	Do	1	50	BUG	DBI_1			142249	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	3	nicht entsch.
+CELEA Alexandru	30441720140909		3CHIF	15.12.16	Do	1	50	SG	GGP			142249	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	6	nicht entsch.
+CELEA Alexandru	30441720140909		3CHIF	16.12.16	Fr	1	50	SG	D			142250	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	2	nicht entsch.
+CELEA Alexandru	30441720140909		3CHIF	16.12.16	Fr	1	50	PZ	GGP			142250	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	6	nicht entsch.
+CELEA Alexandru	30441720140909		3CHIF	16.12.16	Fr	1	50	HP	POS1			142250	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	3	nicht entsch.
+CELEA Alexandru	30441720140909		3CHIF	16.12.16	Fr	1	50	HP	POS1			142250	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	4	nicht entsch.
+CELEA Alexandru	30441720140909		3CHIF	16.12.16	Fr	1	50	REM	SYP1			142250	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	1	nicht entsch.
+CELEA Alexandru	30441720140909		3CHIF	16.12.16	Fr	1	50	REM	SYP1			142250	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	5	nicht entsch.
+CELEA Alexandru	30441720140909		3CHIF	19.12.16	Mo	1	50	HL	AM			142252	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	9	nicht entsch.
+CELEA Alexandru	30441720140909		3CHIF	19.12.16	Mo	1	50	BUG	DBI_1			142251	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	3	nicht entsch.
+CELEA Alexandru	30441720140909		3CHIF	19.12.16	Mo	1	50	BUG	DBI_1			142252	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	8	nicht entsch.
+CELEA Alexandru	30441720140909		3CHIF	19.12.16	Mo	1	50	RU	E1			142251	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	2	nicht entsch.
+CELEA Alexandru	30441720140909		3CHIF	19.12.16	Mo	1	50	TB	NVS1			142251	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	1	nicht entsch.
+CELEA Alexandru	30441720140909		3CHIF	19.12.16	Mo	1	50	HP	POS1			142251	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	5	nicht entsch.
+CELEA Alexandru	30441720140909		3CHIF	19.12.16	Mo	1	50	BER	TINF_1			142252	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	7	nicht entsch.
+CELEA Alexandru	30441720140909		3CHIF	20.12.16	Di	1	50	TN	BWM_2			142253	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	8	nicht entsch.
+CELEA Alexandru	30441720140909		3CHIF	20.12.16	Di	1	50	BUG	DBI_1			142253	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	1	nicht entsch.
+CELEA Alexandru	30441720140909		3CHIF	20.12.16	Di	1	50	RU	E1			142253	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	2	nicht entsch.
+CELEA Alexandru	30441720140909		3CHIF	20.12.16	Di	1	50	CY	NVS1			142253	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	4	nicht entsch.
+CELEA Alexandru	30441720140909		3CHIF	20.12.16	Di	1	50	CY	NVS1			142253	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	5	nicht entsch.
+CELEA Alexandru	30441720140909		3CHIF	20.12.16	Di	1	50	HUT	NW2			142253	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	7	nicht entsch.
+CELEA Alexandru	30441720140909		3CHIF	20.12.16	Di	1	50	BER	TINF_1			142253	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	3	nicht entsch.
 CELEA Alexandru	30441720140909		3CHIF	21.12.16	Mi	0	11	REM	SYP1			142228	24.02.17	true		1	nicht entsch.
-CELEA Alexandru	30441720140909		3CHIF	22.12.16	Do	1	50	HL	AM			142254	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	1	nicht entsch.
-CELEA Alexandru	30441720140909		3CHIF	22.12.16	Do	1	50	SG	D			142255	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	5	nicht entsch.
-CELEA Alexandru	30441720140909		3CHIF	22.12.16	Do	1	50	BUG	DBI_1			142255	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	3	nicht entsch.
-CELEA Alexandru	30441720140909		3CHIF	22.12.16	Do	1	50	SG	GGP			142255	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	6	nicht entsch.
-CELEA Alexandru	30441720140909		3CHIF	23.12.16	Fr	1	50	SG	D			142256	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	2	nicht entsch.
-CELEA Alexandru	30441720140909		3CHIF	23.12.16	Fr	1	50	HP	POS1			142256	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	3	nicht entsch.
-CELEA Alexandru	30441720140909		3CHIF	23.12.16	Fr	1	50	HP	POS1			142256	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	4	nicht entsch.
-CELEA Alexandru	30441720140909		3CHIF	23.12.16	Fr	1	50	REM	SYP1			142256	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	1	nicht entsch.
-CELEA Alexandru	30441720140909		3CHIF	23.12.16	Fr	1	50	REM	SYP1			142256	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	5	nicht entsch.
-CELEA Alexandru	30441720140909		3CHIF	13.01.17	Fr	1	50	SG	D			142257	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	2	nicht entsch.
-CELEA Alexandru	30441720140909		3CHIF	13.01.17	Fr	1	50	PZ	GGP			142257	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	6	nicht entsch.
-CELEA Alexandru	30441720140909		3CHIF	13.01.17	Fr	1	50	HP	POS1			142257	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	3	nicht entsch.
-CELEA Alexandru	30441720140909		3CHIF	13.01.17	Fr	1	50	HP	POS1			142257	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	4	nicht entsch.
-CELEA Alexandru	30441720140909		3CHIF	13.01.17	Fr	1	50	REM	SYP1			142257	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	1	nicht entsch.
-CELEA Alexandru	30441720140909		3CHIF	13.01.17	Fr	1	50	REM	SYP1			142257	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	5	nicht entsch.
-CELEA Alexandru	30441720140909		3CHIF	16.01.17	Mo	1	50	HL	AM			142258	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	9	nicht entsch.
-CELEA Alexandru	30441720140909		3CHIF	16.01.17	Mo	1	50	BUG	DBI_1			142258	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	3	nicht entsch.
-CELEA Alexandru	30441720140909		3CHIF	16.01.17	Mo	1	50	BUG	DBI_1			142258	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	8	nicht entsch.
-CELEA Alexandru	30441720140909		3CHIF	16.01.17	Mo	1	50	RU	E1			142258	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	2	nicht entsch.
-CELEA Alexandru	30441720140909		3CHIF	16.01.17	Mo	1	50	TB	NVS1			142258	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	1	nicht entsch.
-CELEA Alexandru	30441720140909		3CHIF	16.01.17	Mo	1	50	HP	POS1			142258	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	5	nicht entsch.
-CELEA Alexandru	30441720140909		3CHIF	16.01.17	Mo	1	50	HP	POS1			142258	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	6	nicht entsch.
-CELEA Alexandru	30441720140909		3CHIF	16.01.17	Mo	1	50	BER	TINF_1			142258	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	7	nicht entsch.
-CELEA Alexandru	30441720140909		3CHIF	23.01.17	Mo	1	50	HL	AM			142259	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	9	nicht entsch.
-CELEA Alexandru	30441720140909		3CHIF	23.01.17	Mo	1	50	BUG	DBI_1			142259	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	3	nicht entsch.
-CELEA Alexandru	30441720140909		3CHIF	23.01.17	Mo	1	50	BUG	DBI_1			142259	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	8	nicht entsch.
-CELEA Alexandru	30441720140909		3CHIF	23.01.17	Mo	1	50	RU	E1			142259	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	2	nicht entsch.
-CELEA Alexandru	30441720140909		3CHIF	23.01.17	Mo	1	50	TB	NVS1			142259	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	1	nicht entsch.
-CELEA Alexandru	30441720140909		3CHIF	23.01.17	Mo	1	50	HP	POS1			142259	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	5	nicht entsch.
-CELEA Alexandru	30441720140909		3CHIF	23.01.17	Mo	1	50	HP	POS1			142259	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	6	nicht entsch.
-CELEA Alexandru	30441720140909		3CHIF	23.01.17	Mo	1	50	BER	TINF_1			142259	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	7	nicht entsch.
-CELEA Alexandru	30441720140909		3CHIF	25.01.17	Mi	1	50	HZ	BESP			142260	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	2	nicht entsch.
-CELEA Alexandru	30441720140909		3CHIF	25.01.17	Mi	1	50	REM	SYP1			142260	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	1	nicht entsch.
-CELEA Alexandru	30441720140909		3CHIF	25.01.17	Mi	1	50	REM	SYP1			142260	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	3	nicht entsch.
-CELEA Alexandru	30441720140909		3CHIF	27.01.17	Fr	1	50	SG	D			142261	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	2	nicht entsch.
-CELEA Alexandru	30441720140909		3CHIF	27.01.17	Fr	1	50	PZ	GGP			142262	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	6	nicht entsch.
-CELEA Alexandru	30441720140909		3CHIF	27.01.17	Fr	1	50	REM	SYP1			142261	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	1	nicht entsch.
-CELEA Alexandru	30441720140909		3CHIF	27.01.17	Fr	1	50	REM	SYP1			142262	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	5	nicht entsch.
+CELEA Alexandru	30441720140909		3CHIF	22.12.16	Do	1	50	HL	AM			142254	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	1	nicht entsch.
+CELEA Alexandru	30441720140909		3CHIF	22.12.16	Do	1	50	SG	D			142255	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	5	nicht entsch.
+CELEA Alexandru	30441720140909		3CHIF	22.12.16	Do	1	50	BUG	DBI_1			142255	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	3	nicht entsch.
+CELEA Alexandru	30441720140909		3CHIF	22.12.16	Do	1	50	SG	GGP			142255	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	6	nicht entsch.
+CELEA Alexandru	30441720140909		3CHIF	23.12.16	Fr	1	50	SG	D			142256	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	2	nicht entsch.
+CELEA Alexandru	30441720140909		3CHIF	23.12.16	Fr	1	50	HP	POS1			142256	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	3	nicht entsch.
+CELEA Alexandru	30441720140909		3CHIF	23.12.16	Fr	1	50	HP	POS1			142256	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	4	nicht entsch.
+CELEA Alexandru	30441720140909		3CHIF	23.12.16	Fr	1	50	REM	SYP1			142256	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	1	nicht entsch.
+CELEA Alexandru	30441720140909		3CHIF	23.12.16	Fr	1	50	REM	SYP1			142256	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	5	nicht entsch.
+CELEA Alexandru	30441720140909		3CHIF	13.01.17	Fr	1	50	SG	D			142257	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	2	nicht entsch.
+CELEA Alexandru	30441720140909		3CHIF	13.01.17	Fr	1	50	PZ	GGP			142257	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	6	nicht entsch.
+CELEA Alexandru	30441720140909		3CHIF	13.01.17	Fr	1	50	HP	POS1			142257	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	3	nicht entsch.
+CELEA Alexandru	30441720140909		3CHIF	13.01.17	Fr	1	50	HP	POS1			142257	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	4	nicht entsch.
+CELEA Alexandru	30441720140909		3CHIF	13.01.17	Fr	1	50	REM	SYP1			142257	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	1	nicht entsch.
+CELEA Alexandru	30441720140909		3CHIF	13.01.17	Fr	1	50	REM	SYP1			142257	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	5	nicht entsch.
+CELEA Alexandru	30441720140909		3CHIF	16.01.17	Mo	1	50	HL	AM			142258	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	9	nicht entsch.
+CELEA Alexandru	30441720140909		3CHIF	16.01.17	Mo	1	50	BUG	DBI_1			142258	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	3	nicht entsch.
+CELEA Alexandru	30441720140909		3CHIF	16.01.17	Mo	1	50	BUG	DBI_1			142258	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	8	nicht entsch.
+CELEA Alexandru	30441720140909		3CHIF	16.01.17	Mo	1	50	RU	E1			142258	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	2	nicht entsch.
+CELEA Alexandru	30441720140909		3CHIF	16.01.17	Mo	1	50	TB	NVS1			142258	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	1	nicht entsch.
+CELEA Alexandru	30441720140909		3CHIF	16.01.17	Mo	1	50	HP	POS1			142258	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	5	nicht entsch.
+CELEA Alexandru	30441720140909		3CHIF	16.01.17	Mo	1	50	HP	POS1			142258	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	6	nicht entsch.
+CELEA Alexandru	30441720140909		3CHIF	16.01.17	Mo	1	50	BER	TINF_1			142258	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	7	nicht entsch.
+CELEA Alexandru	30441720140909		3CHIF	23.01.17	Mo	1	50	HL	AM			142259	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	9	nicht entsch.
+CELEA Alexandru	30441720140909		3CHIF	23.01.17	Mo	1	50	BUG	DBI_1			142259	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	3	nicht entsch.
+CELEA Alexandru	30441720140909		3CHIF	23.01.17	Mo	1	50	BUG	DBI_1			142259	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	8	nicht entsch.
+CELEA Alexandru	30441720140909		3CHIF	23.01.17	Mo	1	50	RU	E1			142259	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	2	nicht entsch.
+CELEA Alexandru	30441720140909		3CHIF	23.01.17	Mo	1	50	TB	NVS1			142259	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	1	nicht entsch.
+CELEA Alexandru	30441720140909		3CHIF	23.01.17	Mo	1	50	HP	POS1			142259	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	5	nicht entsch.
+CELEA Alexandru	30441720140909		3CHIF	23.01.17	Mo	1	50	HP	POS1			142259	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	6	nicht entsch.
+CELEA Alexandru	30441720140909		3CHIF	23.01.17	Mo	1	50	BER	TINF_1			142259	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	7	nicht entsch.
+CELEA Alexandru	30441720140909		3CHIF	25.01.17	Mi	1	50	HZ	BESP			142260	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	2	nicht entsch.
+CELEA Alexandru	30441720140909		3CHIF	25.01.17	Mi	1	50	REM	SYP1			142260	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	1	nicht entsch.
+CELEA Alexandru	30441720140909		3CHIF	25.01.17	Mi	1	50	REM	SYP1			142260	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	3	nicht entsch.
+CELEA Alexandru	30441720140909		3CHIF	27.01.17	Fr	1	50	SG	D			142261	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	2	nicht entsch.
+CELEA Alexandru	30441720140909		3CHIF	27.01.17	Fr	1	50	PZ	GGP			142262	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	6	nicht entsch.
+CELEA Alexandru	30441720140909		3CHIF	27.01.17	Fr	1	50	REM	SYP1			142261	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	1	nicht entsch.
+CELEA Alexandru	30441720140909		3CHIF	27.01.17	Fr	1	50	REM	SYP1			142262	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	5	nicht entsch.
 CELEA Alexandru	30441720140909		3CHIF	03.02.17	Fr	1	50	PZ	GGP			142577	27.02.17	true		6	nicht entsch.
 CELEA Alexandru	30441720140909		3CHIF	03.02.17	Fr	0	8	REM	SYP1			142229	24.02.17	true		1	nicht entsch.
 CELEA Alexandru	30441720140909		3CHIF	13.02.17	Mo	0	10	TB	NVS1			142230	24.02.17	true		1	nicht entsch.
@@ -306,7 +306,7 @@ CELEA Alexandru	30441720140909		3CHIF	27.02.17	Mo	1	50	HP	POS1	 Krankheit		14509
 CELEA Alexandru	30441720140909		3CHIF	27.02.17	Mo	1	50	HP	POS1	 Krankheit		145096	13.03.17	true		6	entsch.
 CELEA Alexandru	30441720140909		3CHIF	27.02.17	Mo	1	50	BER	TINF_1	 Krankheit		145096	13.03.17	true		7	entsch.
 CELEA Alexandru	30441720140909		3CHIF	02.03.17	Do	1	50	SG	D	Bus verpasst in Freistunde?		145097	13.03.17	true		5	nicht entsch.
-CELEA Alexandru	30441720140909		3CHIF	07.03.17	Di	1	50	HUT	NW2	 VerspÃ¤tung wegen Bus, Zug, ...		145098	13.03.17	true		1	entsch.
+CELEA Alexandru	30441720140909		3CHIF	07.03.17	Di	1	50	HUT	NW2	 Verspätung wegen Bus, Zug, ...		145098	13.03.17	true		1	entsch.
 CELEA Alexandru	30441720140909		3CHIF	08.03.17	Mi	1	50	HUT	NW2			145100	13.03.17	true		7	nicht entsch.
 CELEA Alexandru	30441720140909		3CHIF	09.03.17	Do	1	50	HL	AM	 Krankheit		145103	13.03.17	true		1	entsch.
 CELEA Alexandru	30441720140909		3CHIF	09.03.17	Do	1	50	TN	BWM_1	 Krankheit		145103	13.03.17	true		2	entsch.
@@ -314,7 +314,7 @@ CELEA Alexandru	30441720140909		3CHIF	09.03.17	Do	1	50	SG	D	 Krankheit		145103	1
 CELEA Alexandru	30441720140909		3CHIF	09.03.17	Do	1	50	BUG	DBI_1	 Krankheit		145103	13.03.17	true		3	entsch.
 CELEA Alexandru	30441720140909		3CHIF	09.03.17	Do	1	50	SG	GGP	 Krankheit		145103	13.03.17	true		6	entsch.
 CELEA Alexandru	30441720140909		3CHIF	10.03.17	Fr	0	10	SG	D			145105	13.03.17	true		2	nicht entsch.
-CELEA Alexandru	30441720140909		3CHIF	13.03.17	Mo	1	25	TB	NVS1	 VerspÃ¤tung wegen Bus, Zug, ...		145108	13.03.17	true		1	entsch.
+CELEA Alexandru	30441720140909		3CHIF	13.03.17	Mo	1	25	TB	NVS1	 Verspätung wegen Bus, Zug, ...		145108	13.03.17	true		1	entsch.
 CELEA Alexandru	30441720140909		3CHIF	24.03.17	Fr	1	50	SG	D			148478	04.04.17	true		2	nicht entsch.
 CELEA Alexandru	30441720140909		3CHIF	24.03.17	Fr	1	50	HP	POS1			148478	04.04.17	true		3	nicht entsch.
 CELEA Alexandru	30441720140909		3CHIF	24.03.17	Fr	1	50	HP	POS1			148478	04.04.17	true		4	nicht entsch.
@@ -415,9 +415,9 @@ GRILL Matthias	30441720140914		3CHIF	27.04.17	Do	1	50	SG	D					true		5	nicht ent
 GRILL Matthias	30441720140914		3CHIF	27.04.17	Do	1	50	BUG	DBI_1					true		3	nicht entsch.
 GRILL Matthias	30441720140914		3CHIF	27.04.17	Do	1	50	SG	GGP					true		6	nicht entsch.
 GRILL Matthias	30441720140914		3CHIF	27.04.17	Do	1	50	TT	RK					true		4	nicht entsch.
-HIRSCHHOFER Gary	30441720140916		3CHIF	16.09.16	Fr	1	50	SG	D	FÃ¼herscheinprÃ¼fung Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		124057	16.09.16	true		2	entsch.
-HIRSCHHOFER Gary	30441720140916		3CHIF	16.09.16	Fr	1	39	HP	POS1	FÃ¼herscheinprÃ¼fung Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		124057	16.09.16	true		3	entsch.
-HIRSCHHOFER Gary	30441720140916		3CHIF	16.09.16	Fr	1	50	REM	SYP1	FÃ¼herscheinprÃ¼fung Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		124057	16.09.16	true		1	entsch.
+HIRSCHHOFER Gary	30441720140916		3CHIF	16.09.16	Fr	1	50	SG	D	Füherscheinprüfung Amtswege (Führerscheinprüfung, Musterung,...)		124057	16.09.16	true		2	entsch.
+HIRSCHHOFER Gary	30441720140916		3CHIF	16.09.16	Fr	1	39	HP	POS1	Füherscheinprüfung Amtswege (Führerscheinprüfung, Musterung,...)		124057	16.09.16	true		3	entsch.
+HIRSCHHOFER Gary	30441720140916		3CHIF	16.09.16	Fr	1	50	REM	SYP1	Füherscheinprüfung Amtswege (Führerscheinprüfung, Musterung,...)		124057	16.09.16	true		1	entsch.
 HIRSCHHOFER Gary	30441720140916		3CHIF	30.09.16	Fr	1	50	SG	D	 Krankheit		125685	07.10.16	true		2	entsch.
 HIRSCHHOFER Gary	30441720140916		3CHIF	30.09.16	Fr	1	50	PZ	GGP	 Krankheit		125685	07.10.16	true		6	entsch.
 HIRSCHHOFER Gary	30441720140916		3CHIF	30.09.16	Fr	1	50	SM (HP)	POS1	 Krankheit		125685	07.10.16	true		3	entsch.
@@ -425,7 +425,7 @@ HIRSCHHOFER Gary	30441720140916		3CHIF	30.09.16	Fr	1	50	REM	SYP1	 Krankheit		125
 HIRSCHHOFER Gary	30441720140916		3CHIF	30.09.16	Fr	1	50	REM	SYP1	 Krankheit		125685	07.10.16	true		5	entsch.
 HIRSCHHOFER Gary	30441720140916		3CHIF	30.09.16	Fr	1	50	BER	TINF_1	 Krankheit		125685	07.10.16	true		4	entsch.
 HIRSCHHOFER Gary	30441720140916		3CHIF	04.10.16	Di	1	50	HZ	BESP	 Verschlafen		125666	07.10.16	true		1	entsch.
-HIRSCHHOFER Gary	30441720140916		3CHIF	18.10.16	Di	0	16	HZ	BESP	 VerspÃ¤tung wegen Bus, Zug, ...		127151	21.10.16	true		1	entsch.
+HIRSCHHOFER Gary	30441720140916		3CHIF	18.10.16	Di	0	16	HZ	BESP	 Verspätung wegen Bus, Zug, ...		127151	21.10.16	true		1	entsch.
 HIRSCHHOFER Gary	30441720140916		3CHIF	25.10.16	Di	1	50	HZ	BESP			142590	27.02.17	true		1	nicht entsch.
 HIRSCHHOFER Gary	30441720140916		3CHIF	25.10.16	Di	1	50	RU	E1			142590	27.02.17	true		2	nicht entsch.
 HIRSCHHOFER Gary	30441720140916		3CHIF	25.10.16	Di	1	50	CY	NVS1			142590	27.02.17	true		4	nicht entsch.
@@ -488,7 +488,7 @@ HOMOLKA Nicolas	30441720140918		3CHIF	13.10.16	Do	1	50	HL	AM	 Verschlafen		13290
 HOMOLKA Nicolas	30441720140918		3CHIF	13.10.16	Do	1	50	TN	BWM_1	 Verschlafen		132909	19.12.16	true		2	entsch.
 HOMOLKA Nicolas	30441720140918		3CHIF	13.10.16	Do	1	50	BUG	DBI_1	 Verschlafen		132909	19.12.16	true		3	entsch.
 HOMOLKA Nicolas	30441720140918		3CHIF	18.10.16	Di	0	16	HZ	BESP			127153	21.10.16	true		1	nicht entsch.
-HOMOLKA Nicolas	30441720140918		3CHIF	21.10.16	Fr	0	13	REM	SYP1	 VerspÃ¤tung wegen Bus, Zug, ...		127152	21.10.16	true		1	entsch.
+HOMOLKA Nicolas	30441720140918		3CHIF	21.10.16	Fr	0	13	REM	SYP1	 Verspätung wegen Bus, Zug, ...		127152	21.10.16	true		1	entsch.
 HOMOLKA Nicolas	30441720140918		3CHIF	08.11.16	Di	1	50	HZ	BESP	 Verschlafen		132910	19.12.16	true		1	entsch.
 HOMOLKA Nicolas	30441720140918		3CHIF	10.11.16	Do	0	24	HL	AM			132911	19.12.16	true		1	nicht entsch.
 HOMOLKA Nicolas	30441720140918		3CHIF	24.11.16	Do	1	50	HL	AM	 Krankheit		132912	19.12.16	true		1	entsch.
@@ -501,9 +501,9 @@ HOMOLKA Nicolas	30441720140918		3CHIF	25.11.16	Fr	1	50	PZ	GGP	 Krankheit		132913
 HOMOLKA Nicolas	30441720140918		3CHIF	25.11.16	Fr	1	50	SM (HP)	POS1	 Krankheit		132913	19.12.16	true		3	entsch.
 HOMOLKA Nicolas	30441720140918		3CHIF	25.11.16	Fr	1	50	REM	SYP1	 Krankheit		132913	19.12.16	true		5	entsch.
 HOMOLKA Nicolas	30441720140918		3CHIF	25.11.16	Fr	1	50	BER	TINF_1	 Krankheit		132913	19.12.16	true		4	entsch.
-HOMOLKA Nicolas	30441720140918		3CHIF	01.12.16	Do	0	20	HL	AM	 VerspÃ¤tung wegen Bus, Zug, ...		132915	19.12.16	true		1	entsch.
-HOMOLKA Nicolas	30441720140918		3CHIF	05.12.16	Mo	1	50	HL	AM	 Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		132916	19.12.16	true		9	entsch.
-HOMOLKA Nicolas	30441720140918		3CHIF	05.12.16	Mo	1	50	BUG	DBI_1	 Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		132916	19.12.16	true		8	entsch.
+HOMOLKA Nicolas	30441720140918		3CHIF	01.12.16	Do	0	20	HL	AM	 Verspätung wegen Bus, Zug, ...		132915	19.12.16	true		1	entsch.
+HOMOLKA Nicolas	30441720140918		3CHIF	05.12.16	Mo	1	50	HL	AM	 Amtswege (Führerscheinprüfung, Musterung,...)		132916	19.12.16	true		9	entsch.
+HOMOLKA Nicolas	30441720140918		3CHIF	05.12.16	Mo	1	50	BUG	DBI_1	 Amtswege (Führerscheinprüfung, Musterung,...)		132916	19.12.16	true		8	entsch.
 HOMOLKA Nicolas	30441720140918		3CHIF	07.12.16	Mi	1	50	HZ	BESP	 Krankheit		132914	19.12.16	true		2	entsch.
 HOMOLKA Nicolas	30441720140918		3CHIF	07.12.16	Mi	1	50	TN	BWM_1	 Krankheit		132914	19.12.16	true		3	entsch.
 HOMOLKA Nicolas	30441720140918		3CHIF	07.12.16	Mi	1	50	TN	BWM_2	 Krankheit		132914	19.12.16	true		4	entsch.
@@ -540,23 +540,23 @@ HOMOLKA Nicolas	30441720140918		3CHIF	30.01.17	Mo	1	50	BUG	DBI_1	Apotheke - Unwo
 HOMOLKA Nicolas	30441720140918		3CHIF	30.01.17	Mo	0	5	HP	POS1	Apotheke - Unwohlsein Krankheit		148462	04.04.17	true		5	entsch.
 HOMOLKA Nicolas	30441720140918		3CHIF	30.01.17	Mo	1	50	HP	POS1	Apotheke - Unwohlsein Krankheit		148462	04.04.17	true		6	entsch.
 HOMOLKA Nicolas	30441720140918		3CHIF	30.01.17	Mo	1	50	BER	TINF_1	Apotheke - Unwohlsein Krankheit		148462	04.04.17	true		7	entsch.
-HOMOLKA Nicolas	30441720140918		3CHIF	02.02.17	Do	1	50	HL	AM	 VerspÃ¤tung wegen Bus, Zug, ...		148463	04.04.17	true		1	entsch.
+HOMOLKA Nicolas	30441720140918		3CHIF	02.02.17	Do	1	50	HL	AM	 Verspätung wegen Bus, Zug, ...		148463	04.04.17	true		1	entsch.
 HOMOLKA Nicolas	30441720140918		3CHIF	03.02.17	Fr	1	50	PZ	GGP			142579	27.02.17	true		6	nicht entsch.
 HOMOLKA Nicolas	30441720140918		3CHIF	03.02.17	Fr	0	11	REM	SYP1			142233	24.02.17	true		1	nicht entsch.
-HOMOLKA Nicolas	30441720140918		3CHIF	17.02.17	Fr	1	50	REM	SYP1	 VerspÃ¤tung wegen Bus, Zug, ...		148464	04.04.17	true		1	entsch.
+HOMOLKA Nicolas	30441720140918		3CHIF	17.02.17	Fr	1	50	REM	SYP1	 Verspätung wegen Bus, Zug, ...		148464	04.04.17	true		1	entsch.
 HOMOLKA Nicolas	30441720140918		3CHIF	20.02.17	Mo	1	50	HL	AM	 Krankheit		148465	04.04.17	true		3	entsch.
 HOMOLKA Nicolas	30441720140918		3CHIF	20.02.17	Mo	1	50	RU	E1	 Krankheit		148465	04.04.17	true		2	entsch.
 HOMOLKA Nicolas	30441720140918		3CHIF	20.02.17	Mo	1	50	TB	NVS1	 Krankheit		148465	04.04.17	true		1	entsch.
 HOMOLKA Nicolas	30441720140918		3CHIF	20.02.17	Mo	1	50	SG (HP)	POS1	 Krankheit		148466	04.04.17	true		6	entsch.
 HOMOLKA Nicolas	30441720140918		3CHIF	20.02.17	Mo	1	50	BER	TINF_1	 Krankheit		148465	04.04.17	true		4	entsch.
 HOMOLKA Nicolas	30441720140918		3CHIF	21.02.17	Di	1	50	HUT	NW2	 Arztbesuch		146722	24.03.17	true		1	entsch.
-HOMOLKA Nicolas	30441720140918		3CHIF	23.02.17	Do	1	50	HL	AM	 Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		148467	04.04.17	true		1	entsch.
-HOMOLKA Nicolas	30441720140918		3CHIF	23.02.17	Do	1	50	SG	GGP	 Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		148468	04.04.17	true		6	entsch.
-HOMOLKA Nicolas	30441720140918		3CHIF	24.02.17	Fr	1	50	SG	D	 Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		148468	04.04.17	true		2	entsch.
-HOMOLKA Nicolas	30441720140918		3CHIF	24.02.17	Fr	1	50	HP	POS1	 Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		148468	04.04.17	true		3	entsch.
-HOMOLKA Nicolas	30441720140918		3CHIF	24.02.17	Fr	1	50	HP	POS1	 Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		148468	04.04.17	true		4	entsch.
-HOMOLKA Nicolas	30441720140918		3CHIF	24.02.17	Fr	1	50	REM	SYP1	 Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		148468	04.04.17	true		1	entsch.
-HOMOLKA Nicolas	30441720140918		3CHIF	24.02.17	Fr	1	50	REM	SYP1	 Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		148468	04.04.17	true		5	entsch.
+HOMOLKA Nicolas	30441720140918		3CHIF	23.02.17	Do	1	50	HL	AM	 Amtswege (Führerscheinprüfung, Musterung,...)		148467	04.04.17	true		1	entsch.
+HOMOLKA Nicolas	30441720140918		3CHIF	23.02.17	Do	1	50	SG	GGP	 Amtswege (Führerscheinprüfung, Musterung,...)		148468	04.04.17	true		6	entsch.
+HOMOLKA Nicolas	30441720140918		3CHIF	24.02.17	Fr	1	50	SG	D	 Amtswege (Führerscheinprüfung, Musterung,...)		148468	04.04.17	true		2	entsch.
+HOMOLKA Nicolas	30441720140918		3CHIF	24.02.17	Fr	1	50	HP	POS1	 Amtswege (Führerscheinprüfung, Musterung,...)		148468	04.04.17	true		3	entsch.
+HOMOLKA Nicolas	30441720140918		3CHIF	24.02.17	Fr	1	50	HP	POS1	 Amtswege (Führerscheinprüfung, Musterung,...)		148468	04.04.17	true		4	entsch.
+HOMOLKA Nicolas	30441720140918		3CHIF	24.02.17	Fr	1	50	REM	SYP1	 Amtswege (Führerscheinprüfung, Musterung,...)		148468	04.04.17	true		1	entsch.
+HOMOLKA Nicolas	30441720140918		3CHIF	24.02.17	Fr	1	50	REM	SYP1	 Amtswege (Führerscheinprüfung, Musterung,...)		148468	04.04.17	true		5	entsch.
 HOMOLKA Nicolas	30441720140918		3CHIF	28.02.17	Di	1	50	HZ	BESP	 Krankheit		148469	04.04.17	true		7	entsch.
 HOMOLKA Nicolas	30441720140918		3CHIF	28.02.17	Di	1	50	TN	BWM_2	 Krankheit		148469	04.04.17	true		3	entsch.
 HOMOLKA Nicolas	30441720140918		3CHIF	28.02.17	Di	1	50	TN	BWM_2	 Krankheit		148469	04.04.17	true		8	entsch.
@@ -566,7 +566,7 @@ HOMOLKA Nicolas	30441720140918		3CHIF	28.02.17	Di	1	50	CY	NVS1	 Krankheit		14846
 HOMOLKA Nicolas	30441720140918		3CHIF	28.02.17	Di	1	50	HUT	NW2	 Krankheit		148469	04.04.17	true		1	entsch.
 HOMOLKA Nicolas	30441720140918		3CHIF	28.02.17	Di	1	50	HP	POS1	 Krankheit		148469	04.04.17	true		9	entsch.
 HOMOLKA Nicolas	30441720140918		3CHIF	28.02.17	Di	1	50	HP	POS1	 Krankheit		148469	04.04.17	true		10	entsch.
-HOMOLKA Nicolas	30441720140918		3CHIF	02.03.17	Do	1	50	HL	AM	technischer Defekt VerspÃ¤tung wegen Bus, Zug, ...		148470	04.04.17	true		1	entsch.
+HOMOLKA Nicolas	30441720140918		3CHIF	02.03.17	Do	1	50	HL	AM	technischer Defekt Verspätung wegen Bus, Zug, ...		148470	04.04.17	true		1	entsch.
 HOMOLKA Nicolas	30441720140918		3CHIF	03.03.17	Fr	1	50	SG	D					true		2	nicht entsch.
 HOMOLKA Nicolas	30441720140918		3CHIF	03.03.17	Fr	1	50	HP	POS1					true		3	nicht entsch.
 HOMOLKA Nicolas	30441720140918		3CHIF	03.03.17	Fr	1	50	HP	POS1					true		4	nicht entsch.
@@ -586,15 +586,15 @@ HOMOLKA Nicolas	30441720140918		3CHIF	09.03.17	Do	1	50	SG	D					true		5	nicht en
 HOMOLKA Nicolas	30441720140918		3CHIF	09.03.17	Do	1	50	BUG	DBI_1					true		3	nicht entsch.
 HOMOLKA Nicolas	30441720140918		3CHIF	09.03.17	Do	1	50	SG	GGP					true		6	nicht entsch.
 HOMOLKA Nicolas	30441720140918		3CHIF	10.03.17	Fr	0	10	SG	D			148476	04.04.17	true		2	nicht entsch.
-HOMOLKA Nicolas	30441720140918		3CHIF	21.03.17	Di	1	50	HZ	BESP	FÃ¼hrerscheinprÃ¼fung Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		148475	04.04.17	true		7	entsch.
-HOMOLKA Nicolas	30441720140918		3CHIF	21.03.17	Di	1	50	TN	BWM_2	FÃ¼hrerscheinprÃ¼fung Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		148475	04.04.17	true		8	entsch.
-HOMOLKA Nicolas	30441720140918		3CHIF	21.03.17	Di	1	50	RU	E1	FÃ¼hrerscheinprÃ¼fung Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		148475	04.04.17	true		2	entsch.
-HOMOLKA Nicolas	30441720140918		3CHIF	21.03.17	Di	1	50	CY	NVS1	FÃ¼hrerscheinprÃ¼fung Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		148475	04.04.17	true		4	entsch.
-HOMOLKA Nicolas	30441720140918		3CHIF	21.03.17	Di	1	50	CY	NVS1	FÃ¼hrerscheinprÃ¼fung Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		148475	04.04.17	true		5	entsch.
-HOMOLKA Nicolas	30441720140918		3CHIF	21.03.17	Di	1	50	HUT	NW2	FÃ¼hrerscheinprÃ¼fung Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		148475	04.04.17	true		1	entsch.
-HOMOLKA Nicolas	30441720140918		3CHIF	21.03.17	Di	1	50	HP	POS1	FÃ¼hrerscheinprÃ¼fung Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		148475	04.04.17	true		9	entsch.
-HOMOLKA Nicolas	30441720140918		3CHIF	21.03.17	Di	1	50	HP	POS1	FÃ¼hrerscheinprÃ¼fung Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		148475	04.04.17	true		10	entsch.
-HOMOLKA Nicolas	30441720140918		3CHIF	21.03.17	Di	1	50	BER	TINF_1	FÃ¼hrerscheinprÃ¼fung Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		148475	04.04.17	true		3	entsch.
+HOMOLKA Nicolas	30441720140918		3CHIF	21.03.17	Di	1	50	HZ	BESP	Führerscheinprüfung Amtswege (Führerscheinprüfung, Musterung,...)		148475	04.04.17	true		7	entsch.
+HOMOLKA Nicolas	30441720140918		3CHIF	21.03.17	Di	1	50	TN	BWM_2	Führerscheinprüfung Amtswege (Führerscheinprüfung, Musterung,...)		148475	04.04.17	true		8	entsch.
+HOMOLKA Nicolas	30441720140918		3CHIF	21.03.17	Di	1	50	RU	E1	Führerscheinprüfung Amtswege (Führerscheinprüfung, Musterung,...)		148475	04.04.17	true		2	entsch.
+HOMOLKA Nicolas	30441720140918		3CHIF	21.03.17	Di	1	50	CY	NVS1	Führerscheinprüfung Amtswege (Führerscheinprüfung, Musterung,...)		148475	04.04.17	true		4	entsch.
+HOMOLKA Nicolas	30441720140918		3CHIF	21.03.17	Di	1	50	CY	NVS1	Führerscheinprüfung Amtswege (Führerscheinprüfung, Musterung,...)		148475	04.04.17	true		5	entsch.
+HOMOLKA Nicolas	30441720140918		3CHIF	21.03.17	Di	1	50	HUT	NW2	Führerscheinprüfung Amtswege (Führerscheinprüfung, Musterung,...)		148475	04.04.17	true		1	entsch.
+HOMOLKA Nicolas	30441720140918		3CHIF	21.03.17	Di	1	50	HP	POS1	Führerscheinprüfung Amtswege (Führerscheinprüfung, Musterung,...)		148475	04.04.17	true		9	entsch.
+HOMOLKA Nicolas	30441720140918		3CHIF	21.03.17	Di	1	50	HP	POS1	Führerscheinprüfung Amtswege (Führerscheinprüfung, Musterung,...)		148475	04.04.17	true		10	entsch.
+HOMOLKA Nicolas	30441720140918		3CHIF	21.03.17	Di	1	50	BER	TINF_1	Führerscheinprüfung Amtswege (Führerscheinprüfung, Musterung,...)		148475	04.04.17	true		3	entsch.
 HOMOLKA Nicolas	30441720140918		3CHIF	23.03.17	Do	1	50	TN	BWM_1					true		2	nicht entsch.
 HOMOLKA Nicolas	30441720140918		3CHIF	23.03.17	Do	1	50	SG	D					true		5	nicht entsch.
 HOMOLKA Nicolas	30441720140918		3CHIF	23.03.17	Do	1	50	BUG	DBI_1					true		3	nicht entsch.
@@ -616,9 +616,9 @@ HOMOLKA Nicolas	30441720140918		3CHIF	03.04.17	Mo	1	50	TB	NVS1	 Krankheit		14847
 HOMOLKA Nicolas	30441720140918		3CHIF	03.04.17	Mo	1	50	HP	POS1	 Krankheit		148474	04.04.17	true		5	entsch.
 HOMOLKA Nicolas	30441720140918		3CHIF	03.04.17	Mo	1	50	HP	POS1	 Krankheit		148474	04.04.17	true		6	entsch.
 HOMOLKA Nicolas	30441720140918		3CHIF	03.04.17	Mo	1	50	BER	TINF_1	 Krankheit		148474	04.04.17	true		7	entsch.
-HOMOLKA Nicolas	30441720140918		3CHIF	07.04.17	Fr	1	50	SG	D	 Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		148935	07.04.17	true		2	entsch.
-HOMOLKA Nicolas	30441720140918		3CHIF	07.04.17	Fr	1	37	HP	POS1	 Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		148935	07.04.17	true		3	entsch.
-HOMOLKA Nicolas	30441720140918		3CHIF	07.04.17	Fr	1	50	REM	SYP1	 Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		148935	07.04.17	true		1	entsch.
+HOMOLKA Nicolas	30441720140918		3CHIF	07.04.17	Fr	1	50	SG	D	 Amtswege (Führerscheinprüfung, Musterung,...)		148935	07.04.17	true		2	entsch.
+HOMOLKA Nicolas	30441720140918		3CHIF	07.04.17	Fr	1	37	HP	POS1	 Amtswege (Führerscheinprüfung, Musterung,...)		148935	07.04.17	true		3	entsch.
+HOMOLKA Nicolas	30441720140918		3CHIF	07.04.17	Fr	1	50	REM	SYP1	 Amtswege (Führerscheinprüfung, Musterung,...)		148935	07.04.17	true		1	entsch.
 HOMOLKA Nicolas	30441720140918		3CHIF	19.04.17	Mi	1	50	HZ	BESP	Sales/Marketing-Seminar				true		2	nicht entsch.
 HOMOLKA Nicolas	30441720140918		3CHIF	19.04.17	Mi	1	50	TN	BWM_1	Sales/Marketing-Seminar				true		4	nicht entsch.
 HOMOLKA Nicolas	30441720140918		3CHIF	19.04.17	Mi	1	50	TN	BWM_2	Sales/Marketing-Seminar				true		6	nicht entsch.
@@ -657,17 +657,17 @@ JOVANOVIC Vuk	30441720140920		3CHIF	07.09.16	Mi	1	50	LR	BWM	 Krankheit		124063	1
 JOVANOVIC Vuk	30441720140920		3CHIF	07.09.16	Mi	1	50	BUG	DBI1	 Krankheit		124063	16.09.16	true		5	entsch.
 JOVANOVIC Vuk	30441720140920		3CHIF	07.09.16	Mi	1	50	PZ	GGP	 Krankheit		124063	16.09.16	true		4	entsch.
 JOVANOVIC Vuk	30441720140920		3CHIF	07.09.16	Mi	1	50	REM	SYP1	 Krankheit		124063	16.09.16	true		9	entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	08.09.16	Do	1	50	BUG	DBI1	 VerspÃ¤tung wegen Bus, Zug, ...		124064	16.09.16	true		2	entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	12.09.16	Mo	1	50	CY	NVS1	 Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		124066	16.09.16	true		1	entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	12.09.16	Mo	1	50	CY	NVS1	 Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		124066	16.09.16	true		2	entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	13.09.16	Di	0	15	HZ	BESP	 VerspÃ¤tung wegen Bus, Zug, ...		124067	16.09.16	true		1	entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	08.09.16	Do	1	50	BUG	DBI1	 Verspätung wegen Bus, Zug, ...		124064	16.09.16	true		2	entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	12.09.16	Mo	1	50	CY	NVS1	 Amtswege (Führerscheinprüfung, Musterung,...)		124066	16.09.16	true		1	entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	12.09.16	Mo	1	50	CY	NVS1	 Amtswege (Führerscheinprüfung, Musterung,...)		124066	16.09.16	true		2	entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	13.09.16	Di	0	15	HZ	BESP	 Verspätung wegen Bus, Zug, ...		124067	16.09.16	true		1	entsch.
 JOVANOVIC Vuk	30441720140920		3CHIF	16.09.16	Fr	0	10	HP	POS1			124061	16.09.16	true		4	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	19.09.16	Mo	1	50	HL	AM	 FamiliÃ¤re GrÃ¼nde (Hochzeit, BegrÃ¤bnis,...)		125669	07.10.16	true		3	entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	19.09.16	Mo	1	50	BUG	DBI1	 FamiliÃ¤re GrÃ¼nde (Hochzeit, BegrÃ¤bnis,...)		125669	07.10.16	true		4	entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	19.09.16	Mo	1	50	RU	E1	 FamiliÃ¤re GrÃ¼nde (Hochzeit, BegrÃ¤bnis,...)		125670	07.10.16	true		8	entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	19.09.16	Mo	1	50	CY	NVS1	 FamiliÃ¤re GrÃ¼nde (Hochzeit, BegrÃ¤bnis,...)		125669	07.10.16	true		1	entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	19.09.16	Mo	1	50	CY	NVS1	 FamiliÃ¤re GrÃ¼nde (Hochzeit, BegrÃ¤bnis,...)		125669	07.10.16	true		2	entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	19.09.16	Mo	1	50	TB	NVS1	 FamiliÃ¤re GrÃ¼nde (Hochzeit, BegrÃ¤bnis,...)		125670	07.10.16	true		9	entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	19.09.16	Mo	1	50	HL	AM	 Familiäre Gründe (Hochzeit, Begräbnis,...)		125669	07.10.16	true		3	entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	19.09.16	Mo	1	50	BUG	DBI1	 Familiäre Gründe (Hochzeit, Begräbnis,...)		125669	07.10.16	true		4	entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	19.09.16	Mo	1	50	RU	E1	 Familiäre Gründe (Hochzeit, Begräbnis,...)		125670	07.10.16	true		8	entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	19.09.16	Mo	1	50	CY	NVS1	 Familiäre Gründe (Hochzeit, Begräbnis,...)		125669	07.10.16	true		1	entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	19.09.16	Mo	1	50	CY	NVS1	 Familiäre Gründe (Hochzeit, Begräbnis,...)		125669	07.10.16	true		2	entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	19.09.16	Mo	1	50	TB	NVS1	 Familiäre Gründe (Hochzeit, Begräbnis,...)		125670	07.10.16	true		9	entsch.
 JOVANOVIC Vuk	30441720140920		3CHIF	23.09.16	Fr	1	25	SG	D	 Verschlafen		125668	07.10.16	true		2	entsch.
 JOVANOVIC Vuk	30441720140920		3CHIF	23.09.16	Fr	1	50	REM	SYP1	 Verschlafen		125668	07.10.16	true		1	entsch.
 JOVANOVIC Vuk	30441720140920		3CHIF	26.09.16	Mo	1	50	BUG	DBI_1	 Krankheit		125659	07.10.16	true		3	entsch.
@@ -690,148 +690,148 @@ JOVANOVIC Vuk	30441720140920		3CHIF	28.09.16	Mi	1	50	BUG	DBI_1	 Krankheit		12566
 JOVANOVIC Vuk	30441720140920		3CHIF	28.09.16	Mi	1	50	HUT	NW2	 Krankheit		125661	07.10.16	true		6	entsch.
 JOVANOVIC Vuk	30441720140920		3CHIF	28.09.16	Mi	1	50	REM	SYP1	 Krankheit		125661	07.10.16	true		1	entsch.
 JOVANOVIC Vuk	30441720140920		3CHIF	30.09.16	Fr	0	11	REM	SYP1			125671	07.10.16	true		1	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	03.10.16	Mo	1	50	BUG	DBI_1	 FamiliÃ¤re GrÃ¼nde (Hochzeit, BegrÃ¤bnis,...)		125672	07.10.16	true		3	entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	03.10.16	Mo	1	50	RU	E1	 FamiliÃ¤re GrÃ¼nde (Hochzeit, BegrÃ¤bnis,...)		125672	07.10.16	true		2	entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	03.10.16	Mo	1	50	TB	NVS1	 FamiliÃ¤re GrÃ¼nde (Hochzeit, BegrÃ¤bnis,...)		125672	07.10.16	true		1	entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	03.10.16	Mo	0	5	BUG (HP)	POS1	 FamiliÃ¤re GrÃ¼nde (Hochzeit, BegrÃ¤bnis,...)		125672	07.10.16	true		6	entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	03.10.16	Mo	1	50	BUG	DBI_1	 Familiäre Gründe (Hochzeit, Begräbnis,...)		125672	07.10.16	true		3	entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	03.10.16	Mo	1	50	RU	E1	 Familiäre Gründe (Hochzeit, Begräbnis,...)		125672	07.10.16	true		2	entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	03.10.16	Mo	1	50	TB	NVS1	 Familiäre Gründe (Hochzeit, Begräbnis,...)		125672	07.10.16	true		1	entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	03.10.16	Mo	0	5	BUG (HP)	POS1	 Familiäre Gründe (Hochzeit, Begräbnis,...)		125672	07.10.16	true		6	entsch.
 JOVANOVIC Vuk	30441720140920		3CHIF	04.10.16	Di	1	50	HZ	BESP	 Verschlafen		125673	07.10.16	true		1	entsch.
 JOVANOVIC Vuk	30441720140920		3CHIF	06.10.16	Do	1	50	TN	BWM_1	 Krankheit		125658	07.10.16	true		2	entsch.
 JOVANOVIC Vuk	30441720140920		3CHIF	06.10.16	Do	1	50	BUG	DBI_1	 Krankheit		125658	07.10.16	true		3	entsch.
 JOVANOVIC Vuk	30441720140920		3CHIF	06.10.16	Do	1	50	TB	NVS1	 Krankheit		125658	07.10.16	true		5	entsch.
 JOVANOVIC Vuk	30441720140920		3CHIF	06.10.16	Do	1	50	BER	TINF_1	 Krankheit		125658	07.10.16	true		6	entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	11.10.16	Di	1	50	HP	POS1			142264	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	9	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	11.10.16	Di	1	50	HP	POS1			142264	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	10	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	12.10.16	Mi	0	20	HZ	BESP			142264	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	2	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	12.10.16	Mi	1	50	REM	SYP1			142264	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	1	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	11.10.16	Di	1	50	HP	POS1			142264	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	9	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	11.10.16	Di	1	50	HP	POS1			142264	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	10	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	12.10.16	Mi	0	20	HZ	BESP			142264	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	2	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	12.10.16	Mi	1	50	REM	SYP1			142264	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	1	nicht entsch.
 JOVANOVIC Vuk	30441720140920		3CHIF	14.10.16	Fr	0	7	SG	D			127154	21.10.16	true		2	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	17.10.16	Mo	1	50	BUG	DBI_1			142265	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	3	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	17.10.16	Mo	1	50	RU	E1			142265	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	2	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	17.10.16	Mo	1	50	TB	NVS1			142265	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	1	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	17.10.16	Mo	1	50	BUG	DBI_1			142265	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	3	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	17.10.16	Mo	1	50	RU	E1			142265	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	2	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	17.10.16	Mo	1	50	TB	NVS1			142265	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	1	nicht entsch.
 JOVANOVIC Vuk	30441720140920		3CHIF	17.10.16	Mo	0	16	HP	POS1			127155	21.10.16	true		6	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	18.10.16	Di	1	50	HZ	BESP			142266	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	1	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	18.10.16	Di	1	50	TN	BWM_2			142266	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	8	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	18.10.16	Di	1	50	RU	E1			142266	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	2	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	18.10.16	Di	1	50	CY	NVS1			142266	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	4	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	18.10.16	Di	1	50	CY	NVS1			142266	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	5	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	18.10.16	Di	1	50	HUT	NW2			142266	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	7	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	18.10.16	Di	1	50	HP	POS1			142266	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	9	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	18.10.16	Di	1	50	HP	POS1			142266	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	10	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	18.10.16	Di	1	50	BER	TINF_1			142266	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	3	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	19.10.16	Mi	1	50	HZ	BESP			142266	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	2	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	19.10.16	Mi	1	50	TN	BWM_1			142266	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	3	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	19.10.16	Mi	1	50	TN	BWM_2			142266	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	4	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	19.10.16	Mi	1	50	HUT	NW2			142266	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	6	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	19.10.16	Mi	1	50	REM	SYP1			142266	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	1	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	20.10.16	Do	1	50	HL	AM			142266	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	1	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	20.10.16	Do	1	50	TN	BWM_1			142266	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	2	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	20.10.16	Do	1	50	SG	D			142266	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	5	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	20.10.16	Do	1	50	BUG	DBI_1			142266	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	3	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	20.10.16	Do	1	50	SG	GGP			142266	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	6	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	18.10.16	Di	1	50	HZ	BESP			142266	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	1	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	18.10.16	Di	1	50	TN	BWM_2			142266	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	8	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	18.10.16	Di	1	50	RU	E1			142266	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	2	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	18.10.16	Di	1	50	CY	NVS1			142266	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	4	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	18.10.16	Di	1	50	CY	NVS1			142266	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	5	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	18.10.16	Di	1	50	HUT	NW2			142266	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	7	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	18.10.16	Di	1	50	HP	POS1			142266	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	9	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	18.10.16	Di	1	50	HP	POS1			142266	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	10	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	18.10.16	Di	1	50	BER	TINF_1			142266	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	3	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	19.10.16	Mi	1	50	HZ	BESP			142266	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	2	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	19.10.16	Mi	1	50	TN	BWM_1			142266	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	3	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	19.10.16	Mi	1	50	TN	BWM_2			142266	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	4	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	19.10.16	Mi	1	50	HUT	NW2			142266	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	6	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	19.10.16	Mi	1	50	REM	SYP1			142266	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	1	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	20.10.16	Do	1	50	HL	AM			142266	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	1	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	20.10.16	Do	1	50	TN	BWM_1			142266	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	2	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	20.10.16	Do	1	50	SG	D			142266	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	5	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	20.10.16	Do	1	50	BUG	DBI_1			142266	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	3	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	20.10.16	Do	1	50	SG	GGP			142266	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	6	nicht entsch.
 JOVANOVIC Vuk	30441720140920		3CHIF	21.10.16	Fr	0	21	SG	D			127156	21.10.16	true		2	nicht entsch.
 JOVANOVIC Vuk	30441720140920		3CHIF	21.10.16	Fr	1	50	REM	SYP1			127156	21.10.16	true		1	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	25.10.16	Di	1	50	HZ	BESP			142267	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	1	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	25.10.16	Di	1	50	TN	BWM_2			142267	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	8	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	25.10.16	Di	1	50	RU	E1			142267	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	2	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	25.10.16	Di	1	50	CY	NVS1			142267	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	4	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	25.10.16	Di	1	50	CY	NVS1			142267	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	5	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	25.10.16	Di	1	50	HUT	NW2			142267	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	7	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	25.10.16	Di	1	50	BER	TINF_1			142267	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	3	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	27.10.16	Do	1	50	HL	AM			142267	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	1	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	27.10.16	Do	1	50	TN	BWM_1			142267	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	2	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	27.10.16	Do	1	50	SG	D			142267	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	5	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	27.10.16	Do	1	50	BUG	DBI_1			142267	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	3	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	27.10.16	Do	1	50	SG	GGP			142267	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	6	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	28.10.16	Fr	1	50	SG	D			142267	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	2	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	28.10.16	Fr	1	50	PZ	GGP			142267	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	6	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	28.10.16	Fr	1	50	HP	POS1			142267	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	3	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	28.10.16	Fr	1	50	HP	POS1			142267	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	4	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	28.10.16	Fr	1	50	HP	ROB			142267	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	9	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	28.10.16	Fr	1	50	HP	ROB			142267	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	10	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	28.10.16	Fr	1	50	REM	SYP1			142267	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	1	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	28.10.16	Fr	1	50	REM	SYP1			142267	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	5	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	08.11.16	Di	1	50	HZ	BESP			142268	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	1	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	09.11.16	Mi	1	50	HZ	BESP			142269	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	2	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	09.11.16	Mi	1	50	PZ	GGP			142269	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	1	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	10.11.16	Do	1	50	HL	AM			142270	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	1	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	10.11.16	Do	1	50	TN	BWM_1			142270	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	2	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	16.11.16	Mi	1	50	HZ	BESP			142271	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	2	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	16.11.16	Mi	1	50	REM	SYP1			142271	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	1	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	17.11.16	Do	1	50	HL	AM			142272	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	1	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	22.11.16	Di	1	50	HP	POS1			142273	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	9	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	22.11.16	Di	1	50	HP	POS1			142273	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	10	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	23.11.16	Mi	1	50	HZ	BESP			142273	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	2	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	23.11.16	Mi	1	50	TN	BWM_1			142273	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	3	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	23.11.16	Mi	1	50	TN	BWM_2			142273	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	4	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	23.11.16	Mi	1	50	HUT	NW2			142273	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	6	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	23.11.16	Mi	1	50	REM	SYP1			142273	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	1	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	24.11.16	Do	1	50	BUG	DBI_1			142274	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	3	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	28.11.16	Mo	1	50	HL	AM			142275	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	8	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	28.11.16	Mo	1	50	BUG	DBI_1			142275	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	3	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	28.11.16	Mo	1	50	BUG	DBI_1			142275	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	7	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	28.11.16	Mo	1	50	RU	E1			142275	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	2	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	28.11.16	Mo	1	50	BUG (HP)	POS1			142275	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	6	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	28.11.16	Mo	1	50	BER	TINF_1			142275	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	4	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	29.11.16	Di	1	50	HZ	BESP			142275	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	1	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	29.11.16	Di	1	50	RU	E1			142275	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	2	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	29.11.16	Di	1	50	CY	NVS1			142275	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	4	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	29.11.16	Di	1	50	CY	NVS1			142275	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	5	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	29.11.16	Di	1	50	HUT	NW2			142275	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	7	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	29.11.16	Di	1	50	HP	POS1			142276	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	9	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	29.11.16	Di	1	50	HP	POS1			142276	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	10	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	29.11.16	Di	1	50	BER	TINF_1			142275	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	3	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	01.12.16	Do	1	50	HL	AM			142277	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	1	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	01.12.16	Do	1	50	TN	BWM_1			142277	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	2	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	02.12.16	Fr	1	50	REM	SYP1			142278	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	1	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	05.12.16	Mo	1	50	HL	AM			142279	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	9	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	05.12.16	Mo	1	50	BUG	DBI_1			142279	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	3	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	05.12.16	Mo	1	50	BUG	DBI_1			142279	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	8	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	05.12.16	Mo	1	50	RU	E1			142279	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	2	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	05.12.16	Mo	1	50	TB	NVS1			142279	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	1	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	05.12.16	Mo	1	50	HP	POS1			142279	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	5	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	05.12.16	Mo	1	50	HP	POS1			142279	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	6	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	05.12.16	Mo	1	50	BER	TINF_1			142279	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	7	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	25.10.16	Di	1	50	HZ	BESP			142267	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	1	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	25.10.16	Di	1	50	TN	BWM_2			142267	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	8	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	25.10.16	Di	1	50	RU	E1			142267	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	2	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	25.10.16	Di	1	50	CY	NVS1			142267	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	4	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	25.10.16	Di	1	50	CY	NVS1			142267	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	5	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	25.10.16	Di	1	50	HUT	NW2			142267	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	7	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	25.10.16	Di	1	50	BER	TINF_1			142267	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	3	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	27.10.16	Do	1	50	HL	AM			142267	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	1	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	27.10.16	Do	1	50	TN	BWM_1			142267	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	2	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	27.10.16	Do	1	50	SG	D			142267	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	5	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	27.10.16	Do	1	50	BUG	DBI_1			142267	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	3	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	27.10.16	Do	1	50	SG	GGP			142267	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	6	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	28.10.16	Fr	1	50	SG	D			142267	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	2	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	28.10.16	Fr	1	50	PZ	GGP			142267	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	6	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	28.10.16	Fr	1	50	HP	POS1			142267	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	3	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	28.10.16	Fr	1	50	HP	POS1			142267	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	4	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	28.10.16	Fr	1	50	HP	ROB			142267	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	9	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	28.10.16	Fr	1	50	HP	ROB			142267	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	10	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	28.10.16	Fr	1	50	REM	SYP1			142267	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	1	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	28.10.16	Fr	1	50	REM	SYP1			142267	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	5	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	08.11.16	Di	1	50	HZ	BESP			142268	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	1	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	09.11.16	Mi	1	50	HZ	BESP			142269	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	2	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	09.11.16	Mi	1	50	PZ	GGP			142269	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	1	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	10.11.16	Do	1	50	HL	AM			142270	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	1	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	10.11.16	Do	1	50	TN	BWM_1			142270	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	2	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	16.11.16	Mi	1	50	HZ	BESP			142271	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	2	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	16.11.16	Mi	1	50	REM	SYP1			142271	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	1	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	17.11.16	Do	1	50	HL	AM			142272	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	1	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	22.11.16	Di	1	50	HP	POS1			142273	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	9	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	22.11.16	Di	1	50	HP	POS1			142273	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	10	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	23.11.16	Mi	1	50	HZ	BESP			142273	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	2	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	23.11.16	Mi	1	50	TN	BWM_1			142273	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	3	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	23.11.16	Mi	1	50	TN	BWM_2			142273	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	4	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	23.11.16	Mi	1	50	HUT	NW2			142273	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	6	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	23.11.16	Mi	1	50	REM	SYP1			142273	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	1	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	24.11.16	Do	1	50	BUG	DBI_1			142274	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	3	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	28.11.16	Mo	1	50	HL	AM			142275	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	8	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	28.11.16	Mo	1	50	BUG	DBI_1			142275	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	3	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	28.11.16	Mo	1	50	BUG	DBI_1			142275	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	7	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	28.11.16	Mo	1	50	RU	E1			142275	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	2	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	28.11.16	Mo	1	50	BUG (HP)	POS1			142275	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	6	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	28.11.16	Mo	1	50	BER	TINF_1			142275	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	4	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	29.11.16	Di	1	50	HZ	BESP			142275	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	1	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	29.11.16	Di	1	50	RU	E1			142275	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	2	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	29.11.16	Di	1	50	CY	NVS1			142275	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	4	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	29.11.16	Di	1	50	CY	NVS1			142275	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	5	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	29.11.16	Di	1	50	HUT	NW2			142275	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	7	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	29.11.16	Di	1	50	HP	POS1			142276	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	9	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	29.11.16	Di	1	50	HP	POS1			142276	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	10	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	29.11.16	Di	1	50	BER	TINF_1			142275	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	3	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	01.12.16	Do	1	50	HL	AM			142277	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	1	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	01.12.16	Do	1	50	TN	BWM_1			142277	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	2	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	02.12.16	Fr	1	50	REM	SYP1			142278	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	1	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	05.12.16	Mo	1	50	HL	AM			142279	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	9	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	05.12.16	Mo	1	50	BUG	DBI_1			142279	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	3	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	05.12.16	Mo	1	50	BUG	DBI_1			142279	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	8	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	05.12.16	Mo	1	50	RU	E1			142279	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	2	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	05.12.16	Mo	1	50	TB	NVS1			142279	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	1	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	05.12.16	Mo	1	50	HP	POS1			142279	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	5	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	05.12.16	Mo	1	50	HP	POS1			142279	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	6	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	05.12.16	Mo	1	50	BER	TINF_1			142279	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	7	nicht entsch.
 JOVANOVIC Vuk	30441720140920		3CHIF	06.12.16	Di	0	8	HP	POS1			142227	24.02.17	true		10	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	12.12.16	Mo	1	50	HL	AM			142281	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	9	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	12.12.16	Mo	1	50	BUG	DBI_1			142281	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	8	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	12.12.16	Mo	1	50	RU	E1			142280	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	2	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	12.12.16	Mo	1	50	TB	NVS1			142280	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	1	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	13.12.16	Di	1	50	HZ	BESP			142282	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	1	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	13.12.16	Di	1	50	TN	BWM_2			142282	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	8	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	13.12.16	Di	1	50	RU	E1			142282	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	2	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	13.12.16	Di	1	50	CY	NVS1			142282	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	4	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	13.12.16	Di	1	50	CY	NVS1			142282	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	5	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	13.12.16	Di	1	50	HUT	NW2			142282	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	7	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	13.12.16	Di	1	50	HP	POS1			142282	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	9	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	13.12.16	Di	1	50	HP	POS1			142282	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	10	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	13.12.16	Di	1	50	BER	TINF_1			142282	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	3	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	14.12.16	Mi	1	50	REM	SYP1			142283	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	1	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	12.12.16	Mo	1	50	HL	AM			142281	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	9	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	12.12.16	Mo	1	50	BUG	DBI_1			142281	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	8	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	12.12.16	Mo	1	50	RU	E1			142280	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	2	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	12.12.16	Mo	1	50	TB	NVS1			142280	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	1	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	13.12.16	Di	1	50	HZ	BESP			142282	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	1	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	13.12.16	Di	1	50	TN	BWM_2			142282	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	8	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	13.12.16	Di	1	50	RU	E1			142282	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	2	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	13.12.16	Di	1	50	CY	NVS1			142282	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	4	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	13.12.16	Di	1	50	CY	NVS1			142282	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	5	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	13.12.16	Di	1	50	HUT	NW2			142282	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	7	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	13.12.16	Di	1	50	HP	POS1			142282	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	9	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	13.12.16	Di	1	50	HP	POS1			142282	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	10	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	13.12.16	Di	1	50	BER	TINF_1			142282	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	3	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	14.12.16	Mi	1	50	REM	SYP1			142283	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	1	nicht entsch.
 JOVANOVIC Vuk	30441720140920		3CHIF	16.12.16	Fr	1	50	PZ	GGP	 Arztbesuch		142263	24.02.17	true		6	entsch.
 JOVANOVIC Vuk	30441720140920		3CHIF	16.12.16	Fr	1	50	HP	ROB	 Arztbesuch		142263	24.02.17	true		9	entsch.
 JOVANOVIC Vuk	30441720140920		3CHIF	16.12.16	Fr	1	50	HP	ROB	 Arztbesuch		142263	24.02.17	true		10	entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	16.12.16	Fr	1	50	REM	SYP1			142284	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	1	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	16.12.16	Fr	1	50	REM	SYP1			142284	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	1	nicht entsch.
 JOVANOVIC Vuk	30441720140920		3CHIF	16.12.16	Fr	1	50	REM	SYP1	 Arztbesuch		142263	24.02.17	true		5	entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	19.12.16	Mo	1	50	HL	AM			142286	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	9	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	19.12.16	Mo	1	50	BUG	DBI_1			142285	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	3	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	19.12.16	Mo	1	50	BUG	DBI_1			142286	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	8	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	19.12.16	Mo	1	50	RU	E1			142285	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	2	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	19.12.16	Mo	1	50	TB	NVS1			142285	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	1	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	19.12.16	Mo	1	50	HP	POS1			142285	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	5	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	20.12.16	Di	1	50	BUG	DBI_1			142287	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	1	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	20.12.16	Di	1	50	RU	E1			142287	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	2	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	20.12.16	Di	1	50	BER	TINF_1			142287	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	3	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	19.12.16	Mo	1	50	HL	AM			142286	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	9	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	19.12.16	Mo	1	50	BUG	DBI_1			142285	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	3	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	19.12.16	Mo	1	50	BUG	DBI_1			142286	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	8	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	19.12.16	Mo	1	50	RU	E1			142285	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	2	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	19.12.16	Mo	1	50	TB	NVS1			142285	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	1	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	19.12.16	Mo	1	50	HP	POS1			142285	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	5	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	20.12.16	Di	1	50	BUG	DBI_1			142287	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	1	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	20.12.16	Di	1	50	RU	E1			142287	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	2	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	20.12.16	Di	1	50	BER	TINF_1			142287	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	3	nicht entsch.
 JOVANOVIC Vuk	30441720140920		3CHIF	21.12.16	Mi	0	11	REM	SYP1			142234	24.02.17	true		1	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	23.12.16	Fr	1	50	REM	SYP1			142288	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	1	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	09.01.17	Mo	1	50	TB	NVS1			142289	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	1	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	11.01.17	Mi	1	50	REM	SYP1			142290	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	1	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	12.01.17	Do	1	50	HL	AM			142291	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	1	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	12.01.17	Do	1	50	TN	BWM_1			142291	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	2	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	12.01.17	Do	1	50	BUG	DBI_1			142291	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	3	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	23.12.16	Fr	1	50	REM	SYP1			142288	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	1	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	09.01.17	Mo	1	50	TB	NVS1			142289	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	1	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	11.01.17	Mi	1	50	REM	SYP1			142290	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	1	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	12.01.17	Do	1	50	HL	AM			142291	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	1	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	12.01.17	Do	1	50	TN	BWM_1			142291	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	2	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	12.01.17	Do	1	50	BUG	DBI_1			142291	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	3	nicht entsch.
 JOVANOVIC Vuk	30441720140920		3CHIF	16.01.17	Mo	0	15	TB	NVS1			142235	24.02.17	true		1	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	23.01.17	Mo	0	10	RU	E1			142292	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	2	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	23.01.17	Mo	1	50	TB	NVS1			142292	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	1	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	27.01.17	Fr	1	50	REM	SYP1			142293	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	1	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	02.02.17	Do	1	50	SG	D			142294	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	5	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	02.02.17	Do	1	50	SG	GGP			142294	24.02.17	true	Entschuldigungen fragwÃ¼rdig und erst zu Semesterschluss gebracht	6	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	23.01.17	Mo	0	10	RU	E1			142292	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	2	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	23.01.17	Mo	1	50	TB	NVS1			142292	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	1	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	27.01.17	Fr	1	50	REM	SYP1			142293	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	1	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	02.02.17	Do	1	50	SG	D			142294	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	5	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	02.02.17	Do	1	50	SG	GGP			142294	24.02.17	true	Entschuldigungen fragwürdig und erst zu Semesterschluss gebracht	6	nicht entsch.
 JOVANOVIC Vuk	30441720140920		3CHIF	03.02.17	Fr	1	50	PZ	GGP			142580	27.02.17	true		6	nicht entsch.
 JOVANOVIC Vuk	30441720140920		3CHIF	13.02.17	Mo	1	50	HL	AM					true		9	nicht entsch.
 JOVANOVIC Vuk	30441720140920		3CHIF	13.02.17	Mo	1	50	HB (BUG)	DBI_1					true		3	nicht entsch.
@@ -844,35 +844,35 @@ JOVANOVIC Vuk	30441720140920		3CHIF	13.02.17	Mo	1	50	BER	TINF_1					true		8	nich
 JOVANOVIC Vuk	30441720140920		3CHIF	17.02.17	Fr	1	50	SG	D					true		2	nicht entsch.
 JOVANOVIC Vuk	30441720140920		3CHIF	17.02.17	Fr	1	50	REM	SYP1					true		1	nicht entsch.
 JOVANOVIC Vuk	30441720140920		3CHIF	20.02.17	Mo	0	9	BER	TINF_1			142236	24.02.17	true		4	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	21.02.17	Di	0	23	RU	E1	MitarbeitergesprÃ¤ch				true		2	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	21.02.17	Di	1	50	HUT	NW2	MitarbeitergesprÃ¤ch				true		1	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	21.02.17	Di	0	23	RU	E1	Mitarbeitergespräch				true		2	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	21.02.17	Di	1	50	HUT	NW2	Mitarbeitergespräch				true		1	nicht entsch.
 JOVANOVIC Vuk	30441720140920		3CHIF	22.02.17	Mi	0	10	PZ	GGP					true		1	nicht entsch.
 JOVANOVIC Vuk	30441720140920		3CHIF	23.02.17	Do	0	13	SG	D			142237	24.02.17	true		5	nicht entsch.
 JOVANOVIC Vuk	30441720140920		3CHIF	24.02.17	Fr	0	8	REM	SYP1			142238	24.02.17	true		1	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	27.02.17	Mo	1	50	HL	AM	Schnuppertag Notar Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		145094	13.03.17	true		9	entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	27.02.17	Mo	1	50	BUG	DBI_1	Schnuppertag Notar Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		145094	13.03.17	true		3	entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	27.02.17	Mo	1	50	BUG	DBI_1	Schnuppertag Notar Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		145094	13.03.17	true		8	entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	27.02.17	Mo	1	50	RU	E1	Schnuppertag Notar Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		145094	13.03.17	true		2	entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	27.02.17	Mo	1	50	TB	NVS1	Schnuppertag Notar Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		145094	13.03.17	true		1	entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	27.02.17	Mo	1	50	HP	POS1	Schnuppertag Notar Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		145094	13.03.17	true		5	entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	27.02.17	Mo	1	50	HP	POS1	Schnuppertag Notar Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		145094	13.03.17	true		6	entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	27.02.17	Mo	1	50	BER	TINF_1	Schnuppertag Notar Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		145094	13.03.17	true		7	entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	27.02.17	Mo	1	50	HL	AM	Schnuppertag Notar Amtswege (Führerscheinprüfung, Musterung,...)		145094	13.03.17	true		9	entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	27.02.17	Mo	1	50	BUG	DBI_1	Schnuppertag Notar Amtswege (Führerscheinprüfung, Musterung,...)		145094	13.03.17	true		3	entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	27.02.17	Mo	1	50	BUG	DBI_1	Schnuppertag Notar Amtswege (Führerscheinprüfung, Musterung,...)		145094	13.03.17	true		8	entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	27.02.17	Mo	1	50	RU	E1	Schnuppertag Notar Amtswege (Führerscheinprüfung, Musterung,...)		145094	13.03.17	true		2	entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	27.02.17	Mo	1	50	TB	NVS1	Schnuppertag Notar Amtswege (Führerscheinprüfung, Musterung,...)		145094	13.03.17	true		1	entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	27.02.17	Mo	1	50	HP	POS1	Schnuppertag Notar Amtswege (Führerscheinprüfung, Musterung,...)		145094	13.03.17	true		5	entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	27.02.17	Mo	1	50	HP	POS1	Schnuppertag Notar Amtswege (Führerscheinprüfung, Musterung,...)		145094	13.03.17	true		6	entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	27.02.17	Mo	1	50	BER	TINF_1	Schnuppertag Notar Amtswege (Führerscheinprüfung, Musterung,...)		145094	13.03.17	true		7	entsch.
 JOVANOVIC Vuk	30441720140920		3CHIF	28.02.17	Di	1	50	HUT	NW2					true		1	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	01.03.17	Mi	1	50	HZ	BESP	Probetag Notar Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		145095	13.03.17	true		2	entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	01.03.17	Mi	1	50	TN	BWM_1	Probetag Notar Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		145095	13.03.17	true		4	entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	01.03.17	Mi	1	50	TN	BWM_2	Probetag Notar Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		145095	13.03.17	true		6	entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	01.03.17	Mi	1	50	PZ	GGP	Probetag Notar Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		145095	13.03.17	true		1	entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	01.03.17	Mi	1	50	HUT	NW2	Probetag Notar Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		145095	13.03.17	true		7	entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	01.03.17	Mi	1	50	REM	SYP1	Probetag Notar Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		145095	13.03.17	true		3	entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	01.03.17	Mi	1	50	HZ	BESP	Probetag Notar Amtswege (Führerscheinprüfung, Musterung,...)		145095	13.03.17	true		2	entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	01.03.17	Mi	1	50	TN	BWM_1	Probetag Notar Amtswege (Führerscheinprüfung, Musterung,...)		145095	13.03.17	true		4	entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	01.03.17	Mi	1	50	TN	BWM_2	Probetag Notar Amtswege (Führerscheinprüfung, Musterung,...)		145095	13.03.17	true		6	entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	01.03.17	Mi	1	50	PZ	GGP	Probetag Notar Amtswege (Führerscheinprüfung, Musterung,...)		145095	13.03.17	true		1	entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	01.03.17	Mi	1	50	HUT	NW2	Probetag Notar Amtswege (Führerscheinprüfung, Musterung,...)		145095	13.03.17	true		7	entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	01.03.17	Mi	1	50	REM	SYP1	Probetag Notar Amtswege (Führerscheinprüfung, Musterung,...)		145095	13.03.17	true		3	entsch.
 JOVANOVIC Vuk	30441720140920		3CHIF	02.03.17	Do	1	50	SG	D					true		5	nicht entsch.
 JOVANOVIC Vuk	30441720140920		3CHIF	03.03.17	Fr	1	50	REM	SYP1					true		1	nicht entsch.
 JOVANOVIC Vuk	30441720140920		3CHIF	07.03.17	Di	1	50	HUT	NW2					true		1	nicht entsch.
 JOVANOVIC Vuk	30441720140920		3CHIF	08.03.17	Mi	1	50	HUT	NW2					true		7	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	09.03.17	Do	1	50	HL	AM	Ãrztliche BestÃ¤tigung Krankheit		144758	10.03.17	true		1	entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	09.03.17	Do	1	50	TN	BWM_1	Ãrztliche BestÃ¤tigung Krankheit		144758	10.03.17	true		2	entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	09.03.17	Do	1	50	SG	D	Ãrztliche BestÃ¤tigung Krankheit		144758	10.03.17	true		5	entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	09.03.17	Do	1	50	BUG	DBI_1	Ãrztliche BestÃ¤tigung Krankheit		144758	10.03.17	true		3	entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	09.03.17	Do	1	50	SG	GGP	Ãrztliche BestÃ¤tigung Krankheit		144758	10.03.17	true		6	entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	09.03.17	Do	1	50	HL	AM	Ärztliche Bestätigung Krankheit		144758	10.03.17	true		1	entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	09.03.17	Do	1	50	TN	BWM_1	Ärztliche Bestätigung Krankheit		144758	10.03.17	true		2	entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	09.03.17	Do	1	50	SG	D	Ärztliche Bestätigung Krankheit		144758	10.03.17	true		5	entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	09.03.17	Do	1	50	BUG	DBI_1	Ärztliche Bestätigung Krankheit		144758	10.03.17	true		3	entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	09.03.17	Do	1	50	SG	GGP	Ärztliche Bestätigung Krankheit		144758	10.03.17	true		6	entsch.
 JOVANOVIC Vuk	30441720140920		3CHIF	10.03.17	Fr	0	10	SG	D					true		2	nicht entsch.
 JOVANOVIC Vuk	30441720140920		3CHIF	13.03.17	Mo	1	50	TB	NVS1					true		1	nicht entsch.
 JOVANOVIC Vuk	30441720140920		3CHIF	14.03.17	Di	1	50	HZ	BESP					true		7	nicht entsch.
@@ -903,11 +903,11 @@ JOVANOVIC Vuk	30441720140920		3CHIF	25.04.17	Di	1	50	RU	E1					true		2	nicht ent
 JOVANOVIC Vuk	30441720140920		3CHIF	25.04.17	Di	1	50	HUT	NW2					true		1	nicht entsch.
 JOVANOVIC Vuk	30441720140920		3CHIF	25.04.17	Di	0	6	BER	TINF_1					true		3	nicht entsch.
 JOVANOVIC Vuk	30441720140920		3CHIF	26.04.17	Mi	0	10	PZ	GGP					true		1	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	27.04.17	Do	1	50	HL	AM	ArztbestÃ¤tigung von 9:15 - 10:40				true		1	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	27.04.17	Do	1	50	TN	BWM_1	ArztbestÃ¤tigung von 9:15 - 10:40				true		2	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	27.04.17	Do	1	50	SG	D	ArztbestÃ¤tigung von 9:15 - 10:40				true		5	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	27.04.17	Do	1	50	BUG	DBI_1	ArztbestÃ¤tigung von 9:15 - 10:40				true		3	nicht entsch.
-JOVANOVIC Vuk	30441720140920		3CHIF	27.04.17	Do	1	50	SG	GGP	ArztbestÃ¤tigung von 9:15 - 10:40				true		6	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	27.04.17	Do	1	50	HL	AM	Arztbestätigung von 9:15 - 10:40				true		1	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	27.04.17	Do	1	50	TN	BWM_1	Arztbestätigung von 9:15 - 10:40				true		2	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	27.04.17	Do	1	50	SG	D	Arztbestätigung von 9:15 - 10:40				true		5	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	27.04.17	Do	1	50	BUG	DBI_1	Arztbestätigung von 9:15 - 10:40				true		3	nicht entsch.
+JOVANOVIC Vuk	30441720140920		3CHIF	27.04.17	Do	1	50	SG	GGP	Arztbestätigung von 9:15 - 10:40				true		6	nicht entsch.
 JOVANOVIC Vuk	30441720140920		3CHIF	28.04.17	Fr	0	12	REM	SYP1					true		5	nicht entsch.
 JOVANOVIC Vuk	30441720140920		3CHIF	02.05.17	Di	0	22	RU	E1	Keine akzeptable Entschuldigung vorgebracht/RU		153760	05.05.17	true		2	nicht entsch.
 JOVANOVIC Vuk	30441720140920		3CHIF	02.05.17	Di	1	50	HUT	NW2	Keine akzeptable Entschuldigung vorgebracht/RU		153760	05.05.17	true		1	nicht entsch.
@@ -973,33 +973,33 @@ KLIMONT Joel	30441720140922		3CHIF	27.04.17	Do	1	50	TN	BWM_1					true		2	nicht e
 KLIMONT Joel	30441720140922		3CHIF	27.04.17	Do	1	50	SG	D					true		5	nicht entsch.
 KLIMONT Joel	30441720140922		3CHIF	27.04.17	Do	1	50	BUG	DBI_1					true		3	nicht entsch.
 KLIMONT Joel	30441720140922		3CHIF	27.04.17	Do	1	50	SG	GGP					true		6	nicht entsch.
-KÃNIGSREITER Simon	30441720140923		3CHIF	07.09.16	Mi	1	50	HL	AM	 Arztbesuch		123875	12.09.16	true		8	entsch.
-KÃNIGSREITER Simon	30441720140923		3CHIF	07.09.16	Mi	1	50	LR	BWM	 Arztbesuch		123875	12.09.16	true		7	entsch.
-KÃNIGSREITER Simon	30441720140923		3CHIF	07.09.16	Mi	0	20	BUG	DBI1	 Arztbesuch		123875	12.09.16	true		5	entsch.
-KÃNIGSREITER Simon	30441720140923		3CHIF	07.09.16	Mi	1	50	REM	SYP1	 Arztbesuch		123875	12.09.16	true		9	entsch.
-KÃNIGSREITER Simon	30441720140923		3CHIF	13.10.16	Do	1	50	HL	AM	 FamiliÃ¤re GrÃ¼nde (Hochzeit, BegrÃ¤bnis,...)		126902	18.10.16	true		1	entsch.
-KÃNIGSREITER Simon	30441720140923		3CHIF	13.10.16	Do	1	50	TN	BWM_1	 FamiliÃ¤re GrÃ¼nde (Hochzeit, BegrÃ¤bnis,...)		126902	18.10.16	true		2	entsch.
-KÃNIGSREITER Simon	30441720140923		3CHIF	13.10.16	Do	1	50	SG	D	 FamiliÃ¤re GrÃ¼nde (Hochzeit, BegrÃ¤bnis,...)		126902	18.10.16	true		5	entsch.
-KÃNIGSREITER Simon	30441720140923		3CHIF	13.10.16	Do	1	50	BUG	DBI_1	 FamiliÃ¤re GrÃ¼nde (Hochzeit, BegrÃ¤bnis,...)		126902	18.10.16	true		3	entsch.
-KÃNIGSREITER Simon	30441720140923		3CHIF	13.10.16	Do	1	50	TT	RK	 FamiliÃ¤re GrÃ¼nde (Hochzeit, BegrÃ¤bnis,...)		126902	18.10.16	true		4	entsch.
-KÃNIGSREITER Simon	30441720140923		3CHIF	03.02.17	Fr	1	50	PZ	GGP			142581	27.02.17	true		6	nicht entsch.
-KÃNIGSREITER Simon	30441720140923		3CHIF	01.03.17	Mi	1	50	HZ	BESP	 Krankheit		144240	06.03.17	true		2	entsch.
-KÃNIGSREITER Simon	30441720140923		3CHIF	01.03.17	Mi	1	50	TN	BWM_1	 Krankheit		144240	06.03.17	true		4	entsch.
-KÃNIGSREITER Simon	30441720140923		3CHIF	01.03.17	Mi	1	50	TN	BWM_2	 Krankheit		144240	06.03.17	true		6	entsch.
-KÃNIGSREITER Simon	30441720140923		3CHIF	01.03.17	Mi	1	50	PZ	GGP	 Krankheit		144240	06.03.17	true		1	entsch.
-KÃNIGSREITER Simon	30441720140923		3CHIF	01.03.17	Mi	1	50	HUT	NW2	 Krankheit		144240	06.03.17	true		7	entsch.
-KÃNIGSREITER Simon	30441720140923		3CHIF	01.03.17	Mi	1	50	REM	SYP1	 Krankheit		144240	06.03.17	true		3	entsch.
-KÃNIGSREITER Simon	30441720140923		3CHIF	02.03.17	Do	1	50	HL	AM	 Krankheit		144241	06.03.17	true		1	entsch.
-KÃNIGSREITER Simon	30441720140923		3CHIF	02.03.17	Do	1	50	TN	BWM_1	 Krankheit		144241	06.03.17	true		2	entsch.
-KÃNIGSREITER Simon	30441720140923		3CHIF	02.03.17	Do	1	50	SG	D	 Krankheit		144241	06.03.17	true		5	entsch.
-KÃNIGSREITER Simon	30441720140923		3CHIF	02.03.17	Do	1	50	BUG	DBI_1	 Krankheit		144241	06.03.17	true		3	entsch.
-KÃNIGSREITER Simon	30441720140923		3CHIF	02.03.17	Do	1	50	SG	GGP	 Krankheit		144241	06.03.17	true		6	entsch.
-KÃNIGSREITER Simon	30441720140923		3CHIF	02.03.17	Do	1	50	TT	RK	 Krankheit		144241	06.03.17	true		4	entsch.
-KÃNIGSREITER Simon	30441720140923		3CHIF	31.03.17	Fr	1	50	SG	D	FÃ¼hrerscheinprÃ¼fung Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		149113	08.04.17	true		2	entsch.
-KÃNIGSREITER Simon	30441720140923		3CHIF	31.03.17	Fr	1	50	HP	POS1	FÃ¼hrerscheinprÃ¼fung Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		149113	08.04.17	true		3	entsch.
-KÃNIGSREITER Simon	30441720140923		3CHIF	31.03.17	Fr	1	50	HP	POS1	FÃ¼hrerscheinprÃ¼fung Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		149113	08.04.17	true		4	entsch.
-KÃNIGSREITER Simon	30441720140923		3CHIF	31.03.17	Fr	1	50	REM	SYP1	FÃ¼hrerscheinprÃ¼fung Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		149113	08.04.17	true		1	entsch.
-KÃNIGSREITER Simon	30441720140923		3CHIF	31.03.17	Fr	1	50	REM	SYP1	FÃ¼hrerscheinprÃ¼fung Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		149113	08.04.17	true		5	entsch.
+KÖNIGSREITER Simon	30441720140923		3CHIF	07.09.16	Mi	1	50	HL	AM	 Arztbesuch		123875	12.09.16	true		8	entsch.
+KÖNIGSREITER Simon	30441720140923		3CHIF	07.09.16	Mi	1	50	LR	BWM	 Arztbesuch		123875	12.09.16	true		7	entsch.
+KÖNIGSREITER Simon	30441720140923		3CHIF	07.09.16	Mi	0	20	BUG	DBI1	 Arztbesuch		123875	12.09.16	true		5	entsch.
+KÖNIGSREITER Simon	30441720140923		3CHIF	07.09.16	Mi	1	50	REM	SYP1	 Arztbesuch		123875	12.09.16	true		9	entsch.
+KÖNIGSREITER Simon	30441720140923		3CHIF	13.10.16	Do	1	50	HL	AM	 Familiäre Gründe (Hochzeit, Begräbnis,...)		126902	18.10.16	true		1	entsch.
+KÖNIGSREITER Simon	30441720140923		3CHIF	13.10.16	Do	1	50	TN	BWM_1	 Familiäre Gründe (Hochzeit, Begräbnis,...)		126902	18.10.16	true		2	entsch.
+KÖNIGSREITER Simon	30441720140923		3CHIF	13.10.16	Do	1	50	SG	D	 Familiäre Gründe (Hochzeit, Begräbnis,...)		126902	18.10.16	true		5	entsch.
+KÖNIGSREITER Simon	30441720140923		3CHIF	13.10.16	Do	1	50	BUG	DBI_1	 Familiäre Gründe (Hochzeit, Begräbnis,...)		126902	18.10.16	true		3	entsch.
+KÖNIGSREITER Simon	30441720140923		3CHIF	13.10.16	Do	1	50	TT	RK	 Familiäre Gründe (Hochzeit, Begräbnis,...)		126902	18.10.16	true		4	entsch.
+KÖNIGSREITER Simon	30441720140923		3CHIF	03.02.17	Fr	1	50	PZ	GGP			142581	27.02.17	true		6	nicht entsch.
+KÖNIGSREITER Simon	30441720140923		3CHIF	01.03.17	Mi	1	50	HZ	BESP	 Krankheit		144240	06.03.17	true		2	entsch.
+KÖNIGSREITER Simon	30441720140923		3CHIF	01.03.17	Mi	1	50	TN	BWM_1	 Krankheit		144240	06.03.17	true		4	entsch.
+KÖNIGSREITER Simon	30441720140923		3CHIF	01.03.17	Mi	1	50	TN	BWM_2	 Krankheit		144240	06.03.17	true		6	entsch.
+KÖNIGSREITER Simon	30441720140923		3CHIF	01.03.17	Mi	1	50	PZ	GGP	 Krankheit		144240	06.03.17	true		1	entsch.
+KÖNIGSREITER Simon	30441720140923		3CHIF	01.03.17	Mi	1	50	HUT	NW2	 Krankheit		144240	06.03.17	true		7	entsch.
+KÖNIGSREITER Simon	30441720140923		3CHIF	01.03.17	Mi	1	50	REM	SYP1	 Krankheit		144240	06.03.17	true		3	entsch.
+KÖNIGSREITER Simon	30441720140923		3CHIF	02.03.17	Do	1	50	HL	AM	 Krankheit		144241	06.03.17	true		1	entsch.
+KÖNIGSREITER Simon	30441720140923		3CHIF	02.03.17	Do	1	50	TN	BWM_1	 Krankheit		144241	06.03.17	true		2	entsch.
+KÖNIGSREITER Simon	30441720140923		3CHIF	02.03.17	Do	1	50	SG	D	 Krankheit		144241	06.03.17	true		5	entsch.
+KÖNIGSREITER Simon	30441720140923		3CHIF	02.03.17	Do	1	50	BUG	DBI_1	 Krankheit		144241	06.03.17	true		3	entsch.
+KÖNIGSREITER Simon	30441720140923		3CHIF	02.03.17	Do	1	50	SG	GGP	 Krankheit		144241	06.03.17	true		6	entsch.
+KÖNIGSREITER Simon	30441720140923		3CHIF	02.03.17	Do	1	50	TT	RK	 Krankheit		144241	06.03.17	true		4	entsch.
+KÖNIGSREITER Simon	30441720140923		3CHIF	31.03.17	Fr	1	50	SG	D	Führerscheinprüfung Amtswege (Führerscheinprüfung, Musterung,...)		149113	08.04.17	true		2	entsch.
+KÖNIGSREITER Simon	30441720140923		3CHIF	31.03.17	Fr	1	50	HP	POS1	Führerscheinprüfung Amtswege (Führerscheinprüfung, Musterung,...)		149113	08.04.17	true		3	entsch.
+KÖNIGSREITER Simon	30441720140923		3CHIF	31.03.17	Fr	1	50	HP	POS1	Führerscheinprüfung Amtswege (Führerscheinprüfung, Musterung,...)		149113	08.04.17	true		4	entsch.
+KÖNIGSREITER Simon	30441720140923		3CHIF	31.03.17	Fr	1	50	REM	SYP1	Führerscheinprüfung Amtswege (Führerscheinprüfung, Musterung,...)		149113	08.04.17	true		1	entsch.
+KÖNIGSREITER Simon	30441720140923		3CHIF	31.03.17	Fr	1	50	REM	SYP1	Führerscheinprüfung Amtswege (Führerscheinprüfung, Musterung,...)		149113	08.04.17	true		5	entsch.
 LAMPALZER Alexander	30441720140924		3CHIF	18.10.16	Di	1	50	HP	POS1	 Arztbesuch		127157	21.10.16	true		9	entsch.
 LAMPALZER Alexander	30441720140924		3CHIF	18.10.16	Di	0	20	HP	POS1	 Arztbesuch		127157	21.10.16	true		10	entsch.
 LAMPALZER Alexander	30441720140924		3CHIF	24.10.16	Mo	1	50	HL	AM	 Krankheit		128058	28.10.16	true		9	entsch.
@@ -1009,8 +1009,8 @@ LAMPALZER Alexander	30441720140924		3CHIF	24.10.16	Mo	1	50	RU	E1	 Krankheit		128
 LAMPALZER Alexander	30441720140924		3CHIF	24.10.16	Mo	1	50	HP	POS1	 Krankheit		128058	28.10.16	true		5	entsch.
 LAMPALZER Alexander	30441720140924		3CHIF	24.10.16	Mo	1	50	HP	POS1	 Krankheit		128058	28.10.16	true		6	entsch.
 LAMPALZER Alexander	30441720140924		3CHIF	24.10.16	Mo	1	50	BER	TINF_1	 Krankheit		128058	28.10.16	true		7	entsch.
-LAMPALZER Alexander	30441720140924		3CHIF	07.12.16	Mi	1	50	PZ	GGP	 VerspÃ¤tung wegen Bus, Zug, ...		137864	27.01.17	true		1	entsch.
-LAMPALZER Alexander	30441720140924		3CHIF	11.01.17	Mi	1	50	REM	SYP1	 VerspÃ¤tung wegen Bus, Zug, ...		137865	27.01.17	true		1	entsch.
+LAMPALZER Alexander	30441720140924		3CHIF	07.12.16	Mi	1	50	PZ	GGP	 Verspätung wegen Bus, Zug, ...		137864	27.01.17	true		1	entsch.
+LAMPALZER Alexander	30441720140924		3CHIF	11.01.17	Mi	1	50	REM	SYP1	 Verspätung wegen Bus, Zug, ...		137865	27.01.17	true		1	entsch.
 LAMPALZER Alexander	30441720140924		3CHIF	23.01.17	Mo	1	50	HL	AM	 Arztbesuch		137866	27.01.17	true		9	entsch.
 LAMPALZER Alexander	30441720140924		3CHIF	23.01.17	Mo	1	50	BUG	DBI_1	 Arztbesuch		137866	27.01.17	true		3	entsch.
 LAMPALZER Alexander	30441720140924		3CHIF	23.01.17	Mo	1	50	BUG	DBI_1	 Arztbesuch		137866	27.01.17	true		8	entsch.
@@ -1089,7 +1089,7 @@ LAMPALZER Konstantin	30441720140925		3CHIF	23.12.16	Fr	1	50	HP	POS1	 Krankheit		
 LAMPALZER Konstantin	30441720140925		3CHIF	23.12.16	Fr	1	50	REM	SYP1	 Krankheit		140967	13.02.17	true		1	entsch.
 LAMPALZER Konstantin	30441720140925		3CHIF	23.12.16	Fr	1	50	REM	SYP1	 Krankheit		140967	13.02.17	true		5	entsch.
 LAMPALZER Konstantin	30441720140925		3CHIF	09.01.17	Mo	0	15	TB	NVS1	 Arztbesuch		134480	09.01.17	true		1	entsch.
-LAMPALZER Konstantin	30441720140925		3CHIF	11.01.17	Mi	1	50	REM	SYP1	 VerspÃ¤tung wegen Bus, Zug, ...		140970	13.02.17	true		1	entsch.
+LAMPALZER Konstantin	30441720140925		3CHIF	11.01.17	Mi	1	50	REM	SYP1	 Verspätung wegen Bus, Zug, ...		140970	13.02.17	true		1	entsch.
 LAMPALZER Konstantin	30441720140925		3CHIF	20.02.17	Mo	0	14	RU	E1	 Arztbesuch		142601	27.02.17	true		2	entsch.
 LAMPALZER Konstantin	30441720140925		3CHIF	20.02.17	Mo	1	50	TB	NVS1	 Arztbesuch		142601	27.02.17	true		1	entsch.
 LAMPALZER Konstantin	30441720140925		3CHIF	24.04.17	Mo	1	50	HL	AM					true		9	nicht entsch.
@@ -1193,32 +1193,32 @@ MALZL Harald	30441720140926		3CHIF	03.05.17	Mi	1	50	PZ	GGP	 Krankheit		153762	05
 MALZL Harald	30441720140926		3CHIF	03.05.17	Mi	1	50	HUT	NW2	 Krankheit		153762	05.05.17	true		7	entsch.
 MALZL Harald	30441720140926		3CHIF	03.05.17	Mi	1	50	REM	SYP1	 Krankheit		153762	05.05.17	true		3	entsch.
 MALZL Harald	30441720140926		3CHIF	09.05.17	Di	0	11	HP	POS1					true		10	nicht entsch.
-METZENBAUER Michael	30441720140954		3CHIF	14.09.16	Mi	1	50	HZ	BESP	 FamiliÃ¤re GrÃ¼nde (Hochzeit, BegrÃ¤bnis,...)		124051	16.09.16	true		2	entsch.
-METZENBAUER Michael	30441720140954		3CHIF	14.09.16	Mi	1	50	TN	BWM	 FamiliÃ¤re GrÃ¼nde (Hochzeit, BegrÃ¤bnis,...)		124051	16.09.16	true		4	entsch.
-METZENBAUER Michael	30441720140954		3CHIF	14.09.16	Mi	1	50	TN	BWMN	 FamiliÃ¤re GrÃ¼nde (Hochzeit, BegrÃ¤bnis,...)		124051	16.09.16	true		7	entsch.
-METZENBAUER Michael	30441720140954		3CHIF	14.09.16	Mi	1	50	BUG	DBI1	 FamiliÃ¤re GrÃ¼nde (Hochzeit, BegrÃ¤bnis,...)		124051	16.09.16	true		8	entsch.
-METZENBAUER Michael	30441720140954		3CHIF	14.09.16	Mi	1	50	HUT	NW2	 FamiliÃ¤re GrÃ¼nde (Hochzeit, BegrÃ¤bnis,...)		124051	16.09.16	true		6	entsch.
-METZENBAUER Michael	30441720140954		3CHIF	14.09.16	Mi	1	50	REM	SYP1	 FamiliÃ¤re GrÃ¼nde (Hochzeit, BegrÃ¤bnis,...)		124051	16.09.16	true		3	entsch.
-METZENBAUER Michael	30441720140954		3CHIF	15.09.16	Do	1	50	HL	AM	 FamiliÃ¤re GrÃ¼nde (Hochzeit, BegrÃ¤bnis,...)		124051	16.09.16	true		1	entsch.
-METZENBAUER Michael	30441720140954		3CHIF	15.09.16	Do	1	50	TN	BWM	 FamiliÃ¤re GrÃ¼nde (Hochzeit, BegrÃ¤bnis,...)		124051	16.09.16	true		3	entsch.
-METZENBAUER Michael	30441720140954		3CHIF	15.09.16	Do	1	50	TN	BWMN	 FamiliÃ¤re GrÃ¼nde (Hochzeit, BegrÃ¤bnis,...)		124051	16.09.16	true		2	entsch.
-METZENBAUER Michael	30441720140954		3CHIF	15.09.16	Do	1	50	SG	D	 FamiliÃ¤re GrÃ¼nde (Hochzeit, BegrÃ¤bnis,...)		124051	16.09.16	true		5	entsch.
-METZENBAUER Michael	30441720140954		3CHIF	15.09.16	Do	1	50	SG	GGP	 FamiliÃ¤re GrÃ¼nde (Hochzeit, BegrÃ¤bnis,...)		124051	16.09.16	true		6	entsch.
+METZENBAUER Michael	30441720140954		3CHIF	14.09.16	Mi	1	50	HZ	BESP	 Familiäre Gründe (Hochzeit, Begräbnis,...)		124051	16.09.16	true		2	entsch.
+METZENBAUER Michael	30441720140954		3CHIF	14.09.16	Mi	1	50	TN	BWM	 Familiäre Gründe (Hochzeit, Begräbnis,...)		124051	16.09.16	true		4	entsch.
+METZENBAUER Michael	30441720140954		3CHIF	14.09.16	Mi	1	50	TN	BWMN	 Familiäre Gründe (Hochzeit, Begräbnis,...)		124051	16.09.16	true		7	entsch.
+METZENBAUER Michael	30441720140954		3CHIF	14.09.16	Mi	1	50	BUG	DBI1	 Familiäre Gründe (Hochzeit, Begräbnis,...)		124051	16.09.16	true		8	entsch.
+METZENBAUER Michael	30441720140954		3CHIF	14.09.16	Mi	1	50	HUT	NW2	 Familiäre Gründe (Hochzeit, Begräbnis,...)		124051	16.09.16	true		6	entsch.
+METZENBAUER Michael	30441720140954		3CHIF	14.09.16	Mi	1	50	REM	SYP1	 Familiäre Gründe (Hochzeit, Begräbnis,...)		124051	16.09.16	true		3	entsch.
+METZENBAUER Michael	30441720140954		3CHIF	15.09.16	Do	1	50	HL	AM	 Familiäre Gründe (Hochzeit, Begräbnis,...)		124051	16.09.16	true		1	entsch.
+METZENBAUER Michael	30441720140954		3CHIF	15.09.16	Do	1	50	TN	BWM	 Familiäre Gründe (Hochzeit, Begräbnis,...)		124051	16.09.16	true		3	entsch.
+METZENBAUER Michael	30441720140954		3CHIF	15.09.16	Do	1	50	TN	BWMN	 Familiäre Gründe (Hochzeit, Begräbnis,...)		124051	16.09.16	true		2	entsch.
+METZENBAUER Michael	30441720140954		3CHIF	15.09.16	Do	1	50	SG	D	 Familiäre Gründe (Hochzeit, Begräbnis,...)		124051	16.09.16	true		5	entsch.
+METZENBAUER Michael	30441720140954		3CHIF	15.09.16	Do	1	50	SG	GGP	 Familiäre Gründe (Hochzeit, Begräbnis,...)		124051	16.09.16	true		6	entsch.
 METZENBAUER Michael	30441720140954		3CHIF	16.09.16	Fr	1	50	SG	D	 Krankheit		125680	07.10.16	true		2	entsch.
 METZENBAUER Michael	30441720140954		3CHIF	16.09.16	Fr	1	50	PZ	GGP	 Krankheit		125680	07.10.16	true		6	entsch.
 METZENBAUER Michael	30441720140954		3CHIF	16.09.16	Fr	1	50	HP	POS1	 Krankheit		125680	07.10.16	true		3	entsch.
 METZENBAUER Michael	30441720140954		3CHIF	16.09.16	Fr	1	50	HP	POS1	 Krankheit		125680	07.10.16	true		4	entsch.
 METZENBAUER Michael	30441720140954		3CHIF	16.09.16	Fr	1	50	REM	SYP1	 Krankheit		125680	07.10.16	true		1	entsch.
 METZENBAUER Michael	30441720140954		3CHIF	16.09.16	Fr	1	50	REM	SYP1	 Krankheit		125680	07.10.16	true		5	entsch.
-METZENBAUER Michael	30441720140954		3CHIF	19.09.16	Mo	1	50	RU	E1	 FamiliÃ¤re GrÃ¼nde (Hochzeit, BegrÃ¤bnis,...)		125681	07.10.16	true		8	entsch.
-METZENBAUER Michael	30441720140954		3CHIF	19.09.16	Mo	1	50	TB	NVS1	 FamiliÃ¤re GrÃ¼nde (Hochzeit, BegrÃ¤bnis,...)		125681	07.10.16	true		9	entsch.
-METZENBAUER Michael	30441720140954		3CHIF	27.09.16	Di	1	50	TN	BWM_2	Musterung Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		125682	07.10.16	true		8	entsch.
-METZENBAUER Michael	30441720140954		3CHIF	27.09.16	Di	1	50	CY	NVS1	Musterung Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		125682	07.10.16	true		4	entsch.
-METZENBAUER Michael	30441720140954		3CHIF	27.09.16	Di	1	50	CY	NVS1	Musterung Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		125682	07.10.16	true		5	entsch.
-METZENBAUER Michael	30441720140954		3CHIF	27.09.16	Di	1	50	REM	SYP1	Musterung Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		125682	07.10.16	true		7	entsch.
-METZENBAUER Michael	30441720140954		3CHIF	25.10.16	Di	1	50	HZ	BESP	 FamiliÃ¤re GrÃ¼nde (Hochzeit, BegrÃ¤bnis,...)		128049	28.10.16	true		1	entsch.
-METZENBAUER Michael	30441720140954		3CHIF	25.10.16	Di	1	50	RU	E1	 FamiliÃ¤re GrÃ¼nde (Hochzeit, BegrÃ¤bnis,...)		128049	28.10.16	true		2	entsch.
-METZENBAUER Michael	30441720140954		3CHIF	25.10.16	Di	1	50	BER	TINF_1	 FamiliÃ¤re GrÃ¼nde (Hochzeit, BegrÃ¤bnis,...)		128049	28.10.16	true		3	entsch.
+METZENBAUER Michael	30441720140954		3CHIF	19.09.16	Mo	1	50	RU	E1	 Familiäre Gründe (Hochzeit, Begräbnis,...)		125681	07.10.16	true		8	entsch.
+METZENBAUER Michael	30441720140954		3CHIF	19.09.16	Mo	1	50	TB	NVS1	 Familiäre Gründe (Hochzeit, Begräbnis,...)		125681	07.10.16	true		9	entsch.
+METZENBAUER Michael	30441720140954		3CHIF	27.09.16	Di	1	50	TN	BWM_2	Musterung Amtswege (Führerscheinprüfung, Musterung,...)		125682	07.10.16	true		8	entsch.
+METZENBAUER Michael	30441720140954		3CHIF	27.09.16	Di	1	50	CY	NVS1	Musterung Amtswege (Führerscheinprüfung, Musterung,...)		125682	07.10.16	true		4	entsch.
+METZENBAUER Michael	30441720140954		3CHIF	27.09.16	Di	1	50	CY	NVS1	Musterung Amtswege (Führerscheinprüfung, Musterung,...)		125682	07.10.16	true		5	entsch.
+METZENBAUER Michael	30441720140954		3CHIF	27.09.16	Di	1	50	REM	SYP1	Musterung Amtswege (Führerscheinprüfung, Musterung,...)		125682	07.10.16	true		7	entsch.
+METZENBAUER Michael	30441720140954		3CHIF	25.10.16	Di	1	50	HZ	BESP	 Familiäre Gründe (Hochzeit, Begräbnis,...)		128049	28.10.16	true		1	entsch.
+METZENBAUER Michael	30441720140954		3CHIF	25.10.16	Di	1	50	RU	E1	 Familiäre Gründe (Hochzeit, Begräbnis,...)		128049	28.10.16	true		2	entsch.
+METZENBAUER Michael	30441720140954		3CHIF	25.10.16	Di	1	50	BER	TINF_1	 Familiäre Gründe (Hochzeit, Begräbnis,...)		128049	28.10.16	true		3	entsch.
 METZENBAUER Michael	30441720140954		3CHIF	10.11.16	Do	1	50	HL	AM	 Verschlafen		130762	02.12.16	true		1	entsch.
 METZENBAUER Michael	30441720140954		3CHIF	25.11.16	Fr	1	50	PZ	GGP	 Arztbesuch		130763	02.12.16	true		6	entsch.
 METZENBAUER Michael	30441720140954		3CHIF	06.12.16	Di	1	50	HP	POS1	 Arztbesuch		132917	19.12.16	true		10	entsch.
@@ -1226,13 +1226,13 @@ METZENBAUER Michael	30441720140954		3CHIF	07.12.16	Mi	1	50	PZ	GGP	 Verschlafen		
 METZENBAUER Michael	30441720140954		3CHIF	17.01.17	Di	1	50	HZ	BESP	 Verschlafen		146028	20.03.17	true		1	nicht entsch.
 METZENBAUER Michael	30441720140954		3CHIF	17.01.17	Di	1	50	RU	E1	 Verschlafen		146028	20.03.17	true		2	nicht entsch.
 METZENBAUER Michael	30441720140954		3CHIF	17.01.17	Di	1	50	BER	TINF_1	 Verschlafen		146028	20.03.17	true		3	nicht entsch.
-METZENBAUER Michael	30441720140954		3CHIF	23.01.17	Mo	1	50	TB	NVS1	 FamiliÃ¤re GrÃ¼nde (Hochzeit, BegrÃ¤bnis,...)		146027	20.03.17	true		1	entsch.
+METZENBAUER Michael	30441720140954		3CHIF	23.01.17	Mo	1	50	TB	NVS1	 Familiäre Gründe (Hochzeit, Begräbnis,...)		146027	20.03.17	true		1	entsch.
 METZENBAUER Michael	30441720140954		3CHIF	30.01.17	Mo	1	50	HL	AM	 Arztbesuch		146026	20.03.17	true		9	entsch.
 METZENBAUER Michael	30441720140954		3CHIF	30.01.17	Mo	1	50	BUG	DBI_1	 Arztbesuch		146026	20.03.17	true		8	entsch.
 METZENBAUER Michael	30441720140954		3CHIF	30.01.17	Mo	1	50	BER	TINF_1	 Arztbesuch		146026	20.03.17	true		7	entsch.
-METZENBAUER Michael	30441720140954		3CHIF	31.01.17	Di	1	50	HZ	BESP	 FamiliÃ¤re GrÃ¼nde (Hochzeit, BegrÃ¤bnis,...)		146022	20.03.17	true		1	entsch.
-METZENBAUER Michael	30441720140954		3CHIF	31.01.17	Di	1	50	RU	E1	 FamiliÃ¤re GrÃ¼nde (Hochzeit, BegrÃ¤bnis,...)		146022	20.03.17	true		2	entsch.
-METZENBAUER Michael	30441720140954		3CHIF	31.01.17	Di	1	50	BER	TINF_1	 FamiliÃ¤re GrÃ¼nde (Hochzeit, BegrÃ¤bnis,...)		146022	20.03.17	true		3	entsch.
+METZENBAUER Michael	30441720140954		3CHIF	31.01.17	Di	1	50	HZ	BESP	 Familiäre Gründe (Hochzeit, Begräbnis,...)		146022	20.03.17	true		1	entsch.
+METZENBAUER Michael	30441720140954		3CHIF	31.01.17	Di	1	50	RU	E1	 Familiäre Gründe (Hochzeit, Begräbnis,...)		146022	20.03.17	true		2	entsch.
+METZENBAUER Michael	30441720140954		3CHIF	31.01.17	Di	1	50	BER	TINF_1	 Familiäre Gründe (Hochzeit, Begräbnis,...)		146022	20.03.17	true		3	entsch.
 METZENBAUER Michael	30441720140954		3CHIF	02.02.17	Do	1	50	HL	AM	Falsche Klasse		146001	20.03.17	true		1	entsch.
 METZENBAUER Michael	30441720140954		3CHIF	02.02.17	Do	1	50	TN	BWM_1	Falsche Klasse		146001	20.03.17	true		2	entsch.
 METZENBAUER Michael	30441720140954		3CHIF	02.02.17	Do	1	50	TN	BWM_2	Falsche Klasse		146001	20.03.17	true		3	entsch.
@@ -1242,11 +1242,11 @@ METZENBAUER Michael	30441720140954		3CHIF	02.02.17	Do	1	50	BER	TINF_1	Falsche Kl
 METZENBAUER Michael	30441720140954		3CHIF	03.02.17	Fr	1	50	PZ	GGP			142583	27.02.17	true		6	nicht entsch.
 METZENBAUER Michael	30441720140954		3CHIF	15.02.17	Mi	1	50	PZ	GGP	 Verschlafen		146020	20.03.17	true		1	nicht entsch.
 METZENBAUER Michael	30441720140954		3CHIF	15.02.17	Mi	1	50	HUT	NW2	 Verschlafen		146020	20.03.17	true		2	nicht entsch.
-METZENBAUER Michael	30441720140954		3CHIF	20.02.17	Mo	1	50	TB	NVS1	 VerspÃ¤tung wegen Bus, Zug, ...		146009	20.03.17	true		1	entsch.
-METZENBAUER Michael	30441720140954		3CHIF	08.03.17	Mi	1	50	HUT	NW2	 Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		146008	20.03.17	true		7	entsch.
+METZENBAUER Michael	30441720140954		3CHIF	20.02.17	Mo	1	50	TB	NVS1	 Verspätung wegen Bus, Zug, ...		146009	20.03.17	true		1	entsch.
+METZENBAUER Michael	30441720140954		3CHIF	08.03.17	Mi	1	50	HUT	NW2	 Amtswege (Führerscheinprüfung, Musterung,...)		146008	20.03.17	true		7	entsch.
 METZENBAUER Michael	30441720140954		3CHIF	22.03.17	Mi	1	50	HZ	BESP	 Verschlafen		146863	27.03.17	true		2	nicht entsch.
-METZENBAUER Michael	30441720140954		3CHIF	29.03.17	Mi	1	50	HZ	BESP	 Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		147619	31.03.17	true		2	entsch.
-METZENBAUER Michael	30441720140954		3CHIF	29.03.17	Mi	1	50	PZ	GGP	 Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		147619	31.03.17	true		1	entsch.
+METZENBAUER Michael	30441720140954		3CHIF	29.03.17	Mi	1	50	HZ	BESP	 Amtswege (Führerscheinprüfung, Musterung,...)		147619	31.03.17	true		2	entsch.
+METZENBAUER Michael	30441720140954		3CHIF	29.03.17	Mi	1	50	PZ	GGP	 Amtswege (Führerscheinprüfung, Musterung,...)		147619	31.03.17	true		1	entsch.
 METZENBAUER Michael	30441720140954		3CHIF	05.04.17	Mi	1	50	TN	BWM_1					true		4	nicht entsch.
 METZENBAUER Michael	30441720140954		3CHIF	05.04.17	Mi	1	50	TN	BWM_2					true		5	nicht entsch.
 METZENBAUER Michael	30441720140954		3CHIF	05.04.17	Mi	1	50	TN	BWM_2					true		6	nicht entsch.
@@ -1272,8 +1272,8 @@ PRINZ Andreas	30441720140928		3CHIF	03.10.16	Mo	1	50	TB	NVS1	 Krankheit		126620	
 PRINZ Andreas	30441720140928		3CHIF	03.10.16	Mo	1	50	BUG (HP)	POS1	 Krankheit		126620	17.10.16	true		3	entsch.
 PRINZ Andreas	30441720140928		3CHIF	10.10.16	Mo	1	50	HL	AM	 Krankheit		126621	17.10.16	true		9	entsch.
 PRINZ Andreas	30441720140928		3CHIF	10.10.16	Mo	1	25	BUG	DBI_1	 Krankheit		126621	17.10.16	true		8	entsch.
-PRINZ Andreas	30441720140928		3CHIF	11.10.16	Di	1	50	HUT	NW2	 Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		126622	17.10.16	true		7	entsch.
-PRINZ Andreas	30441720140928		3CHIF	18.10.16	Di	0	17	HZ	BESP	 VerspÃ¤tung wegen Bus, Zug, ...		127158	21.10.16	true		1	entsch.
+PRINZ Andreas	30441720140928		3CHIF	11.10.16	Di	1	50	HUT	NW2	 Amtswege (Führerscheinprüfung, Musterung,...)		126622	17.10.16	true		7	entsch.
+PRINZ Andreas	30441720140928		3CHIF	18.10.16	Di	0	17	HZ	BESP	 Verspätung wegen Bus, Zug, ...		127158	21.10.16	true		1	entsch.
 PRINZ Andreas	30441720140928		3CHIF	07.11.16	Mo	1	50	HL	AM	 Krankheit		133397	20.12.16	true		9	entsch.
 PRINZ Andreas	30441720140928		3CHIF	07.11.16	Mo	1	50	BUG	DBI_1	 Krankheit		133397	20.12.16	true		6	entsch.
 PRINZ Andreas	30441720140928		3CHIF	07.11.16	Mo	1	50	BUG	DBI_1	 Krankheit		133397	20.12.16	true		8	entsch.
@@ -1287,7 +1287,7 @@ PRINZ Andreas	30441720140928		3CHIF	25.11.16	Fr	1	50	PZ	GGP	 Krankheit		133395	2
 PRINZ Andreas	30441720140928		3CHIF	25.11.16	Fr	1	50	SM (HP)	POS1	 Krankheit		133395	20.12.16	true		3	entsch.
 PRINZ Andreas	30441720140928		3CHIF	25.11.16	Fr	1	50	REM	SYP1	 Krankheit		133395	20.12.16	true		5	entsch.
 PRINZ Andreas	30441720140928		3CHIF	25.11.16	Fr	1	50	BER	TINF_1	 Krankheit		133395	20.12.16	true		4	entsch.
-PRINZ Andreas	30441720140928		3CHIF	01.12.16	Do	0	20	HL	AM	 VerspÃ¤tung wegen Bus, Zug, ...		133396	20.12.16	true		1	entsch.
+PRINZ Andreas	30441720140928		3CHIF	01.12.16	Do	0	20	HL	AM	 Verspätung wegen Bus, Zug, ...		133396	20.12.16	true		1	entsch.
 PRINZ Andreas	30441720140928		3CHIF	11.01.17	Mi	1	50	REM	SYP1	 Verschlafen		143941	03.03.17	true		1	entsch.
 PRINZ Andreas	30441720140928		3CHIF	17.01.17	Di	1	50	HZ	BESP	 Verschlafen		143942	03.03.17	true		1	entsch.
 PRINZ Andreas	30441720140928		3CHIF	17.01.17	Di	1	50	HP	POS1	 Krankheit		143938	03.03.17	true		9	entsch.
@@ -1306,9 +1306,9 @@ PRINZ Andreas	30441720140928		3CHIF	30.01.17	Mo	1	50	BER	TINF_1	 Krankheit		1439
 PRINZ Andreas	30441720140928		3CHIF	03.02.17	Fr	1	50	PZ	GGP			142584	27.02.17	true		6	nicht entsch.
 PRINZ Andreas	30441720140928		3CHIF	03.02.17	Fr	0	11	REM	SYP1			142242	24.02.17	true		1	nicht entsch.
 PRINZ Andreas	30441720140928		3CHIF	22.02.17	Mi	0	10	PZ	GGP			142243	24.02.17	true		1	nicht entsch.
-PRINZ Andreas	30441720140928		3CHIF	23.02.17	Do	1	50	HL	AM	 VerspÃ¤tung wegen Bus, Zug, ...		143932	03.03.17	true		1	entsch.
+PRINZ Andreas	30441720140928		3CHIF	23.02.17	Do	1	50	HL	AM	 Verspätung wegen Bus, Zug, ...		143932	03.03.17	true		1	entsch.
 PRINZ Andreas	30441720140928		3CHIF	01.03.17	Mi	1	50	HUT	NW2	 Krankheit		143930	03.03.17	true		7	entsch.
-PRINZ Andreas	30441720140928		3CHIF	02.03.17	Do	0	20	HL	AM	 VerspÃ¤tung wegen Bus, Zug, ...		143928	03.03.17	true		1	entsch.
+PRINZ Andreas	30441720140928		3CHIF	02.03.17	Do	0	20	HL	AM	 Verspätung wegen Bus, Zug, ...		143928	03.03.17	true		1	entsch.
 PRINZ Andreas	30441720140928		3CHIF	09.03.17	Do	1	50	HL	AM					true		1	nicht entsch.
 PRINZ Andreas	30441720140928		3CHIF	09.03.17	Do	1	50	TN	BWM_1					true		2	nicht entsch.
 PRINZ Andreas	30441720140928		3CHIF	09.03.17	Do	1	50	SG	D					true		5	nicht entsch.
@@ -1360,10 +1360,10 @@ PRINZ Andreas	30441720140928		3CHIF	10.05.17	Mi	1	50	PZ	GGP					true		1	nicht en
 PRINZ Andreas	30441720140928		3CHIF	10.05.17	Mi	1	50	HUT	NW2					true		7	nicht entsch.
 PRINZ Andreas	30441720140928		3CHIF	10.05.17	Mi	1	50	REM	SYP1					true		3	nicht entsch.
 REICHL Christoph	30441720140931		3CHIF	03.02.17	Fr	1	50	PZ	GGP			142585	27.02.17	true		6	nicht entsch.
-SCHEDEL Nico	30441720140960		3CHIF	09.09.16	Fr	0	10	SG	D	 VerspÃ¤tung wegen Bus, Zug, ...		124058	16.09.16	true		1	entsch.
-SCHEDEL Nico	30441720140960		3CHIF	13.09.16	Di	0	15	HZ	BESP	 VerspÃ¤tung wegen Bus, Zug, ...		124059	16.09.16	true		1	entsch.
-SCHEDEL Nico	30441720140960		3CHIF	27.10.16	Do	1	25	HL	AM	 VerspÃ¤tung wegen Bus, Zug, ...		128054	28.10.16	true		1	entsch.
-SCHEDEL Nico	30441720140960		3CHIF	28.10.16	Fr	0	10	REM	SYP1	 VerspÃ¤tung wegen Bus, Zug, ...		128057	28.10.16	true		1	entsch.
+SCHEDEL Nico	30441720140960		3CHIF	09.09.16	Fr	0	10	SG	D	 Verspätung wegen Bus, Zug, ...		124058	16.09.16	true		1	entsch.
+SCHEDEL Nico	30441720140960		3CHIF	13.09.16	Di	0	15	HZ	BESP	 Verspätung wegen Bus, Zug, ...		124059	16.09.16	true		1	entsch.
+SCHEDEL Nico	30441720140960		3CHIF	27.10.16	Do	1	25	HL	AM	 Verspätung wegen Bus, Zug, ...		128054	28.10.16	true		1	entsch.
+SCHEDEL Nico	30441720140960		3CHIF	28.10.16	Fr	0	10	REM	SYP1	 Verspätung wegen Bus, Zug, ...		128057	28.10.16	true		1	entsch.
 SCHEDEL Nico	30441720140960		3CHIF	22.11.16	Di	1	50	HZ	BESP	 Krankheit		130764	02.12.16	true		1	entsch.
 SCHEDEL Nico	30441720140960		3CHIF	22.11.16	Di	1	50	TN	BWM_2	 Krankheit		130764	02.12.16	true		8	entsch.
 SCHEDEL Nico	30441720140960		3CHIF	22.11.16	Di	1	50	RU	E1	 Krankheit		130764	02.12.16	true		2	entsch.
@@ -1390,7 +1390,7 @@ SCHEDEL Nico	30441720140960		3CHIF	25.11.16	Fr	1	50	REM	SYP1	 Krankheit		130767	
 SCHEDEL Nico	30441720140960		3CHIF	25.11.16	Fr	1	50	REM	SYP1	 Krankheit		130767	02.12.16	true		5	entsch.
 SCHEDEL Nico	30441720140960		3CHIF	25.11.16	Fr	1	50	BER	TINF_1	 Krankheit		130767	02.12.16	true		4	entsch.
 SCHEDEL Nico	30441720140960		3CHIF	01.12.16	Do	0	11	SG	D			131135	05.12.16	true		5	nicht entsch.
-SCHEDEL Nico	30441720140960		3CHIF	05.12.16	Mo	0	10	TB	NVS1	 VerspÃ¤tung wegen Bus, Zug, ...		131137	05.12.16	true		1	entsch.
+SCHEDEL Nico	30441720140960		3CHIF	05.12.16	Mo	0	10	TB	NVS1	 Verspätung wegen Bus, Zug, ...		131137	05.12.16	true		1	entsch.
 SCHEDEL Nico	30441720140960		3CHIF	02.02.17	Do	1	50	HL	AM					true		1	nicht entsch.
 SCHEDEL Nico	30441720140960		3CHIF	02.02.17	Do	1	50	TN	BWM_1					true		2	nicht entsch.
 SCHEDEL Nico	30441720140960		3CHIF	02.02.17	Do	1	50	SG	D					true		5	nicht entsch.
@@ -1404,12 +1404,12 @@ SCHEDEL Nico	30441720140960		3CHIF	16.02.17	Do	1	50	SG	D	 Arztbesuch		142553	27.
 SCHEDEL Nico	30441720140960		3CHIF	16.02.17	Do	1	50	REM (BUG)	DBI_1	 Arztbesuch		142553	27.02.17	true		3	entsch.
 SCHEDEL Nico	30441720140960		3CHIF	16.02.17	Do	1	50	SG	GGP	 Arztbesuch		142553	27.02.17	true		6	entsch.
 SCHEDEL Nico	30441720140960		3CHIF	20.02.17	Mo	0	9	BER	TINF_1			142245	24.02.17	true		4	nicht entsch.
-SCHEDEL Nico	30441720140960		3CHIF	21.02.17	Di	1	50	HZ	BESP	 Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		142554	27.02.17	true		7	entsch.
-SCHEDEL Nico	30441720140960		3CHIF	21.02.17	Di	1	50	RU	E1	 Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		142554	27.02.17	true		2	entsch.
-SCHEDEL Nico	30441720140960		3CHIF	21.02.17	Di	1	50	CY	NVS1	 Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		142554	27.02.17	true		4	entsch.
-SCHEDEL Nico	30441720140960		3CHIF	21.02.17	Di	1	50	CY	NVS1	 Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		142554	27.02.17	true		5	entsch.
-SCHEDEL Nico	30441720140960		3CHIF	21.02.17	Di	1	50	HUT	NW2	 Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		142554	27.02.17	true		1	entsch.
-SCHEDEL Nico	30441720140960		3CHIF	21.02.17	Di	1	50	BER	TINF_1	 Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		142554	27.02.17	true		3	entsch.
+SCHEDEL Nico	30441720140960		3CHIF	21.02.17	Di	1	50	HZ	BESP	 Amtswege (Führerscheinprüfung, Musterung,...)		142554	27.02.17	true		7	entsch.
+SCHEDEL Nico	30441720140960		3CHIF	21.02.17	Di	1	50	RU	E1	 Amtswege (Führerscheinprüfung, Musterung,...)		142554	27.02.17	true		2	entsch.
+SCHEDEL Nico	30441720140960		3CHIF	21.02.17	Di	1	50	CY	NVS1	 Amtswege (Führerscheinprüfung, Musterung,...)		142554	27.02.17	true		4	entsch.
+SCHEDEL Nico	30441720140960		3CHIF	21.02.17	Di	1	50	CY	NVS1	 Amtswege (Führerscheinprüfung, Musterung,...)		142554	27.02.17	true		5	entsch.
+SCHEDEL Nico	30441720140960		3CHIF	21.02.17	Di	1	50	HUT	NW2	 Amtswege (Führerscheinprüfung, Musterung,...)		142554	27.02.17	true		1	entsch.
+SCHEDEL Nico	30441720140960		3CHIF	21.02.17	Di	1	50	BER	TINF_1	 Amtswege (Führerscheinprüfung, Musterung,...)		142554	27.02.17	true		3	entsch.
 SCHEDEL Nico	30441720140960		3CHIF	24.02.17	Fr	1	50	SG	D	 Arztbesuch		142555	27.02.17	true		2	entsch.
 SCHEDEL Nico	30441720140960		3CHIF	24.02.17	Fr	1	50	HP	POS1	 Arztbesuch		142555	27.02.17	true		3	entsch.
 SCHEDEL Nico	30441720140960		3CHIF	24.02.17	Fr	1	50	HP	POS1	 Arztbesuch		142555	27.02.17	true		4	entsch.
@@ -1431,15 +1431,15 @@ STAVARACHE Mario	30441720140933		3CHIF	23.12.16	Fr	1	50	REM	SYP1			142597	27.02.
 STAVARACHE Mario	30441720140933		3CHIF	17.01.17	Di	1	50	HP	POS1			148479	04.04.17	true		9	nicht entsch.
 STAVARACHE Mario	30441720140933		3CHIF	17.01.17	Di	1	50	HP	POS1			148479	04.04.17	true		10	nicht entsch.
 STAVARACHE Mario	30441720140933		3CHIF	03.02.17	Fr	1	50	PZ	GGP			142587	27.02.17	true		6	nicht entsch.
-STAVARACHE Mario	30441720140933		3CHIF	22.02.17	Mi	1	50	PZ	GGP	 VerspÃ¤tung wegen Bus, Zug, ...		145979	20.03.17	true		1	entsch.
+STAVARACHE Mario	30441720140933		3CHIF	22.02.17	Mi	1	50	PZ	GGP	 Verspätung wegen Bus, Zug, ...		145979	20.03.17	true		1	entsch.
 STAVARACHE Mario	30441720140933		3CHIF	01.03.17	Mi	1	50	HZ	BESP			148480	04.04.17	true		2	nicht entsch.
 STAVARACHE Mario	30441720140933		3CHIF	07.03.17	Di	1	50	HZ	BESP			148481	04.04.17	true		7	nicht entsch.
 STAVARACHE Mario	30441720140933		3CHIF	15.03.17	Mi	1	50	HZ	BESP			148482	04.04.17	true		2	nicht entsch.
-STAVARACHE Mario	30441720140933		3CHIF	21.04.17	Fr	1	50	SG	D	FuÃballturnier				true		2	nicht entsch.
-STAVARACHE Mario	30441720140933		3CHIF	21.04.17	Fr	1	50	BB (HP)	POS1	FuÃballturnier				true		3	nicht entsch.
-STAVARACHE Mario	30441720140933		3CHIF	21.04.17	Fr	1	50	BB (HP)	POS1	FuÃballturnier				true		4	nicht entsch.
-STAVARACHE Mario	30441720140933		3CHIF	21.04.17	Fr	1	50	REM	SYP1	FuÃballturnier				true		1	nicht entsch.
-STAVARACHE Mario	30441720140933		3CHIF	21.04.17	Fr	1	50	REM	SYP1	FuÃballturnier				true		5	nicht entsch.
+STAVARACHE Mario	30441720140933		3CHIF	21.04.17	Fr	1	50	SG	D	Fußballturnier				true		2	nicht entsch.
+STAVARACHE Mario	30441720140933		3CHIF	21.04.17	Fr	1	50	BB (HP)	POS1	Fußballturnier				true		3	nicht entsch.
+STAVARACHE Mario	30441720140933		3CHIF	21.04.17	Fr	1	50	BB (HP)	POS1	Fußballturnier				true		4	nicht entsch.
+STAVARACHE Mario	30441720140933		3CHIF	21.04.17	Fr	1	50	REM	SYP1	Fußballturnier				true		1	nicht entsch.
+STAVARACHE Mario	30441720140933		3CHIF	21.04.17	Fr	1	50	REM	SYP1	Fußballturnier				true		5	nicht entsch.
 STAVARACHE Mario	30441720140933		3CHIF	26.04.17	Mi	0	10	PZ	GGP					true		1	nicht entsch.
 STAVARACHE Mario	30441720140933		3CHIF	02.05.17	Di	1	50	HZ	BESP					true		7	nicht entsch.
 STAVARACHE Mario	30441720140933		3CHIF	02.05.17	Di	1	50	TN	BWM_2					true		8	nicht entsch.
@@ -1578,15 +1578,15 @@ TRAILOVIC Aleksandar	30441720140934		3CHIF	15.05.17	Mo	1	50	HP	POS1					true		4	
 TRAILOVIC Aleksandar	30441720140934		3CHIF	15.05.17	Mo	1	50	BER	TINF_1					true		7	nicht entsch.
 TRAILOVIC Aleksandar	30441720140934		3CHIF	16.05.17	Di	0	13	RU	E1					true		2	nicht entsch.
 TRAILOVIC Aleksandar	30441720140934		3CHIF	16.05.17	Di	1	50	HUT	NW2					true		1	nicht entsch.
-VEIDINGER Bernd	30441720140935		3CHIF	18.10.16	Di	0	17	HZ	BESP	 VerspÃ¤tung wegen Bus, Zug, ...		127159	21.10.16	true		1	entsch.
-VEIDINGER Bernd	30441720140935		3CHIF	28.10.16	Fr	1	50	SG	D	 Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		128051	28.10.16	true		2	entsch.
-VEIDINGER Bernd	30441720140935		3CHIF	28.10.16	Fr	1	50	PZ	GGP	 Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		128051	28.10.16	true		6	entsch.
-VEIDINGER Bernd	30441720140935		3CHIF	28.10.16	Fr	1	50	HP	POS1	 Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		128051	28.10.16	true		3	entsch.
-VEIDINGER Bernd	30441720140935		3CHIF	28.10.16	Fr	1	50	HP	POS1	 Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		128051	28.10.16	true		4	entsch.
-VEIDINGER Bernd	30441720140935		3CHIF	28.10.16	Fr	1	50	HP	ROB	 Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		128051	28.10.16	true		9	entsch.
-VEIDINGER Bernd	30441720140935		3CHIF	28.10.16	Fr	1	50	HP	ROB	 Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		128051	28.10.16	true		10	entsch.
-VEIDINGER Bernd	30441720140935		3CHIF	28.10.16	Fr	1	50	REM	SYP1	 Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		128051	28.10.16	true		1	entsch.
-VEIDINGER Bernd	30441720140935		3CHIF	28.10.16	Fr	1	50	REM	SYP1	 Amtswege (FÃ¼hrerscheinprÃ¼fung, Musterung,...)		128051	28.10.16	true		5	entsch.
+VEIDINGER Bernd	30441720140935		3CHIF	18.10.16	Di	0	17	HZ	BESP	 Verspätung wegen Bus, Zug, ...		127159	21.10.16	true		1	entsch.
+VEIDINGER Bernd	30441720140935		3CHIF	28.10.16	Fr	1	50	SG	D	 Amtswege (Führerscheinprüfung, Musterung,...)		128051	28.10.16	true		2	entsch.
+VEIDINGER Bernd	30441720140935		3CHIF	28.10.16	Fr	1	50	PZ	GGP	 Amtswege (Führerscheinprüfung, Musterung,...)		128051	28.10.16	true		6	entsch.
+VEIDINGER Bernd	30441720140935		3CHIF	28.10.16	Fr	1	50	HP	POS1	 Amtswege (Führerscheinprüfung, Musterung,...)		128051	28.10.16	true		3	entsch.
+VEIDINGER Bernd	30441720140935		3CHIF	28.10.16	Fr	1	50	HP	POS1	 Amtswege (Führerscheinprüfung, Musterung,...)		128051	28.10.16	true		4	entsch.
+VEIDINGER Bernd	30441720140935		3CHIF	28.10.16	Fr	1	50	HP	ROB	 Amtswege (Führerscheinprüfung, Musterung,...)		128051	28.10.16	true		9	entsch.
+VEIDINGER Bernd	30441720140935		3CHIF	28.10.16	Fr	1	50	HP	ROB	 Amtswege (Führerscheinprüfung, Musterung,...)		128051	28.10.16	true		10	entsch.
+VEIDINGER Bernd	30441720140935		3CHIF	28.10.16	Fr	1	50	REM	SYP1	 Amtswege (Führerscheinprüfung, Musterung,...)		128051	28.10.16	true		1	entsch.
+VEIDINGER Bernd	30441720140935		3CHIF	28.10.16	Fr	1	50	REM	SYP1	 Amtswege (Führerscheinprüfung, Musterung,...)		128051	28.10.16	true		5	entsch.
 VEIDINGER Bernd	30441720140935		3CHIF	25.11.16	Fr	1	50	SG	D	 Arztbesuch		130768	02.12.16	true		2	entsch.
 VEIDINGER Bernd	30441720140935		3CHIF	25.11.16	Fr	1	50	PZ	GGP	 Arztbesuch		130768	02.12.16	true		6	entsch.
 VEIDINGER Bernd	30441720140935		3CHIF	25.11.16	Fr	1	50	SM (HP)	POS1	 Arztbesuch		130768	02.12.16	true		3	entsch.
@@ -1595,7 +1595,7 @@ VEIDINGER Bernd	30441720140935		3CHIF	25.11.16	Fr	1	50	REM	SYP1	 Arztbesuch		130
 VEIDINGER Bernd	30441720140935		3CHIF	25.11.16	Fr	1	50	BER	TINF_1	 Arztbesuch		130768	02.12.16	true		4	entsch.
 VEIDINGER Bernd	30441720140935		3CHIF	01.12.16	Do	0	20	HL	AM	 Arztbesuch		130601	01.12.16	true		1	entsch.
 VEIDINGER Bernd	30441720140935		3CHIF	05.12.16	Mo	1	50	HL	AM			142598	27.02.17	true		9	nicht entsch.
-VEIDINGER Bernd	30441720140935		3CHIF	05.12.16	Mo	0	10	TB	NVS1	 VerspÃ¤tung wegen Bus, Zug, ...		131133	05.12.16	true		1	entsch.
+VEIDINGER Bernd	30441720140935		3CHIF	05.12.16	Mo	0	10	TB	NVS1	 Verspätung wegen Bus, Zug, ...		131133	05.12.16	true		1	entsch.
 VEIDINGER Bernd	30441720140935		3CHIF	06.12.16	Di	1	50	HZ	BESP			142599	27.02.17	true		1	nicht entsch.
 VEIDINGER Bernd	30441720140935		3CHIF	06.12.16	Di	1	50	RU	E1			142599	27.02.17	true		2	nicht entsch.
 VEIDINGER Bernd	30441720140935		3CHIF	06.12.16	Di	1	50	BER	TINF_1			142599	27.02.17	true		3	nicht entsch.
@@ -1630,7 +1630,7 @@ VEIDINGER Bernd	30441720140935		3CHIF	01.03.17	Mi	1	50	TN	BWM_2	 Krankheit		1441
 VEIDINGER Bernd	30441720140935		3CHIF	01.03.17	Mi	1	50	PZ	GGP	 Krankheit		144101	03.03.17	true		1	entsch.
 VEIDINGER Bernd	30441720140935		3CHIF	01.03.17	Mi	1	50	HUT	NW2	 Krankheit		144101	03.03.17	true		7	entsch.
 VEIDINGER Bernd	30441720140935		3CHIF	01.03.17	Mi	1	50	REM	SYP1	 Krankheit		144101	03.03.17	true		3	entsch.
-VEIDINGER Bernd	30441720140935		3CHIF	08.03.17	Mi	1	50	HUT	NW2	 FamiliÃ¤re GrÃ¼nde (Hochzeit, BegrÃ¤bnis,...)		147620	31.03.17	true		7	entsch.
+VEIDINGER Bernd	30441720140935		3CHIF	08.03.17	Mi	1	50	HUT	NW2	 Familiäre Gründe (Hochzeit, Begräbnis,...)		147620	31.03.17	true		7	entsch.
 VEIDINGER Bernd	30441720140935		3CHIF	10.03.17	Fr	0	10	SG	D			145978	20.03.17	true		2	nicht entsch.
 VEIDINGER Bernd	30441720140935		3CHIF	13.03.17	Mo	0	10	TB	NVS1			145797	17.03.17	true		1	nicht entsch.
 VEIDINGER Bernd	30441720140935		3CHIF	14.03.17	Di	1	50	RU	E1	 Arztbesuch		145977	20.03.17	true		2	entsch.
@@ -2135,8 +2135,8 @@ WESZELITS Gert	30441720140939		3CHIF	12.05.17	Fr	1	50	SG	D					true		2	nicht ent
 WESZELITS Gert	30441720140939		3CHIF	12.05.17	Fr	1	50	REM (HP)	POS1					true		3	nicht entsch.
 WESZELITS Gert	30441720140939		3CHIF	12.05.17	Fr	1	50	REM	SYP1					true		1	nicht entsch.
 WESZELITS Gert	30441720140939		3CHIF	12.05.17	Fr	1	50	REM	SYP1					true		5	nicht entsch.
-WESZELITS Gert	30441720140939		3CHIF	15.05.17	Mo	1	50	HL	AM	abgemeldet wegen Ãbelkeit Krankheit				true		9	nicht entsch.
-WESZELITS Gert	30441720140939		3CHIF	15.05.17	Mo	1	50	BUG	DBI_1	abgemeldet wegen Ãbelkeit Krankheit				true		6	nicht entsch.
-WESZELITS Gert	30441720140939		3CHIF	15.05.17	Mo	1	50	BUG	DBI_1	abgemeldet wegen Ãbelkeit Krankheit				true		8	nicht entsch.
-WESZELITS Gert	30441720140939		3CHIF	15.05.17	Mo	0	10	HP	POS1	abgemeldet wegen Ãbelkeit Krankheit				true		4	nicht entsch.
-WESZELITS Gert	30441720140939		3CHIF	15.05.17	Mo	1	50	BER	TINF_1	abgemeldet wegen Ãbelkeit Krankheit				true		7	nicht entsch.
+WESZELITS Gert	30441720140939		3CHIF	15.05.17	Mo	1	50	HL	AM	abgemeldet wegen Übelkeit Krankheit				true		9	nicht entsch.
+WESZELITS Gert	30441720140939		3CHIF	15.05.17	Mo	1	50	BUG	DBI_1	abgemeldet wegen Übelkeit Krankheit				true		6	nicht entsch.
+WESZELITS Gert	30441720140939		3CHIF	15.05.17	Mo	1	50	BUG	DBI_1	abgemeldet wegen Übelkeit Krankheit				true		8	nicht entsch.
+WESZELITS Gert	30441720140939		3CHIF	15.05.17	Mo	0	10	HP	POS1	abgemeldet wegen Übelkeit Krankheit				true		4	nicht entsch.
+WESZELITS Gert	30441720140939		3CHIF	15.05.17	Mo	1	50	BER	TINF_1	abgemeldet wegen Übelkeit Krankheit				true		7	nicht entsch.
