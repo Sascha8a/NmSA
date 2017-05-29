@@ -6,6 +6,7 @@ import java.util.Objects;
 import java.util.Scanner;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+import java.util.concurrent.TimeUnit;
 
 class InputFileReader{
 
@@ -92,6 +93,13 @@ class InputFileReader{
                     List<String> data = Arrays.asList(line.split("\\t"));
                     List<String> name = Arrays.asList(data.get(0).split(" "));
                     pool.execute(new AbsenceInputThread(db, name.get(1), name.get(0), data.get(10), this.convertPairToDate(Integer.parseInt(data.get(16)), data.get(4)), data.get(5), Integer.parseInt(data.get(7))));
+                }
+
+                pool.shutdown();
+                try {
+                    pool.awaitTermination(60000, TimeUnit.SECONDS);
+                } catch (InterruptedException e) {
+
                 }
             }
             sc.close();

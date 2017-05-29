@@ -1,9 +1,7 @@
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import javax.servlet.MultipartConfigElement;
-import java.io.File;
-import java.io.FileWriter;
-import java.io.InputStream;
+import java.io.*;
 import java.util.*;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -47,7 +45,7 @@ public class APIFacade extends Observable {
 
             req.attribute("org.eclipse.jetty.multipartConfig", new MultipartConfigElement("/temp"));
 
-            try (InputStream input = req.raw().getPart("uploaded_file").getInputStream()) { // getPart needs to use same "name" as input field in form
+            try (BufferedReader input = new BufferedReader(new InputStreamReader(req.raw().getPart("uploaded_file").getInputStream(), "UTF-8"))) { // getPart needs to use same "name" as input field in form
                 FileWriter out = null;
 
                 try {
