@@ -145,8 +145,8 @@ public class sqliteDB implements Database {
                 + " DateOfTest DATE NOT NULL, \n"
                 + " Kind VARCHAR(15) NOT NULL, \n"
                 + " Name VARCHAR(15) NOT NULL, \n"
-                + "	TimeBegin VARCHAR(15),\n"
-                + "	TimeEnd VARCHAR(15),\n"
+                + "	TimeBegin DATE NOT NULL,\n"
+                + "	TimeEnd DATE NOT NULL,\n"
                 + "	Subject VARCHAR(5)"
                 + ");";
 
