@@ -1,3 +1,5 @@
+import Logging.LoggerSingleton;
+
 import javax.sound.sampled.*;
 import java.io.IOException;
 import java.util.Objects;

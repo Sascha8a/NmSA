@@ -1,3 +1,5 @@
+package Logging;
+
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -6,7 +8,7 @@ import java.util.Date;
  * matnr.: i14075 & i14085
  * catnr.: 03 & 10
  * Created on 15.05.2017
- * file: LogEntry
+ * file: Logging.LogEntry
  * Class: 3CHIF
  */
 

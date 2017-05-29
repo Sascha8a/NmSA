@@ -1,3 +1,4 @@
+import Logging.LoggerSingleton;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import javax.servlet.MultipartConfigElement;
@@ -5,7 +6,6 @@ import java.io.*;
 import java.util.*;
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Observable;
 import static spark.Spark.get;
 import static spark.Spark.post;
@@ -39,7 +39,7 @@ public class APIFacade extends Observable {
 
             Gson gson = new GsonBuilder().create();
             HashMap ret = new HashMap();
-            ret.put("data", LoggerSingleton.getInstance().getLogEntries());
+            ret.put("data", Logging.LoggerSingleton.getInstance().getLogEntries());
             return gson.toJson(ret);
         });
 

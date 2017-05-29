@@ -1,3 +1,5 @@
+import Logging.LoggerSingleton;
+
 import java.util.ArrayList;
 import static spark.Spark.stop;
 
