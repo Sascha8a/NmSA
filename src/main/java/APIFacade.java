@@ -162,7 +162,7 @@ public class APIFacade extends Observable {
 
             Gson gson = new GsonBuilder().create();
 
-            return gson.toJson(this.controller.getMonthAverage()); <
+            return gson.toJson(this.controller.getMonthAverage());
         });
 
         get("/api/user/allocation/:name", (req, res) -> {
