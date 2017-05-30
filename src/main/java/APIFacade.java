@@ -43,8 +43,14 @@ public class APIFacade extends Observable {
             return gson.toJson(ret);
         });
 
+        /**
+         * Path to test the API
+         */
         post("/api/test", (req, res) -> "Works properly.!");
 
+        /**
+         * Returns all absences, in a nice JSOn String
+         */
         post("/api/upload/absences", (req, res) -> {
 
             req.attribute("org.eclipse.jetty.multipartConfig", new MultipartConfigElement("/temp"));
@@ -77,6 +83,9 @@ public class APIFacade extends Observable {
             return "Upload successful.";
         });
 
+        /**
+         * Upload a new timetable
+         */
         post("/api/upload/timetable", (req, res) -> {
 
             req.attribute("org.eclipse.jetty.multipartConfig", new MultipartConfigElement("/temp"));
@@ -109,6 +118,9 @@ public class APIFacade extends Observable {
             return "Upload successful.";
         });
 
+        /**
+         * get a certain absence
+         */
         get("/api/absences", (req, res) -> {
             this.setChanged();
             this.notifyObservers(req.protocol() + " " + req.ip() + " " + req.pathInfo());
@@ -140,6 +152,9 @@ public class APIFacade extends Observable {
             return gson.toJson(data);
         });
 
+        /**
+         *  Get the whole Absence
+         */
         get("/api/ranking", (req, res) -> {
             this.setChanged();
             this.notifyObservers(req.protocol() + " " + req.ip() + " " + req.pathInfo());
@@ -156,6 +171,9 @@ public class APIFacade extends Observable {
             return gson.toJson(ret);
         });
 
+        /**
+         * Amount
+         */
         get("/api/month/absence", (req, res) -> {
             this.setChanged();
             this.notifyObservers(req.protocol() + " " + req.ip() + " " + req.pathInfo());
@@ -165,6 +183,9 @@ public class APIFacade extends Observable {
             return gson.toJson(this.controller.getMonthAverage());
         });
 
+        /**
+         *
+         */
         get("/api/user/allocation/:name", (req, res) -> {
             this.setChanged();
             this.notifyObservers(req.protocol() + " " + req.ip() + " " + req.pathInfo());
@@ -176,6 +197,9 @@ public class APIFacade extends Observable {
             return gson.toJson(this.controller.getAbsencePerDay(req.params("name")));
         });
 
+        /**
+         * Gets wether the User is present at the Date
+         */
         get("/api/user/testPresent/:name", (req, res) -> {
             this.setChanged();
             this.notifyObservers(req.protocol() + " " + req.ip() + " " + req.pathInfo());
@@ -188,6 +212,9 @@ public class APIFacade extends Observable {
             return "[" + present + "," + notPresent + "]";
         });
 
+        /**
+         * Terminates the app
+         */
         get("/api/shutdown", (req, res) -> {
             this.controller.shutdown();
             return "";

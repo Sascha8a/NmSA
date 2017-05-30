@@ -15,6 +15,10 @@ public class AbsenceData {
     public ArrayList<AbsenceDetail> details;
     public ArrayList<AbsenceSummary> summary;
 
+    /**
+     * One Absece Entry
+     * @param date The date of the entry
+     */
     AbsenceData(String date) {
         this.date = date;
         this.total = 0;
@@ -22,11 +26,19 @@ public class AbsenceData {
         this.summary = new ArrayList<AbsenceSummary>();
     }
 
+    /**
+     * Add a detail to the entry
+     * @param detail The Detail
+     */
     void addDetail(AbsenceDetail detail) {
         this.details.add(detail);
         this.total += detail.value;
     }
 
+    /**
+     * Add a summary to the entry
+     * @param summary Summary
+     */
     void addSummary(AbsenceSummary summary) {
         this.summary.add(summary);
     }
