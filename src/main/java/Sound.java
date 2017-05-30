@@ -13,7 +13,9 @@ import java.util.Objects;
 
 public class Sound {
 
-
+    /**
+     * Plays the sound
+     */
     synchronized void playSound(String audio) {
         AudioInputStream audioInputStream = null;
         try {

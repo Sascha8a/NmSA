@@ -37,6 +37,10 @@ public class sqliteDB implements Database {
 
     }
 
+    /**
+     *  Redirects the error to the logger, which is thrown when a duplicate insert happens.
+     * @param e SQL Exception
+     */
     private void printErrorIfRelevant(SQLException e) {
         if (e.getErrorCode() != 19) {
             logger.debug("sqliteDB", e.getMessage());
@@ -51,7 +55,9 @@ public class sqliteDB implements Database {
         createTest();
     }
 
-
+    /**
+     * Drop all tables
+     */
     public void dropTables() {
         String sql = "DROP TABLE IF EXISTS Absence;";
 
@@ -118,7 +124,6 @@ public class sqliteDB implements Database {
 
     /**
      * Insert a new row into the Absence table
-     *
      * @param fname     First name of the student
      * @param lname     Last name of the student
      * @param cause     Cause of Absence
@@ -175,7 +180,6 @@ public class sqliteDB implements Database {
 
     /**
      * Insert a new row into the Test table
-     *
      * @param date      Date of Test
      * @param kind      Kind of Test
      * @param desc      Testdescription
@@ -205,6 +209,9 @@ public class sqliteDB implements Database {
         }
     }
 
+    /**
+     * Returns all Absence details of the DB
+     */
     public ArrayList<AbsenceDetail> getAbsenceDetails() {
         String query = "select * from Absence";
         ArrayList<AbsenceDetail> list = new ArrayList<>();
@@ -231,6 +238,9 @@ public class sqliteDB implements Database {
         return null;
     }
 
+    /**
+     * Returns all students + hours absent sorted by amount of hours
+     */
     public ArrayList<AbsenceDetail> getRanking() {
         String query = "SELECT sum(minutes), fname, lname\n" +
                 "FROM Absence\n" +
@@ -260,6 +270,10 @@ public class sqliteDB implements Database {
         return null;
     }
 
+    /**
+     * Returns the absence per day of a specific student
+     * @param name  Name of student
+     */
     public int[] getAbsencePerDay(String name) {
         String fname = name.split(" ")[0];
         String lname = name.split(" ")[1];
@@ -271,7 +285,10 @@ public class sqliteDB implements Database {
         return sumMinutesInWeek(query);
     }
 
-
+    /**
+     * Returns the amount of tests the student was absent
+     * @param name  Name of student
+     */
     public int getAmountTestPresent(String name) {
         String fname = name.split(" ")[0];
         String lname = name.split(" ")[1];
@@ -299,8 +316,10 @@ public class sqliteDB implements Database {
         return 0;
     }
 
+    /**
+     * Returns the total amount of tests
+     */
     public int getTestAmount() {
-
         String query = "select count(*)\n" +
                 "from Test\n" +
                 ";";
@@ -320,6 +339,9 @@ public class sqliteDB implements Database {
         return 0;
     }
 
+    /**
+     * Returns the average of absence hours per month
+     */
     public int[] getMonthAverage() {
 
         String query = "select strftime('%Y-%m', dateTime) yr_mon, count(*)\n" +
@@ -347,6 +369,10 @@ public class sqliteDB implements Database {
         return new int[9];
     }
 
+    /**
+     * Returns the absences of a week
+     * @param query  Query needed
+     */
     public int[] sumMinutesInWeek(String query) {
         try {
             Statement stmt = conn.createStatement();

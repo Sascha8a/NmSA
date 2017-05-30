@@ -29,6 +29,11 @@ class InputFileReader{
         this.logger = LoggerSingleton.getInstance();
     }
 
+    /**
+     * Converts hour to time
+     * @param hour  hour
+     * @param day day
+     */
     private String convertPairToDate(int hour, String day) throws ParseException {
         String startTime = "";
         switch (hour) {
@@ -67,6 +72,10 @@ class InputFileReader{
         return day + " " + startTime;
     }
 
+    /**
+     * Checks the Absence Header
+     *  @param header Header
+     */
     private boolean checkAbsenceHeader(String header){
         List<String> data = Arrays.asList(header.split("\\t"));
         return Objects.equals(data.get(0), "Schüler") &&
@@ -77,6 +86,10 @@ class InputFileReader{
                 (Objects.equals(data.get(7), "Fehlmin."));
     }
 
+    /**
+     * Checks the Tests Header
+     *  @param header Header
+     */
     private boolean checkTestsHeader(String header){
         List<String> data = Arrays.asList(header.split("\\t"));
         return Objects.equals(data.get(4), "Datum") &&
@@ -88,7 +101,7 @@ class InputFileReader{
     }
 
     /**
-     *
+     * Reads and inserts the Absence file.
      * @param path Filename where the data for the Absence table is
      */
     void readInsertAbsence(String path) {
@@ -121,7 +134,7 @@ class InputFileReader{
 
 
     /**
-     *
+     * Reads and inserts the Absence file.
      * @param path Filename where the data for the Tests table is
      */
     void readInsertTests(String path) {

@@ -34,6 +34,9 @@ public class View {
         this.frame = frame;
     }
 
+    /**
+     * Starts the Webserver
+     */
     void startWS() {
         port(80);
         staticFileLocation("/public/dist");
@@ -48,6 +51,9 @@ public class View {
         this.frame.dispose();
     }
 
+    /**
+     * Starts the Browser
+     */
     private void startWebbrowser() {
         String url = "http://localhost";
 

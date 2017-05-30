@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="1260.0" y="2119.0">NmSA</node>
+    <node x="1112.25" y="1045.0">InputFileReader</node>
+    <node x="3.25" y="267.0">AbsenceDetail</node>
+    <node x="126.75" y="1402.0">AbsenceSummary</node>
+    <node x="1159.4467105263157" y="201.5">Database</node>
+    <node x="511.5" y="567.0">sqliteDB</node>
+    <node x="258.5" y="732.5">APIObserver</node>
+    <node x="651.744956140351" y="0.0">LogEntry</node>
+    <node x="1683.3081140350878" y="1379.5">SoundThread</node>
+    <node x="148.5" y="1972.0">APIFacade</node>
+    <node x="1676.9747807017545" y="1134.0">Sound</node>
+    <node x="1088.75" y="1626.0">Controller</node>
+    <node x="681.811842105263" y="1379.5">View</node>
+    <node x="533.614912280702" y="190.0">LoggerSingleton</node>
+    <node x="1348.5" y="666.5">TestInputThread</node>
+    <node x="1596.3081140350878" y="247.49999999999991">build</node>
+    <node x="676.744956140351" y="1122.5">DatabaseFactory</node>
+    <node x="0.0" y="1681.5">AbsenceData</node>
+    <node x="1102.25" y="1324.0">Model</node>
+    <node x="1033.5" y="666.5">AbsenceInputThread</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="sqliteDB" target="Database">
+      <point x="167.0" y="-214.0" />
+      <point x="929.0" y="537.0" />
+      <point x="1198.3467105263155" y="537.0" />
+      <point x="-155.6" y="147.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.40000000000000013" x="1973.0" y="644.0" />
+  <SelectedNodes>
+    <node>build</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

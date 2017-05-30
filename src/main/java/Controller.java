@@ -26,40 +26,71 @@ public class Controller {
         logger.info("Controller", "Init finished.");
     }
 
+    /**
+     * Terminates the program
+     */
     public void shutdown() {
         new Thread(new SoundThread("SoundThread", new Sound(), "end.wav")).start();
         stop();
         System.exit(0);
     }
 
+    /**
+     * Updates Absence data
+     * @param path  path to file
+     */
     void updateAbsence(String path) {
         this.model.updateAbsence(path);
     }
 
+    /**
+     * Updates Test data
+     * @param path  path to file
+     */
     void updateTests(String path) {
         this.model.updateTests(path);
     }
 
+    /**
+     * Gets Absence details
+     */
     ArrayList<AbsenceDetail> getAbsenceDetails() {
         return this.model.getAbsenceDetails();
     }
 
+    /**
+     * Gets Ranking
+     */
     ArrayList<AbsenceDetail> getRanking() {
         return this.model.getRanking();
     }
 
+    /**
+     * Gets Absence per day for a specific student
+     * @param name name of student
+     */
     int[] getAbsencePerDay(String name) {
         return  this.model.getAbsencePerDay(name);
     }
 
+    /**
+     * Gets amount of tests present for a specific student
+     * @param name name of student
+     */
     public int getAmountTestPresent(String name) {
         return  this.model.getAmountTestPresent(name);
     }
 
+    /**
+     * Gets total amount of tests
+     */
     public int getTestAmount() {
         return  this.model.getTestAmount();
     }
 
+    /**
+     * Gets monthly average of absence
+     */
     public int[] getMonthAverage() {
         return this.model.getMonthAverage();
     }

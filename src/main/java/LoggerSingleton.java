@@ -26,22 +26,37 @@ class LoggerSingleton {
 
     private LoggerSingleton() {}
 
+    /**
+     * Sets the Log level
+     */
     void setLogLevel(int level) {
         this.level = level;
     }
 
+    /**
+     * Evaluates whether the message is shown
+     */
     private boolean isShown(int level) {
         return level <= this.level;
     }
 
+    /**
+     * Prints error to the logger
+     */
     public void error(String caller, String message) {
         this.logEntries.add(new LogEntry(message, caller, 0));
     }
 
+    /**
+     * Prints warn to the logger
+     */
     public void warn(String caller, String message) {
         this.logEntries.add(new LogEntry(message, caller, 1));
     }
 
+    /**
+     * Prints info to the logger
+     */
     public void info(String caller, String message) {
         this.logEntries.add(new LogEntry(message, caller, 2));
     }
@@ -50,10 +65,16 @@ class LoggerSingleton {
         this.logEntries.add(new LogEntry(message, caller, 2));
     }
 
+    /**
+     * Prints debug to the logger
+     */
     public void debug(String caller, String message) {
         this.logEntries.add(new LogEntry(message, caller, 3));
     }
 
+    /**
+     * Returns all entries of the log
+     */
     ArrayList<LogEntry> getLogEntries() {
         Iterator<LogEntry> iterator = this.logEntries.iterator();
         ArrayList<LogEntry> filteredLogEntries = new ArrayList<>();
