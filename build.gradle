@@ -1,5 +1,5 @@
 group 'NmSA'
-version '1.0-SNAPSHOT'
+version '1.3.4'
 
 apply plugin: 'java'
 

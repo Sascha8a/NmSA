@@ -74,14 +74,11 @@ import java.util.Iterator;
         this.logEntries.add(new LogEntry(message, caller, 3));
     }
 
-<<<<<<< HEAD:src/main/java/LoggerSingleton.java
+
     /**
      * Returns all entries of the log
      */
-    ArrayList<LogEntry> getLogEntries() {
-=======
     public ArrayList<LogEntry> getLogEntries() {
->>>>>>> master:src/main/java/Logging/LoggerSingleton.java
         Iterator<LogEntry> iterator = this.logEntries.iterator();
         ArrayList<LogEntry> filteredLogEntries = new ArrayList<>();
 
