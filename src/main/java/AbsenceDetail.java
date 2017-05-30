@@ -16,16 +16,30 @@ public class AbsenceDetail {
     public Date date;
     public Integer id;
 
+    /**
+     * Create a new Absence Detail
+     * @param name
+     * @param value
+     * @param date
+     */
     AbsenceDetail(String name, int value, Date date) {
         this.name = name;
         this.value = value;
         this.date = date;
     }
 
+    /**
+     * Get the Date of the Absence Entry
+     * @return
+     */
     public String getDate() {
         return new SimpleDateFormat("YYYY-MM-DD").format(this.date);
     }
 
+    /**
+     * ID
+     * @param id
+     */
     public void setId(Integer id) {
         this.id = id;
     }

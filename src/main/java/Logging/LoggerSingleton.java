@@ -1,3 +1,5 @@
+package Logging;
+
 import java.io.OutputStream;
 import java.io.PrintStream;
 import java.util.ArrayList;
@@ -8,16 +10,16 @@ import java.util.Iterator;
  * matnr.: i14075 & i14085
  * catnr.: 03 & 10
  * Created on 30.04.2017
- * file: LoggerSingleton
+ * file: Logging.LoggerSingleton
  * Class: 3CHIF
  */
 
-class LoggerSingleton {
+ public class LoggerSingleton {
     private static LoggerSingleton ourInstance = new LoggerSingleton();
     private ArrayList<LogEntry> logEntries = new ArrayList<>();
     private int level = 4; // 0 = Error, 1 = Warn, 2 = Info, 3 = Debug
 
-    static LoggerSingleton getInstance() {
+    public static LoggerSingleton getInstance() {
         PrintStream origOut = System.out;
         PrintStream interceptor = new Interceptor(origOut);
         System.setOut(interceptor);
@@ -72,10 +74,14 @@ class LoggerSingleton {
         this.logEntries.add(new LogEntry(message, caller, 3));
     }
 
+<<<<<<< HEAD:src/main/java/LoggerSingleton.java
     /**
      * Returns all entries of the log
      */
     ArrayList<LogEntry> getLogEntries() {
+=======
+    public ArrayList<LogEntry> getLogEntries() {
+>>>>>>> master:src/main/java/Logging/LoggerSingleton.java
         Iterator<LogEntry> iterator = this.logEntries.iterator();
         ArrayList<LogEntry> filteredLogEntries = new ArrayList<>();
 
@@ -98,6 +104,6 @@ class Interceptor extends PrintStream {
     }
     @Override
     public void print(String s) {
-        LoggerSingleton.getInstance().noConsole("Interceptor", s);
+        LoggerSingleton.getInstance().noConsole("Logging.Interceptor", s);
     }
 }

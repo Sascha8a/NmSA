@@ -1,3 +1,5 @@
+import Logging.LoggerSingleton;
+
 import java.util.Observable;
 import java.util.Observer;
 
