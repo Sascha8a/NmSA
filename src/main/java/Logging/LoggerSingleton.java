@@ -74,7 +74,6 @@ import java.util.Iterator;
         this.logEntries.add(new LogEntry(message, caller, 3));
     }
 
-
     /**
      * Returns all entries of the log
      */
