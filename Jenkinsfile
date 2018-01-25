@@ -29,7 +29,7 @@ chmod a+x gradlew && ./gradlew clean'''
         }
         stage('Deployment') {
           steps {
-            sh 'java -jar ./build/libs/NmSA-all-1.3.4.jar'
+            archiveArtifacts './build/**/*.jar'
           }
         }
         stage('ListDir') {
