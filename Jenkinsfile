@@ -27,9 +27,9 @@ chmod a+x gradlew && ./gradlew clean'''
             echo 'We finished building'
           }
         }
-        stage('') {
+        stage('Deployment') {
           steps {
-            sh 'ls -R'
+            sh 'java -jar ./build/libs/NmSA-1.3.4.jar'
           }
         }
       }
