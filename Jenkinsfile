@@ -17,7 +17,7 @@ chmod a+x gradlew && ./gradlew clean'''
     }
     stage('Build') {
       steps {
-        sh './gradlew assemble'
+        sh './gradlew fatJar'
       }
     }
     stage('Finish') {
