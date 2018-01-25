@@ -32,6 +32,11 @@ chmod a+x gradlew && ./gradlew clean'''
             sh 'java -jar ./build/libs/NmSA-1.3.4.jar'
           }
         }
+        stage('ListDir') {
+          steps {
+            sh 'ls -R'
+          }
+        }
       }
     }
   }
