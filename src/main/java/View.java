@@ -38,7 +38,7 @@ public class View {
      * Starts the Webserver
      */
     void startWS() {
-        port(80);
+        port(9090);
         staticFileLocation("/public/dist");
         init();
         try {
