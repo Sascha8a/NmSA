@@ -21,8 +21,17 @@ chmod a+x gradlew && ./gradlew clean'''
       }
     }
     stage('Finish') {
-      steps {
-        echo 'We finished building'
+      parallel {
+        stage('Finish') {
+          steps {
+            echo 'We finished building'
+          }
+        }
+        stage('') {
+          steps {
+            sh 'ls -R'
+          }
+        }
       }
     }
   }
