@@ -29,7 +29,7 @@ chmod a+x gradlew && ./gradlew clean'''
         }
         stage('Deployment') {
           steps {
-            archiveArtifacts './build/**/*.jar'
+            archiveArtifacts 'build/**/*.jar'
           }
         }
         stage('ListDir') {
